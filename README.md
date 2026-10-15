@@ -1,346 +1,389 @@
 # AID Studio — AI Drama & Motion Comic Creation
 
-**简体中文** | [English](README.en.md)
+**English** · [扫码加入开源交流群](#community-and-feedback)
 
-**AID Studio：开源 AI 漫剧创作平台，支持 AI 短剧、电影与漫画，从剧本、分镜到视频配音的一站式创作。**
+**AID Studio is an open-source AI motion comic creation platform for AI short dramas, films and comics, with an end-to-end workflow from scripts and storyboards to video and voiceovers.**
 
 Open-source, self-hosted AI drama and motion comic creation — from scripts and storyboards to video and voiceovers, with support for films and comics.
 
 <p align="center">
-  <a href="https://www.aidstudio.com.cn/"><strong>在线体验</strong></a>
+  <a href="https://www.aidstudio.com.cn/"><strong>Try it online</strong></a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="#快速开始"><strong>开始部署</strong></a>
+  <a href="#quick-start"><strong>Deploy AID</strong></a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://gzxxaitdb.feishu.cn/docx/LZ5zdesEgo1z4Mxc7OWc7zTHnJc"><strong>使用教程</strong></a>
+  <a href="https://gzxxaitdb.feishu.cn/docx/LZ5zdesEgo1z4Mxc7OWc7zTHnJc"><strong>User tutorials</strong></a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://github.com/gzxx-2025/aid-studio/releases"><strong>版本发布</strong></a>
+  <a href="https://github.com/gzxx-2025/aid-studio/releases"><strong>Releases</strong></a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="SUPPORT.md"><strong>获取帮助</strong></a>
+  <a href="SUPPORT.md"><strong>Get help</strong></a>
 </p>
 
 <p align="center">
-  <a href="#产品预览">
-    <img src="references/web/2.png" alt="AID 流程画布：可视化编排剧本、素材、分镜与视频创作流程" width="100%">
+  <a href="#product-preview">
+    <img src="references/web/2.png" alt="AID workflow canvas: visually organize scripts, assets, storyboards and video production" width="100%">
   </a><br>
-  <sub>流程画布实拍 · <a href="#产品预览">查看更多产品截图</a></sub>
+  <sub>Actual workflow canvas screenshot · <a href="#product-preview">View more product screenshots</a></sub>
 </p>
 
-## 交流与反馈
+<a id="交流与反馈"></a>
 
-部署、模型配置、二次开发或创作流程接入遇到问题，可以通过[获取帮助](SUPPORT.md)中的入口反馈，或扫码加入交流群。
+## Community and Feedback
+
+For questions about deployment, model configuration, customization or integrating your creative workflow, use the channels in [Get help](SUPPORT.md), or scan the QR code to join the community chat.
+
+**扫码加入 AID 开源交流群（中文交流 / 技术支持入口）**
+
+本群仅仅为开源交流、技术支持群，无广告，无任何隐形消费。
+
+This group is exclusively for open-source discussion and technical support, with no advertising or hidden charges.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/交流群说明-%E6%9C%AC%E7%BE%A4%E4%BB%85%E4%BB%85%E4%B8%BA%E5%BC%80%E6%BA%90%E4%BA%A4%E6%B5%81%E3%80%81%E6%8A%80%E6%9C%AF%E6%94%AF%E6%8C%81%E7%BE%A4%EF%BC%8C%E6%97%A0%E5%B9%BF%E5%91%8A%EF%BC%8C%E6%97%A0%E4%BB%BB%E4%BD%95%E9%9A%90%E5%BD%A2%E6%B6%88%E8%B4%B9%E3%80%82-d93025?style=for-the-badge" alt="本群仅仅为开源交流、技术支持群，无广告，无任何隐形消费。">
+  <img src="https://img.shields.io/badge/交流群说明-%E6%9C%AC%E7%BE%A4%E4%BB%85%E4%BB%85%E4%B8%BA%E5%BC%80%E6%BA%90%E4%BA%A4%E6%B5%81%E3%80%81%E6%8A%80%E6%9C%AF%E6%94%AF%E6%8C%81%E7%BE%A4%EF%BC%8C%E6%97%A0%E5%B9%BF%E5%91%8A%EF%BC%8C%E6%97%A0%E4%BB%BB%E4%BD%95%E9%9A%90%E5%BD%A2%E6%B6%88%E8%B4%B9%E3%80%82-d93025?style=for-the-badge" alt="Open-source discussion and technical support only; no advertising or hidden charges. 本群仅仅为开源交流、技术支持群，无广告，无任何隐形消费。">
 </p>
 
 <p align="center">
   <a href="references/community-qr.png">
-    <img src="references/community-qr.png" alt="AID 开源交流群二维码" width="220">
+    <img src="references/community-qr.png" alt="AID open-source community QR code — 扫码加入开源交流群" width="220">
   </a><br>
-  <sub>如果二维码未直接显示，可点击二维码区域查看原图。</sub>
+  <sub>扫码进群：如果二维码未直接显示，可点击二维码区域查看原图。<br>Scan to join the community chat. If the QR code does not appear, click the QR code area to open the original image.</sub>
 </p>
 
-## 赞助商
+<a id="赞助商"></a>
+
+## Sponsors
 
 | | |
 |:---:|---|
-| <a href="https://metaso.cn/minimax-h3/?s=aid-studio"><img src="references/metasota-logo.jpg" alt="秘塔科技 Meta Sota" width="170"></a> | **MiniMax H3 视频生成 API｜秘塔科技**<br>秘塔科技提供高性价比的 MiniMax H3 视频生成服务：**768P 仅 0.09 元/秒，2K 仅 0.15 元/秒**。支持原生 2K、音画同步，API 兼容 **OpenAI 协议**，同时支持 **ComfyUI**，无需自行部署 GPU。<br>🎁 通过 [aid-studio 专属链接注册](https://metaso.cn/minimax-h3/?s=aid-studio)，即可领取赠送额度及专属优惠。 |
+| <a href="https://metaso.cn/minimax-h3/?s=aid-studio"><img src="references/metasota-logo.jpg" alt="Meta Sota" width="170"></a> | **MiniMax H3 Video Generation API · Meta Sota**<br>Meta Sota offers cost-effective MiniMax H3 video generation: **768P at just CNY 0.09/second and 2K at CNY 0.15/second**. It supports native 2K and synchronized audio and video, with an **OpenAI-compatible API** and **ComfyUI** support. No self-hosted GPU is required.<br>🎁 Register through the [exclusive aid-studio link](https://metaso.cn/minimax-h3/?s=aid-studio) to receive complimentary credits and exclusive discounts. |
 
-## 核心能力
+<a id="核心能力"></a>
 
-- **完整创作流程**：剧本、角色场景、分镜、图片、视频与配音围绕同一项目组织。
-- **多模型接入**：按需配置文本、图片、视频和语音模型；能力以所选模型为准。
-- **自行部署与管理**：支持 Docker / systemd 安装，配套模型、任务、用户和升级管理。
+## Core Capabilities
 
-> 源码按 MIT 协议提供。AI 生成需要配置相应供应商的 API 凭证；模型调用、服务器和存储可能产生费用，生成效果取决于模型与输入素材。
+- **Complete creative workflow**: Organize scripts, characters, scenes, storyboards, images, videos and voiceovers within one project.
+- **Multiple models**: Configure text, image, video and speech models as needed; available capabilities depend on the selected model.
+- **Controlled model invocation**: Combine fixed model parameters, runtime reasoning options and request mappings according to explicit precedence rules; configuration errors that can be identified before quoting are rejected before provider submission.
+- **Self-hosting and management**: Install with Docker or systemd, with integrated model, task, user and upgrade management.
 
-[第一个漫剧项目](#第一个漫剧项目) · [开始部署](#快速开始) · [产品截图](#产品预览) · [技术与源码](#公开源码目录) · [文档导航](#文档导航)
+> The source code is available under the MIT License. AI generation requires API credentials for the relevant providers. Model calls, servers and storage may incur costs; generation quality depends on the models and input assets.
 
-## AID 用来做什么
+[Your first motion comic project](#your-first-motion-comic-project) · [Deploy AID](#quick-start) · [Product screenshots](#product-preview) · [Technology and source code](#public-source-layout) · [Documentation](#documentation)
 
-以 **AI 漫剧与短剧创作**为核心，也支持电影化短片和静态漫画。创作者在同一个项目中管理剧本、分集、素材和生成结果；团队与开发者可自行部署并配置模型。
+<a id="aid-用来做什么"></a>
 
-## 三大核心创作方向
+## What Is AID For?
 
-| 创作方向 | 可以完成的工作 |
+AID focuses on **AI motion comics and short dramas**, and also supports cinematic short films and static comics. Creators manage scripts, episodes, assets and generated results within the same project; teams and developers can self-host the platform and configure their own models.
+
+<a id="三大核心创作方向"></a>
+
+## Three Main Creative Workflows
+
+| Workflow | What you can create |
 | --- | --- |
-| **AI 漫剧 / 短剧** | 分集剧本、角色与场景资产、分镜图片、视频片段、角色配音与成片预览 |
-| **AI 电影 / 短片** | 镜头规划、参考素材组织、视频生成与音画制作 |
-| **AI 漫画** | 故事与角色设定、连续分镜画面、静态漫画素材管理 |
+| **AI motion comics / short dramas** | Episode scripts, character and scene assets, storyboard images, video clips, character voiceovers and finished-video previews |
+| **AI films / short films** | Shot planning, reference asset organization, video generation and audiovisual production |
+| **AI comics** | Story and character development, sequential storyboard images and static comic asset management |
 
-流程化创作与流程画布是两个独立入口，可按创作习惯选择；上方首图展示的是现有流程画布。
+Workflow-based creation and the workflow canvas are two separate entry points. Choose the one that suits your creative habits; the opening screenshot shows the existing workflow canvas.
 
-## 第一个漫剧项目
+<a id="第一个漫剧项目"></a>
 
-先跑通一个分镜，再扩展到整集：
+## Your First Motion Comic Project
 
-1. **准备模型**：自行部署后，在后台配置文本、图片模型；需要视频和配音时，再配置对应模型。核对能力、凭证与费用后启用。
-2. **建立项目**：准备一小段剧本，建立一个分集，并整理角色与场景。
-3. **准备参考素材**：生成或上传有权使用的角色、场景图片。
-4. **完成一个分镜**：检查分镜脚本和图片，再选择已配置的视频模型生成片段。
-5. **配音与预览**：按需添加配音，检查画面和声音，再继续更多分镜。
+Complete one storyboard shot before expanding to a full episode:
 
-只制作静态漫画时，无需执行视频和配音步骤。具体页面操作见[使用教程](https://gzxxaitdb.feishu.cn/docx/LZ5zdesEgo1z4Mxc7OWc7zTHnJc)；安装问题见[部署指南](deploy/README.md)，其他问题见[获取帮助](SUPPORT.md)。
+1. **Prepare your models**: After deploying AID, configure text and image models in the admin panel. Add video and speech models when you need video and voiceovers. Check their capabilities, credentials and costs before enabling them.
+2. **Create a project**: Prepare a short script, create an episode, and organize its characters and scenes.
+3. **Prepare reference assets**: Generate or upload character and scene images that you have the right to use.
+4. **Complete one storyboard shot**: Review the storyboard script and image, then choose a configured video model to generate a clip.
+5. **Add voiceovers and preview**: Add voiceovers as needed, check the visuals and audio, then continue with more shots.
 
-## 功能特性
+For static comics, skip the video and voiceover steps. See the [user tutorials](https://gzxxaitdb.feishu.cn/docx/LZ5zdesEgo1z4Mxc7OWc7zTHnJc) for page-by-page instructions, the [deployment guide](deploy/README.md) for installation questions, and [Get help](SUPPORT.md) for other questions.
+
+<a id="功能特性"></a>
+
+## Features
 
 <details>
-<summary>展开完整创作与平台能力</summary>
+<summary>Expand the full creative workflow and platform capabilities</summary>
 
-**AI 创作全流程**
+**End-to-end AI creation**
 
-- 剧本与分集：项目/剧本/分集管理，AI 辅助剧本创作与场景资产提取
-- 角色/道具/场景：形象资产库、参考图管理、角色配音绑定
-- 分镜工作台：分镜脚本生成、分镜图生成、镜头组拆分、视频提示词生成
-- 图像生成：文生图、图生图、多图融合，参考图占位协议统一治理
-- 视频生成：图生视频、首尾帧、多镜头批量出片，清晰度/时长/比例按模型能力校验
-- 配音合成：TTS 多音色、音色库管理、对口型
+- Scripts and episodes: Project, script and episode management, AI-assisted scriptwriting and scene asset extraction
+- Characters, props and scenes: Visual asset libraries, reference image management and character voice assignments
+- Storyboard workbench: Storyboard script generation, storyboard image generation, shot-group splitting and video prompt generation
+- Image generation: Text-to-image, image-to-image and multi-image fusion, with consistent handling of reference image placeholders
+- Video generation: Image-to-video, first/last frames and batch generation across multiple shots, with resolution, duration and aspect ratio validated against model capabilities
+- Voice synthesis: Multi-voice TTS, voice library management and lip sync
 
-**平台能力**
+**Platform capabilities**
 
-- 多厂商编排：文本、图片、视频和语音模型通过统一 Provider 接入，模型能力、参考图数量、分辨率、时长和比例均可配置
-- API 网关配置：可按兼容协议配置模型访问地址与凭证，支持按模型设置例外
-- 统一任务系统：生成任务排队、并发调度、进度推送、失败重试、补偿和结果回收
-- 视觉一致性：角色、道具、场景资产复用，官方/自定义风格与项目风格快照，参考图按模型能力安全编排
-- 计费体系：按模型/SKU 计费、余额冻结与结算、充值套餐、支付宝/微信支付
-- 用户体系：账号/短信/邮箱/微信扫码登录、实名认证、邀请激励
-- 运营管理：模型、供应商、智能体、提示词、内容、订单、用户、存储和平台配置统一管理
-- 生产运维：Docker 与 systemd 两种部署方式、内外部中间件、HTTPS、配置备份、状态诊断和完整卸载
-- 在线升级：页面与命令行均可检查更新、查看实时进度和执行回退，配套独立升级器 `aid-updater`
+- Multi-provider orchestration: Unified Providers for text, image, video and speech models, with configurable model capabilities, reference image counts, resolutions, durations and aspect ratios
+- API gateway configuration: Configure model endpoints and credentials for compatible protocols, with model-specific overrides
+- Unified task system: Generation queues, concurrency scheduling, progress updates, retries, compensation and result retrieval
+- Visual consistency: Reuse character, prop and scene assets; use official/custom styles and project style snapshots; organize reference images safely within model capabilities
+- Billing: Model/SKU-based billing, balance freezing and settlement, recharge packages, and Alipay/WeChat Pay
+- User accounts: Account, SMS, email and WeChat QR-code login, real-name verification and referral incentives
+- Administration: Centralized management of models, providers, agents, prompts, content, orders, users, storage and platform configuration
+- Production operations: Docker and systemd deployment, internal or external middleware, HTTPS, configuration backups, diagnostics and complete uninstallation
+- Online upgrades: Check for updates, view live progress and roll back from either the UI or CLI, using the standalone `aid-updater`
 
 </details>
 
-## 快速开始
+<a id="快速开始"></a>
 
-### 生产部署
+## Quick Start
 
-先准备一台全新的 64 位 Linux 服务器；不启用 RocketMQ、且中间件同机时，最低为 **2 核 / 4 GB 内存 / 40 GB 磁盘**。更多容量要求与安装选项见[部署指南](deploy/README.md)。
+<a id="生产部署"></a>
 
-下面的命令会把安装脚本保存到 `/root/aid-install.sh`，优先从 Gitee 下载，失败后自动切换 GitHub；下载成功后才执行脚本。首次安装会先生成配置，**请检查并确认配置后再继续初始化和启动服务**。
+### Production Deployment
+
+Start with a fresh 64-bit Linux server. With RocketMQ disabled and middleware on the same host, the minimum is **2 CPU cores / 4 GB RAM / 40 GB disk**. See the [deployment guide](deploy/README.md) for further capacity requirements and installation options.
+
+The command below saves the installer to `/root/aid-install.sh`. It downloads from Gitee first and automatically falls back to GitHub if that fails; the script runs only after a successful download. On first installation, configuration is generated first. **Review and confirm the configuration before continuing with initialization and service startup.**
 
 ```bash
-cd /root && if command -v curl >/dev/null 2>&1; then curl -fL --retry 3 --connect-timeout 15 -o /root/aid-install.sh https://gitee.com/gzxx-2025/aid-studio/raw/master/deploy/aid.sh || curl -fL --retry 3 --connect-timeout 15 -o /root/aid-install.sh https://raw.githubusercontent.com/gzxx-2025/aid-studio/master/deploy/aid.sh; elif command -v wget >/dev/null 2>&1; then wget -O /root/aid-install.sh https://gitee.com/gzxx-2025/aid-studio/raw/master/deploy/aid.sh || wget -O /root/aid-install.sh https://raw.githubusercontent.com/gzxx-2025/aid-studio/master/deploy/aid.sh; else echo '请先安装 curl 或 wget'; exit 1; fi && sudo env AID_REMOTE_BOOTSTRAP=1 AID_RELEASE_CHANNEL=auto bash /root/aid-install.sh install
+cd /root && if command -v curl >/dev/null 2>&1; then curl -fL --retry 3 --connect-timeout 15 -o /root/aid-install.sh https://gitee.com/gzxx-2025/aid-studio/raw/master/deploy/aid.sh || curl -fL --retry 3 --connect-timeout 15 -o /root/aid-install.sh https://raw.githubusercontent.com/gzxx-2025/aid-studio/master/deploy/aid.sh; elif command -v wget >/dev/null 2>&1; then wget -O /root/aid-install.sh https://gitee.com/gzxx-2025/aid-studio/raw/master/deploy/aid.sh || wget -O /root/aid-install.sh https://raw.githubusercontent.com/gzxx-2025/aid-studio/master/deploy/aid.sh; else echo 'Please install curl or wget first'; exit 1; fi && sudo env AID_REMOTE_BOOTSTRAP=1 AID_RELEASE_CHANNEL=auto bash /root/aid-install.sh install
 ```
 
-安装完成后运行 `sudo aid default` 查看访问地址，**首次登录立即修改管理员密码**。在后台配置并启用所需模型后，再按[第一个漫剧项目](#第一个漫剧项目)开始创作。
+After installation, run `sudo aid default` to view the access URLs. **Change the administrator password immediately after your first login.** Configure and enable the required models in the admin panel, then follow [Your first motion comic project](#your-first-motion-comic-project).
 
 <details>
-<summary>展开部署选项、资源要求与管理命令</summary>
+<summary>Expand deployment options, resource requirements and management commands</summary>
 
-`install` 是智能入口：未部署时默认进入 Docker 首次安装，已经部署时转入更新检查。也可以明确选择部署方式：
+`install` is the automatic entry point: it defaults to a first-time Docker installation when AID is not deployed, and checks for updates when it is already deployed. You can also choose a deployment mode explicitly:
 
 ```bash
 sudo env AID_REMOTE_BOOTSTRAP=1 AID_RELEASE_CHANNEL=auto bash /root/aid-install.sh install-docker
 sudo env AID_REMOTE_BOOTSTRAP=1 AID_RELEASE_CHANNEL=auto bash /root/aid-install.sh install-manual
 ```
 
-`auto` 优先选择正式版；没有可安装正式版时才回退到 Beta 并提示。需要固定正式渠道时改为 `stable`，明确测试预发布版本时才使用 `beta`。
+`auto` prefers stable releases; it falls back to Beta with a notice only when no installable stable release is available. Use `stable` to stay on the stable channel, and `beta` only when you explicitly want to test prerelease versions.
 
-| 部署方式 | 适合场景 | 配置真源 | 运行方式 |
+| Deployment mode | Suitable for | Authoritative configuration | Runtime |
 |---------|---------|---------|---------|
-| Docker（推荐） | 新服务器、希望中间件与运行环境隔离 | `/data/aid/config/docker.env` | Docker Compose |
-| 手动部署 | 已有主机环境、宝塔或 systemd 运维体系 | `/data/aid/aid-deploy.conf` | systemd + Nginx |
+| Docker (recommended) | New servers and isolated middleware/runtime environments | `/data/aid/config/docker.env` | Docker Compose |
+| Manual deployment | Existing hosts, BaoTa panels or systemd-based operations | `/data/aid/aid-deploy.conf` | systemd + Nginx |
 
-首次部署会先生成配置并要求管理员检查确认；**配置未确认前不会拉取统一源码、构建程序、初始化数据库或启动服务**。部署器会优先使用国内源码、依赖和镜像线路，失败时回退官方地址；服务端、管理端、Web 端与升级器从同一个版本标签构建，完整日志写入 `/data/aid/logs/`。已存在且版本符合的依赖会直接复用，未完整下载的缓存会重新校验和下载。
+The first deployment generates configuration and requires an administrator to review and confirm it. **Until configuration is confirmed, the installer does not fetch the unified source code, build programs, initialize the database or start services.** It prefers China-accessible sources for code, dependencies and images, falling back to official sources when needed. The server, admin frontend, web frontend and updater are built from the same version tag; complete logs are written to `/data/aid/logs/`. Existing dependencies with compatible versions are reused, while incomplete cached downloads are revalidated and downloaded again.
 
-Docker 模式支持内置或外部 MySQL 5.7、内置或外部 Redis、可选 RocketMQ、可选 HTTPS；配置外部 MySQL 后不会启动内置 MySQL。Redis 用户名、密码和数据库索引均可为空，RocketMQ 关闭时不会启动或校验 MQ，启用后可配置外部 NameServer 与 ACL。手动模式会按需准备 JDK、Git、Maven、Node.js、Go、Nginx、MySQL 5.7 和 Redis；外部中间件只做连通性校验，RocketMQ 由管理员自行准备。
+Docker mode supports built-in or external MySQL 5.7, built-in or external Redis, optional RocketMQ and optional HTTPS. Configuring external MySQL prevents the built-in MySQL service from starting. The Redis username, password and database index may all be empty. When RocketMQ is disabled, MQ is neither started nor validated; when enabled, you can configure an external NameServer and ACL. Manual mode prepares JDK, Git, Maven, Node.js, Go, Nginx, MySQL 5.7 and Redis as needed. External middleware is checked only for connectivity; administrators must provision RocketMQ themselves.
 
-HTTPS 需要用户域名、管理域名、443 端口以及完整证书链和私钥。证书默认放在 `/data/aid/config/ssl/`，也可在管理端「项目升级配置 → 运行配置」中上传证书、配置域名并分别测试 DNS、证书和 HTTPS。仅设置 `HTTP_PORT=443` 不会自动启用 TLS。
+HTTPS requires user-facing and admin domains, port 443, a complete certificate chain and a private key. Certificates default to `/data/aid/config/ssl/`. You can also upload certificates, configure domains and test DNS, certificates and HTTPS separately in the admin panel under “Project Upgrade Configuration → Runtime Configuration”. Setting only `HTTP_PORT=443` does not enable TLS automatically.
 
-部署完成后使用统一命令管理两种安装方式：
+After deployment, use the same management commands for either installation mode:
 
-| 命令 | 作用 |
+| Command | Purpose |
 |------|------|
-| `sudo aid` | 打开交互式管理菜单 |
-| `sudo aid default` | 查看公网/内网用户端、管理端地址及初始化账号说明 |
-| `sudo aid status` | 检查服务、中间件和升级器状态 |
-| `sudo aid logs` | 查看运行日志 |
-| `sudo aid config` | 编辑当前部署配置并按提示生效 |
-| `sudo aid restart` | 重新加载配置并重启服务 |
-| `sudo aid update` | 检查并执行当前渠道更新 |
-| `sudo aid progress` | 查看升级、升级器更新或回退的实时进度 |
-| `sudo aid rollback` | 选择官方允许回退的历史版本 |
-| `sudo aid backup` | 创建部署备份 |
-| `sudo aid mysql` | 查看当前 MySQL 连接信息 |
-| `sudo aid uninstall --keep` | 卸载程序但保留数据与配置 |
-| `sudo aid uninstall --purge` | 经二次确认后完整清除 AID 数据 |
+| `sudo aid` | Open the interactive management menu |
+| `sudo aid default` | Show public/private-network user and admin URLs, plus initial account information |
+| `sudo aid status` | Check service, middleware and updater status |
+| `sudo aid logs` | View runtime logs |
+| `sudo aid config` | Edit the current deployment configuration and apply it as prompted |
+| `sudo aid restart` | Reload configuration and restart services |
+| `sudo aid update` | Check for and apply updates on the current channel |
+| `sudo aid progress` | View live progress for upgrades, updater updates or rollbacks |
+| `sudo aid rollback` | Select a historical version officially permitted for rollback |
+| `sudo aid backup` | Create a deployment backup |
+| `sudo aid mysql` | Show current MySQL connection information |
+| `sudo aid uninstall --keep` | Uninstall the program while retaining data and configuration |
+| `sudo aid uninstall --purge` | Completely remove AID data after a second confirmation |
 
-**服务器配置要求**（安装脚本自动检查，低于配置时提示当前配置并使用 `y/n` 确认）：
+**Server resource requirements** (checked automatically by the installer; below the minimum, it shows the current resources and asks for `y/n` confirmation):
 
-| 部署内容 | 最低配置 | 推荐配置 |
+| Deployment | Minimum | Recommended |
 |---------|---------|---------|
-| 本机 Docker 全栈（不启用 RocketMQ） | 2核 4G / 40G 磁盘 | 4核 8G / 100G+ 磁盘 |
-| 本机 Docker 全栈（启用 RocketMQ） | 4核 4G / 40G 磁盘 | 6核 12G / 100G+ 磁盘 |
-| 本机手动部署（中间件同机） | 2核 4G / 40G 磁盘 | 4核 8G / 100G+ 磁盘 |
-| 本机手动部署（启用 RocketMQ） | 4核 4G / 40G 磁盘 | 6核 12G / 100G+ 磁盘 |
+| Full local Docker stack (RocketMQ disabled) | 2 cores, 4 GB RAM / 40 GB disk | 4 cores, 8 GB RAM / 100 GB+ disk |
+| Full local Docker stack (RocketMQ enabled) | 4 cores, 4 GB RAM / 40 GB disk | 6 cores, 12 GB RAM / 100 GB+ disk |
+| Local manual deployment (middleware on the same host) | 2 cores, 4 GB RAM / 40 GB disk | 4 cores, 8 GB RAM / 100 GB+ disk |
+| Local manual deployment (RocketMQ enabled) | 4 cores, 4 GB RAM / 40 GB disk | 6 cores, 12 GB RAM / 100 GB+ disk |
 
-启用 RocketMQ 的 4核4G 最低值仅用于本机搭建和功能验证，需要使用收紧后的 JVM/MQ 参数；消息量较大、需要 MQ 派发时建议使用 6核12G 或更高配置。调优方法见[部署指南](deploy/README.md)「配置要求」一节；媒体文件强烈建议配置 OSS/COS 对象存储，本地磁盘仅作兜底。
+The 4-core/4-GB minimum with RocketMQ enabled is intended only for local setup and functional validation, and requires reduced JVM/MQ settings. For higher message volumes and MQ-based dispatch, 6 cores/12 GB or more is recommended. See “Configuration Requirements” in the [deployment guide](deploy/README.md) for tuning. OSS/COS object storage is strongly recommended for media files; local disk serves only as a fallback.
 
 
 </details>
 
 <details>
-<summary>展开本地开发与后台访问说明</summary>
+<summary>Expand local development and admin access instructions</summary>
 
-### 本地开发
+<a id="本地开发"></a>
 
-要求：JDK 17+、Maven 3.6+、Docker（起中间件用）。
+### Local Development
+
+Requirements: JDK 17+, Maven 3.6+ and Docker (for middleware).
 
 ```bash
-# 1. 一键启动开发环境（MySQL + Redis，自动导入 sql/ 初始化脚本）
+# 1. Start the development environment (MySQL + Redis; automatically imports the initialization scripts in sql/)
 cd deploy/docker
 docker compose -f docker-compose.middleware.yml up -d
-# 需要联调 RocketMQ 时改用：
+# To include RocketMQ for integration testing, use:
 # docker compose -f docker-compose.middleware.yml --profile mq up -d
 
-# 2. 构建并启动后端（开发默认配置与上述环境完全对齐，无需修改任何配置）
+# 2. Build and start the backend (development defaults match the environment above; no configuration changes are needed)
 cd ../..
 mvn clean package -DskipTests
 java -jar aid-admin/target/aid-admin.jar
 ```
 
-访问 `http://localhost:8080` 验证服务；数据库初始化管理员为 `admin / admin123`，首次登录后必须立即修改密码。
+Visit `http://localhost:8080` to verify the service. The database initialization creates the administrator account `admin / admin123`; change its password immediately after the first login.
 
-后端全部环境参数支持环境变量覆盖：`DB_*`、`REDIS_*`、`TOKEN_SECRET`（**生产必须注入强随机值**）、`AID_PROFILE`、`ROCKETMQ_ENABLED`（未部署 RocketMQ 时设 `false` 可完全关闭 MQ 装配，系统走本地任务模式）、`ROCKETMQ_NAMESERVER`。
+All backend environment settings support environment variable overrides: `DB_*`, `REDIS_*`, `TOKEN_SECRET` (**a strong random value is required in production**), `AID_PROFILE`, `ROCKETMQ_ENABLED` (set to `false` when RocketMQ is not deployed to disable MQ wiring entirely and use local task mode), and `ROCKETMQ_NAMESERVER`.
 
-### 默认访问与后台访问码
+<a id="默认访问与后台访问码"></a>
 
-生产部署完成后，默认访问地址如下（实际端口和随机访问码以 `sudo aid default` 输出为准）：
+### Default URLs and the Admin Access Code
 
-| 入口 | 默认地址 | 说明 |
+After production deployment, the default URLs are as follows (use the output of `sudo aid default` for the actual ports and random access code):
+
+| Entry point | Default URL | Notes |
 |------|---------|------|
-| 用户端 | `http://服务器IP/` | 默认 80 端口，可通过 `HTTP_PORT` 调整 |
-| 管理端 | `http://服务器IP:8089/<随机访问码>` | 默认 8089 端口，首次部署生成12位随机访问码并打印完整地址 |
-| 后端接口 | `http://服务器IP:8080/` | 默认 8080 端口，通常由 Nginx 反向代理访问 |
+| User frontend | `http://SERVER_IP/` | Port 80 by default; adjustable through `HTTP_PORT` |
+| Admin frontend | `http://SERVER_IP:8089/<RANDOM_ACCESS_CODE>` | Port 8089 by default; first deployment generates a 12-character random access code and prints the complete URL |
+| Backend API | `http://SERVER_IP:8080/` | Port 8080 by default; usually accessed through an Nginx reverse proxy |
 
-管理端数据库初始化账号为 `admin / admin123`。首次部署不会使用公开的固定入口，安装器会生成 12 位随机访问码；首次登录后请立即修改管理员密码，并可在「全局业务配置 → 登录与认证 → 后台登录入口」重新生成访问码。`sudo aid default` 只展示初始化账号说明，不会反查或重置已经修改的管理员密码。
+The database initialization creates the admin account `admin / admin123`. First deployment does not use a publicly known fixed entry path: the installer generates a 12-character random access code. Change the administrator password immediately after the first login. You can regenerate the access code under “Global Business Configuration → Login and Authentication → Admin Login Entry”. `sudo aid default` displays only the initial account information; it does not look up or reset an administrator password that has already been changed.
 
-启用后台随机入口后，后台登录地址按下面规则拼接：
+With the random admin entry enabled, construct the login URL as follows:
 
 ```text
-http://服务器IP:8089/<访问码>
+http://SERVER_IP:8089/<ACCESS_CODE>
 ```
 
-示例（实际访问码以部署完成后的输出为准）：
+Example (use the actual access code printed after deployment):
 
 ```text
 http://localhost:8089/Ab12Cd34Ef56
 ```
 
-如果配置了域名与 HTTPS，则同样把访问码追加到管理端站点根路径后：
+If you configure a domain and HTTPS, append the access code to the admin site's root path in the same way:
 
 ```text
 https://admin.example.com/Ab12Cd34Ef56
 ```
 
-部署完成后，安装脚本会明确输出当前数据库中的完整后台登录地址。如遗忘访问码，可在数据库 `aid_config` 表中查询 `category = 'admin_entry'`、`config_name = 'access_code'` 的记录，或登录后重新生成并保存。
+After deployment, the installer prints the complete admin login URL currently stored in the database. If you forget the access code, query the record with `category = 'admin_entry'` and `config_name = 'access_code'` in the `aid_config` table, or regenerate and save it after logging in.
 
 
 </details>
 
-### 配置 AI 厂商
+<a id="配置-ai-厂商"></a>
 
-公开仓库中的管理端和用户创作端源码分别位于 [`frontend/admin`](https://github.com/gzxx-2025/aid-studio/tree/main/frontend/admin) 与 [`frontend/web`](https://github.com/gzxx-2025/aid-studio/tree/main/frontend/web)。启动后在后台「AI模型配置」中配置所需厂商的凭证、模型能力与计费规则，再启用模型。完成视频与配音流程时，还需配置对应的视频与语音模型。
+### Configure AI Providers
 
-## 产品预览
+The public repository contains the admin frontend and user creation frontend source code in [`frontend/admin`](https://github.com/gzxx-2025/aid-studio/tree/main/frontend/admin) and [`frontend/web`](https://github.com/gzxx-2025/aid-studio/tree/main/frontend/web), respectively. After startup, use “AI Model Configuration” in the admin panel to configure provider credentials, model capabilities and billing rules, then enable the models. Video and voiceover workflows also require the corresponding video and speech models.
 
-> README 中的图片均使用仓库相对路径引用，可在 Gitee / GitHub 两端直接渲染；如页面加载较慢，请稍等浏览器完成图片缓存。
+<a id="产品预览"></a>
 
-### 用户端创作工作台
+## Product Preview
 
-从项目创建、剧本创作、流程画布、角色与场景资产管理，到分镜生成、视频、配音和成片预览，用户端围绕 AI 漫剧、AI 电影与 AI 漫画组织为连续工作流。
+> README images use repository-relative paths and render directly on both Gitee and GitHub. If the page loads slowly, allow the browser time to finish caching the images.
+
+<a id="用户端创作工作台"></a>
+
+### User Creation Workbench
+
+From project creation, scriptwriting, the workflow canvas, and character/scene asset management to storyboard generation, video, voiceovers and finished-video previews, the user frontend provides a continuous workflow for AI motion comics, AI films and AI comics.
 
 <p align="center">
-  <img src="references/web/0.png" alt="AID 用户端登录与案例广场" width="92%">
+  <img src="references/web/0.png" alt="AID user login and case gallery" width="92%">
 </p>
 
-| 平台创作入口 | 我的作品 |
+| Creation entry points | My works |
 |-------------|---------|
-| <img src="references/web/1.png" alt="AID AI 内容创作入口" width="100%"> | <img src="references/web/14.png" alt="用户端我的作品" width="100%"> |
+| <img src="references/web/1.png" alt="AID AI content creation entry points" width="100%"> | <img src="references/web/14.png" alt="User frontend: My works" width="100%"> |
 
-| 项目配置与风格选择 | 流程化剧本创作 |
+| Project configuration and style selection | Workflow-based scriptwriting |
 |-------------------|---------------|
-| <img src="references/web/15.png" alt="项目配置与风格选择" width="100%"> | <img src="references/web/3.png" alt="流程化剧本创作" width="100%"> |
+| <img src="references/web/15.png" alt="Project configuration and style selection" width="100%"> | <img src="references/web/3.png" alt="Workflow-based scriptwriting" width="100%"> |
 
-| 流程画布 | 场景与素材管理 |
+| Workflow canvas | Scene and asset management |
 |---------|---------------|
-| <img src="references/web/2.png" alt="项目流程画布" width="100%"> | <img src="references/web/4.png" alt="场景与素材管理" width="100%"> |
+| <img src="references/web/2.png" alt="Project workflow canvas" width="100%"> | <img src="references/web/4.png" alt="Scene and asset management" width="100%"> |
 
-| 画面编辑与参考素材 | 生成模型配置 |
+| Image editing and reference assets | Generation model configuration |
 |-------------------|-------------|
-| <img src="references/web/5.png" alt="画面编辑与参考素材" width="100%"> | <img src="references/web/6.png" alt="生成模型配置" width="100%"> |
+| <img src="references/web/5.png" alt="Image editing and reference assets" width="100%"> | <img src="references/web/6.png" alt="Generation model configuration" width="100%"> |
 
-| 分镜设计 | 分镜视频管理 |
+| Storyboard design | Storyboard video management |
 |---------|-------------|
-| <img src="references/web/7.png" alt="分镜设计与参考画面" width="100%"> | <img src="references/web/8.png" alt="分镜视频管理" width="100%"> |
+| <img src="references/web/7.png" alt="Storyboard design and reference images" width="100%"> | <img src="references/web/8.png" alt="Storyboard video management" width="100%"> |
 
-| 多参数视频生成 | 音画同步管理 |
+| Video generation with multiple parameters | Audio/video synchronization |
 |----------------|-------------|
-| <img src="references/web/9.png" alt="多参数视频生成" width="100%"> | <img src="references/web/10.png" alt="音画同步管理" width="100%"> |
+| <img src="references/web/9.png" alt="Video generation with multiple parameters" width="100%"> | <img src="references/web/10.png" alt="Audio/video synchronization management" width="100%"> |
 
-| 配音编辑 | 配音角色选择 |
+| Voiceover editing | Voiceover character selection |
 |---------|-------------|
-| <img src="references/web/11.png" alt="配音编辑与预览" width="100%"> | <img src="references/web/12.png" alt="配音角色选择" width="100%"> |
+| <img src="references/web/11.png" alt="Voiceover editing and preview" width="100%"> | <img src="references/web/12.png" alt="Voiceover character selection" width="100%"> |
 
 <p align="center">
-  <img src="references/web/13.png" alt="视频时间线与成片预览" width="92%">
+  <img src="references/web/13.png" alt="Video timeline and finished-video preview" width="92%">
 </p>
 
-### 管理端运营后台
+<a id="管理端运营后台"></a>
 
-管理端覆盖平台概览、用户与作品管理、AI 模型与供应商配置、任务监控、支付计费、系统升级等运营能力。
+### Admin Dashboard
+
+The admin frontend covers platform overviews, user and work management, AI model and provider configuration, task monitoring, payments and billing, system upgrades and other administrative capabilities.
 
 <p align="center">
-  <img src="references/manager/0.png" alt="AID 管理端登录入口" width="92%">
+  <img src="references/manager/0.png" alt="AID admin login entry" width="92%">
 </p>
 
-| 数据概览 | 生成任务监控 |
+| Data overview | Generation task monitoring |
 |---------|-------------|
-| <img src="references/manager/1.png" alt="管理端数据概览" width="100%"> | <img src="references/manager/2.png" alt="生成任务监控" width="100%"> |
+| <img src="references/manager/1.png" alt="Admin data overview" width="100%"> | <img src="references/manager/2.png" alt="Generation task monitoring" width="100%"> |
 
-| 用户管理 | 内容详情审核 |
+| User management | Content detail review |
 |---------|-------------|
-| <img src="references/manager/3.png" alt="用户管理" width="100%"> | <img src="references/manager/4.png" alt="内容详情审核" width="100%"> |
+| <img src="references/manager/3.png" alt="User management" width="100%"> | <img src="references/manager/4.png" alt="Content detail review" width="100%"> |
 
-| AI 模型配置 | AI 业务编排 |
+| AI model configuration | AI workflow orchestration |
 |------------|-------------|
-| <img src="references/manager/5.png" alt="AI 模型配置" width="100%"> | <img src="references/manager/6.png" alt="模型池、智能体与策略矩阵编排" width="100%"> |
+| <img src="references/manager/5.png" alt="AI model configuration" width="100%"> | <img src="references/manager/6.png" alt="Model pools, agents and strategy matrix orchestration" width="100%"> |
 
-| 在线升级与版本说明 | 在线用户监控 |
+| Online upgrades and release notes | Online user monitoring |
 |-------------------|-------------|
-| <img src="references/manager/7.png" alt="在线升级与版本说明" width="100%"> | <img src="references/manager/8.png" alt="在线用户监控" width="100%"> |
+| <img src="references/manager/7.png" alt="Online upgrades and release notes" width="100%"> | <img src="references/manager/8.png" alt="Online user monitoring" width="100%"> |
 
 <p align="center">
-  <img src="references/manager/9.png" alt="服务、缓存与运行资源监控" width="92%">
+  <img src="references/manager/9.png" alt="Service, cache and runtime resource monitoring" width="92%">
 </p>
 
-## 公开源码目录
+<a id="公开源码目录"></a>
 
-公开仓 `aid-studio` 是 AID 的统一源码与部署发布入口，包含服务端、管理端、用户创作端、版本清单、部署脚本、增量 SQL 和独立升级器。三端使用同一个版本标签。
+## Public Source Layout
 
-公开源码统一发布到 [Gitee aid-studio](https://gitee.com/gzxx-2025/aid-studio) 和 [GitHub aid-studio](https://github.com/gzxx-2025/aid-studio)，两个平台使用相同提交和标签。
+The public `aid-studio` repository is AID's unified source code and deployment release entry point. It includes the backend, admin frontend, user creation frontend, version manifests, deployment scripts, incremental SQL and standalone updater. All three application components share the same version tag.
 
-| 路径 | 内容 |
+The unified public source is published to [Gitee aid-studio](https://gitee.com/gzxx-2025/aid-studio) and [GitHub aid-studio](https://github.com/gzxx-2025/aid-studio), with identical commits and tags on both platforms.
+
+| Path | Contents |
 |------|------|
-| `/` | Java 服务端、初始化 SQL、部署脚本与升级器 |
-| `frontend/admin/` | 运营管理端（React） |
-| `frontend/web/` | 用户创作端 |
+| `/` | Java backend, initialization SQL, deployment scripts and updater |
+| `frontend/admin/` | Admin frontend (React) |
+| `frontend/web/` | User creation frontend |
 
-从 `v1.0.1` 起，新版本统一使用本仓库的同名标签。历史版本的获取与迁移请先查阅对应发布说明；升级、备份与可用回退范围见[部署指南](deploy/README.md)。
+Starting with `v1.0.1`, new versions use matching version tags in this repository. Consult the relevant release notes before obtaining or migrating historical versions. See the [deployment guide](deploy/README.md) for upgrades, backups and available rollback ranges.
 
-## 官方资产包
+<a id="官方资产包"></a>
 
-AID 的初始化数据会引用一组官方媒体资源，用于首次部署后的平台展示和创作示例，包括角色、场景、道具、光影、景别/焦距、姿态、表情、特效、分镜示例、智能体与供应商图标、语音头像与 MP3 试听、首页图片及演示视频。该大体积资产包与程序源码分离，不会随 GitHub/Gitee Release 或一键部署自动下载，避免占用公共代码托管流量并防止误写部署方的 OSS/COS。
+## Official Asset Bundle
 
-- 资产包只包含 `aid_init` 初始化库实际引用的官方文件，不包含用户生成内容、账号、密钥、日志或其他业务数据。
-- 包内按 `files/aid/...` 保留数据库使用的原始对象键，可一次性导入本地存储、阿里云 OSS 或腾讯云 COS，无需批量改写初始化 SQL。
-- 每个文件都记录在包内 `manifest.json` 和 `asset-checksums.txt` 中，可按路径、大小和 SHA-256 校验完整性。
-- 获取入口与对应版本校验值由[官方运营站](https://www.aidstudio.com.cn/)及版本公告统一发布。请选择与程序版本一致的 `aid-official-assets_<版本>.tar.gz`，具体导入命令见包内 `README.md`。
+AID's initialization data references official media resources for the platform's initial presentation and creative examples after first deployment. These include characters, scenes, props, lighting, shot sizes/focal lengths, poses, expressions, effects, storyboard examples, agent and provider icons, voice avatars and MP3 samples, homepage images and demo videos. This large asset bundle is distributed separately from the source code. It is not downloaded automatically through GitHub/Gitee Releases or one-command deployment, to avoid consuming public code-hosting bandwidth or accidentally writing to the deployer's OSS/COS storage.
 
-## 系统架构
+- The bundle contains only official files actually referenced by the `aid_init` initialization database. It excludes user-generated content, accounts, keys, logs and other business data.
+- Original object keys used by the database are preserved under `files/aid/...`. Import the bundle into local storage, Alibaba Cloud OSS or Tencent Cloud COS in one operation without bulk rewriting the initialization SQL.
+- Each file is listed in `manifest.json` and `asset-checksums.txt` inside the bundle, allowing integrity checks by path, size and SHA-256.
+- Download entry points and version-specific checksums are published through the [official website](https://www.aidstudio.com.cn/) and release announcements. Choose `aid-official-assets_<VERSION>.tar.gz` matching your application version; import commands are in the bundle's `README.md`.
+
+<a id="系统架构"></a>
+
+## System Architecture
 
 <details>
-<summary>展开系统架构与技术栈</summary>
+<summary>Expand the system architecture and technology stack</summary>
 
 <p>
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License">
@@ -354,84 +397,96 @@ AID 的初始化数据会引用一组官方媒体资源，用于首次部署后�
 </p>
 
 ```text
-aid-studio（Maven 多模块单体）
-├── aid-admin        Spring Boot 启动入口与配置
-├── aid-common       公共组件（安全/缓存/存储/支付/短信适配）
-├── aid-business     Web 层
-│   ├── business-framework   Web框架、数据源、过滤器、AOP
-│   ├── business-system      后台管理接口（/system /aid /aidconfig）
-│   ├── business-main        C端接口（/auth /api/user /recharge）
-│   ├── business-quartz      定时任务
-│   └── business-generator   代码生成
-├── aid-interface    领域层
-│   ├── interface-core       核心接口
-│   ├── interface-system     实体、Mapper、系统服务
-│   └── interface-main       业务服务（媒体/分镜/计费/升级等）
-├── aid-consumer     MQ 消费者
-├── deploy/updater   独立升级器（Go）
+aid-studio (Maven multi-module monolith)
+├── aid-admin        Spring Boot entry point and configuration
+├── aid-common       Shared components (security/cache/storage/payments/SMS adapters)
+├── aid-business     Web layer
+│   ├── business-framework   Web framework, data sources, filters and AOP
+│   ├── business-system      Admin APIs (/system /aid /aidconfig)
+│   ├── business-main        User APIs (/auth /api/user /recharge)
+│   ├── business-quartz      Scheduled tasks
+│   └── business-generator   Code generation
+├── aid-interface    Domain layer
+│   ├── interface-core       Core interfaces
+│   ├── interface-system     Entities, Mappers and system services
+│   └── interface-main       Business services (media/storyboards/billing/upgrades, etc.)
+├── aid-consumer     MQ consumers
+├── deploy/updater   Standalone updater (Go)
 └── frontend
-    ├── admin        运营管理端（React）
-    └── web          用户创作端
+    ├── admin        Admin frontend (React)
+    └── web          User creation frontend
 ```
 
-调用链：`Controller → Service → Mapper → MySQL`，媒体生成经统一编排层路由到各厂商 Provider。
+Call chain: `Controller → Service → Mapper → MySQL`. Media generation is routed to each provider's implementation through the unified orchestration layer.
 
-## 技术栈
+<a id="技术栈"></a>
 
-| 维度 | 技术 | 版本 |
+## Technology Stack
+
+| Category | Technology | Version |
 |------|------|------|
-| 语言 | Java | 17 |
-| 框架 | Spring Boot | 3.5.x |
+| Language | Java | 17 |
+| Framework | Spring Boot | 3.5.x |
 | ORM | MyBatis-Plus | 3.5.x |
-| 数据库 | MySQL | 5.7 |
-| 缓存 | Redis + Redisson | 3.x |
-| 消息队列 | RocketMQ | 4.x/5.x |
-| 定时任务 | Quartz | 2.5.x |
-| 对象存储 | 阿里云 OSS / 腾讯云 COS | - |
-| 接口文档 | SpringDoc OpenAPI | 2.8.x |
-| 升级器 | Go | 1.22 |
+| Database | MySQL | 5.7 |
+| Cache | Redis + Redisson | 3.x |
+| Message queue | RocketMQ | 4.x/5.x |
+| Scheduled tasks | Quartz | 2.5.x |
+| Object storage | Alibaba Cloud OSS / Tencent Cloud COS | - |
+| API documentation | SpringDoc OpenAPI | 2.8.x |
+| Updater | Go | 1.22 |
 
 </details>
 
-## 文档导航
+<a id="文档导航"></a>
 
-| 文档 | 说明 |
+## Documentation
+
+| Document | Description |
 |------|------|
-| [部署指南](deploy/README.md) | Docker / systemd 部署、配置项、HTTPS、中间件、升级、回退与卸载 |
-| [English guide](README.en.md) | English overview, installation, first project and maintenance |
-| [贡献指南](CONTRIBUTING.md) | 问题报告、改动范围、开发验证与 PR 提交 |
-| [公开 Provider 接入指南](doc/公开Provider接入指南.md) | 文本 / 图片 / 视频 / 语音 Provider 入口、能力声明、统一任务与计费、官方协议核验与提交检查（[English](doc/public-provider-integration.md)） |
-| [获取帮助](SUPPORT.md) | 使用、部署和模型配置问题的反馈入口 |
-| [安全报告](SECURITY.md) | 私密报告漏洞，避免公开敏感细节 |
-| [社区行为准则](CODE_OF_CONDUCT.md) | 交流与协作约定 |
-| Swagger 接口文档 | 启动后访问 `http://localhost:8080/swagger-ui.html`（生产环境默认关闭） |
+| [Deployment guide](deploy/README.md) | Docker / systemd deployment, configuration, HTTPS, middleware, upgrades, rollbacks and uninstallation |
+| [English overview](README.md) | English overview, installation, first project and maintenance |
+| [Contributing guide](CONTRIBUTING.md) | Reporting issues, change scope, development validation and submitting PRs |
+| [Public Provider integration guide](doc/公开Provider接入指南.md) | Text/image/video/speech Provider entry points, capability declarations, unified tasks and billing, official protocol verification and submission checks ([English](doc/public-provider-integration.md)) |
+| [Get help](SUPPORT.md) | Support channels for usage, deployment and model configuration questions |
+| [Security reports](SECURITY.md) | Report vulnerabilities privately without exposing sensitive details |
+| [Code of Conduct](CODE_OF_CONDUCT.md) | Community communication and collaboration guidelines |
+| Swagger API documentation | Visit `http://localhost:8080/swagger-ui.html` after startup (disabled by default in production) |
 
-## 在线升级
+<a id="在线升级"></a>
 
-管理端「系统管理 → 项目升级配置」和命令行使用同一套独立升级器。页面会展示当前版本、线上版本、双语版本说明、升级器状态、可回退版本以及黑色实时终端；任务执行期间禁止重复提交，低于 4 核 4G 时会在确认升级前给出高风险提醒。
+## Online Upgrades
 
-升级流程会先确认升级器版本，升级器落后时必须先升级升级器；随后校验签名清单和统一仓库版本标签，完成配置与数据库备份、本机三端源码构建、增量 SQL、程序替换和健康检查。新增配置只会补入缺失项，原有配置值保持不变并在同目录生成备份；失败时按安全边界自动恢复程序与配置。升级期间可在页面或执行 `sudo aid progress` 查看同一份实时日志，按 `q` 退出查看不会中断后台任务。
+The admin panel under “System Management → Project Upgrade Configuration” and the CLI use the same standalone updater. The page displays the current version, online version, bilingual release notes, updater status, available rollback versions and a black live terminal. Duplicate submissions are blocked while a task is running. Below 4 cores/4 GB RAM, a high-risk warning appears before confirming an upgrade.
 
-更新会进行三端编译、数据库备份和健康检查，短时间内可能明显占用 CPU、内存和磁盘 I/O。生产环境应先做异机备份并在业务低峰执行；Beta 版本建议先在测试环境验证。完整升级、SQL 与回退规则见[部署指南](deploy/README.md)。
+The upgrade process first checks the updater version; an outdated updater must be upgraded before continuing. It then validates the signed manifest and the unified repository's version tag, backs up configuration and the database, builds all three application components locally, applies incremental SQL, replaces programs and performs health checks. New configuration settings are added only when missing; existing values are retained, and a backup is created in the same directory. On failure, programs and configuration are restored automatically within the defined safety boundaries. During an upgrade, view the same live logs in the UI or with `sudo aid progress`; pressing `q` exits the viewer without interrupting the background task.
 
-## 参与贡献
+Updates compile all three components, back up the database and run health checks, which may briefly consume substantial CPU, memory and disk I/O. For production, create an off-host backup first and run updates during low-traffic hours. Test Beta versions in a test environment first. See the [deployment guide](deploy/README.md) for complete upgrade, SQL and rollback rules.
 
-欢迎中文或英文 Issue 与 Pull Request。先阅读[贡献指南](CONTRIBUTING.md)、[公开 Provider 接入指南](doc/公开Provider接入指南.md)与[社区行为准则](CODE_OF_CONDUCT.md)，再选择适合自己的贡献：复现问题、改进文档、修复缺陷或适配公开模型协议。
+<a id="参与贡献"></a>
 
-- [报告问题 / 提出建议](https://github.com/gzxx-2025/aid-studio/issues/new/choose)
-- [查找适合首次贡献的任务](https://github.com/gzxx-2025/aid-studio/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22good%20first%20issue%22)
-- [报告安全问题](SECURITY.md)
+## Contributing
 
-如果 AID 对你有帮助，欢迎 Star 收藏，也欢迎分享有权公开的创作案例和部署经验。
+Issues and Pull Requests in Chinese or English are welcome. Read the [contributing guide](CONTRIBUTING.md), [Public Provider integration guide](doc/公开Provider接入指南.md) and [Code of Conduct](CODE_OF_CONDUCT.md), then choose a contribution that suits you: reproducing issues, improving documentation, fixing bugs or adapting public model protocols.
 
-## 开源协议
+- [Report an issue / suggest an improvement](https://github.com/gzxx-2025/aid-studio/issues/new/choose)
+- [Find a good first issue](https://github.com/gzxx-2025/aid-studio/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22good%20first%20issue%22)
+- [Report a security issue](SECURITY.md)
 
-本项目基于 [MIT License](LICENSE) 开源，版权归光子讯息(杭州)科技有限公司所有。第三方归属说明见 [NOTICE](NOTICE)，原有版权与许可声明予以保留。
+If AID helps you, consider starring the repository. You are also welcome to share creative examples you have the right to publish, along with your deployment experience.
 
-## 鸣谢
+<a id="开源协议"></a>
 
-后台管理框架部分基于 [RuoYi-Vue](https://gitee.com/y_project/RuoYi-Vue)（MIT License）二次开发，特此致谢。
+## License
 
-| 社区 | 鸣谢 |
+This project is open source under the [MIT License](LICENSE). Copyright belongs to 光子讯息(杭州)科技有限公司 (Guangzi Xunxi (Hangzhou) Technology Co., Ltd.). See [NOTICE](NOTICE) for third-party attribution. Original copyright and license notices are preserved.
+
+<a id="鸣谢"></a>
+
+## Acknowledgements
+
+Parts of the admin framework are based on [RuoYi-Vue](https://gitee.com/y_project/RuoYi-Vue) (MIT License). We gratefully acknowledge the original project.
+
+| Community | Thanks |
 |------|------|
-| <a href="https://linux.do/"><img src="https://cdn3.ldstatic.com/original/4X/c/c/d/ccd8c210609d498cbeb3d5201d4c259348447562.png" alt="Linux.do" width="64"></a> | 感谢 [Linux.do](https://linux.do/) 社区为中文技术交流与开源生态建设提供的支持。 |
+| <a href="https://linux.do/"><img src="https://cdn3.ldstatic.com/original/4X/c/c/d/ccd8c210609d498cbeb3d5201d4c259348447562.png" alt="Linux.do" width="64"></a> | Thank you to the [Linux.do](https://linux.do/) community for supporting Chinese-language technical discussion and the open-source ecosystem. |
