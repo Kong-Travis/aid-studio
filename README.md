@@ -475,6 +475,21 @@ Issues and Pull Requests in Chinese or English are welcome. Read the [contributi
 
 If AID helps you, consider starring the repository. You are also welcome to share creative examples you have the right to publish, along with your deployment experience.
 
+<a id="donate"></a>
+
+## 赞赏支持 / Donate
+
+如果 AID Studio 对你有帮助，欢迎自愿赞赏，支持项目持续维护与改进。
+
+If AID Studio is useful to you, consider a voluntary donation to support ongoing maintenance and improvements.
+
+<p align="center">
+  <a href="references/wechat-donation.jpg">
+    <img src="references/wechat-donation.jpg" alt="微信赞赏码 / WeChat donation code" width="320">
+  </a><br>
+  <sub>微信扫码赞赏 · Scan with WeChat to donate<br>点击图片查看原图 / Click the image to view full size</sub>
+</p>
+
 <a id="开源协议"></a>
 
 ## License
