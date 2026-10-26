@@ -36,3 +36,16 @@ export function placeholderProblem(key, value) {
   const got = [...value.matchAll(PH)].map((m) => m[1]).sort().join(',')
   return want === got ? null : `placeholders differ (${want || 'none'} vs ${got || 'none'})`
 }
+
+// JSON.stringify that writes non-ASCII symbols and punctuation as \uXXXX escapes. Keys copy
+// upstream text verbatim (multiplication signs, ellipses, middle dots...); escaping keeps the
+// committed files plain while letters, digits, Han and CJK punctuation stay readable.
+export function stringifyClean(value) {
+  const keep = (ch) => {
+    const cp = ch.codePointAt(0)
+    return cp < 0x80 || /[\p{L}\p{M}\p{N}]/u.test(ch) || (cp > 0x3000 && cp <= 0x303f) || (cp >= 0xff01 && cp <= 0xffef)
+  }
+  return [...JSON.stringify(value, null, 1)]
+    .map((ch) => (keep(ch) ? ch : ch.split('').map((u) => '\\u' + u.charCodeAt(0).toString(16).padStart(4, '0')).join('')))
+    .join('')
+}

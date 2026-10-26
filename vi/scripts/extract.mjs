@@ -7,7 +7,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { APPS, loadTypeScript, scanApp } from './lib/scan.mjs'
-import { REPO, readDict, readDeny, placeholderProblem } from './lib/dict.mjs'
+import { REPO, readDict, readDeny, placeholderProblem, stringifyClean } from './lib/dict.mjs'
 
 const args = process.argv.slice(2)
 const missingOut = args.includes('--missing') ? args[args.indexOf('--missing') + 1] : null
@@ -39,9 +39,9 @@ for (const [name, app] of Object.entries(APPS)) {
   const keys = Object.keys(catalog).sort()
   const sorted = Object.fromEntries(keys.map((k) => [k, catalog[k]]))
   fs.mkdirSync(path.join(REPO, 'vi/catalog'), { recursive: true })
-  fs.writeFileSync(path.join(REPO, `vi/catalog/${name}.json`), JSON.stringify(sorted, null, 1) + '\n')
+  fs.writeFileSync(path.join(REPO, `vi/catalog/${name}.json`), stringifyClean(sorted) + '\n')
   fs.writeFileSync(path.join(REPO, `vi/catalog/${name}.skipped.json`),
-    JSON.stringify(Object.fromEntries(Object.keys(skipped).sort().map((k) => [k, skipped[k]])), null, 1) + '\n')
+    stringifyClean(Object.fromEntries(Object.keys(skipped).sort().map((k) => [k, skipped[k]]))) + '\n')
 
   const todo = keys.filter((k) => !(k in dict))
   for (const k of keys) {

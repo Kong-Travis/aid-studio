@@ -9,7 +9,7 @@
 // text never has to be copied back by hand.
 import fs from 'node:fs'
 import path from 'node:path'
-import { REPO, readDict, placeholderProblem } from './lib/dict.mjs'
+import { REPO, readDict, placeholderProblem, stringifyClean } from './lib/dict.mjs'
 
 const args = process.argv.slice(2)
 const [cmd, dirArg] = args
@@ -94,11 +94,8 @@ if (cmd === 'split') {
   }
   const missingIds = Object.keys(ids).filter((id) => !(ids[id] in dict))
   const sorted = Object.fromEntries(Object.keys(dict).sort().map((k) => [k, dict[k]]))
-  // Keys copy upstream text verbatim; escape its banned punctuation so the file itself stays clean.
-  const json = [...JSON.stringify(sorted, null, 1)]
-    .map((c) => (isBanned(c) ? '\\u' + c.codePointAt(0).toString(16).padStart(4, '0') : c)).join('')
   fs.mkdirSync(path.dirname(DICT_FILE), { recursive: true })
-  fs.writeFileSync(DICT_FILE, json + '\n')
+  fs.writeFileSync(DICT_FILE, stringifyClean(sorted) + '\n')
   console.log(`merged ${added} translations into ${path.relative(REPO, DICT_FILE)} (${Object.keys(sorted).length} total)`)
   if (missingIds.length) console.log(`${missingIds.length} ids still untranslated: ${missingIds.slice(0, 10).join(', ')}${missingIds.length > 10 ? ', ...' : ''}`)
   for (const p of problems) console.log('[x] ' + p)

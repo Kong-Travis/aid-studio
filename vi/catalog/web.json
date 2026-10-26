@@ -1,12 +1,12 @@
 {
- " · {0}集": {
+ " \u00b7 {0}集": {
   "kind": "tpl",
   "n": 1,
   "files": [
    "app/case/page.tsx"
   ]
  },
- " · 推荐": {
+ " \u00b7 推荐": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -224,7 +224,7 @@
    "components/studio/canvas/StudioCanvas.tsx"
   ]
  },
- "AID · AI 内容创作平台": {
+ "AID \u00b7 AI 内容创作平台": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -351,14 +351,14 @@
    "hooks/useStoryScriptAgent.ts"
   ]
  },
- "Skill 加载中…": {
+ "Skill 加载中\u2026": {
   "kind": "jsx",
   "n": 1,
   "files": [
    "components/common/skill-picker/SkillPickerPopover.tsx"
   ]
  },
- "Skill 正在运行…": {
+ "Skill 正在运行\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -485,49 +485,49 @@
    "components/common/ModelBillingRules.tsx"
   ]
  },
- "{0} · 分镜图": {
+ "{0} \u00b7 分镜图": {
   "kind": "tpl",
   "n": 1,
   "files": [
    "utils/studio/studioFlowProject.ts"
   ]
  },
- "{0} · 字符 {1}–{2}": {
+ "{0} \u00b7 字符 {1}\u2013{2}": {
   "kind": "tpl",
   "n": 1,
   "files": [
    "utils/quill/editorTextSelection.ts"
   ]
  },
- "{0} · 成片": {
+ "{0} \u00b7 成片": {
   "kind": "tpl",
   "n": 2,
   "files": [
    "utils/studio/studioFlowProject.ts"
   ]
  },
- "{0} · 视频": {
+ "{0} \u00b7 视频": {
   "kind": "tpl",
   "n": 1,
   "files": [
    "utils/studio/studioFlowProject.ts"
   ]
  },
- "{0} · 视频缩略图": {
+ "{0} \u00b7 视频缩略图": {
   "kind": "tpl",
   "n": 1,
   "files": [
    "components/studio/canvas/StudioMediaPreview.tsx"
   ]
  },
- "{0} · 配音": {
+ "{0} \u00b7 配音": {
   "kind": "tpl",
   "n": 1,
   "files": [
    "utils/studio/studioFlowProject.ts"
   ]
  },
- "{0} · 项目配置": {
+ "{0} \u00b7 项目配置": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -703,7 +703,7 @@
    "components/studio/canvas/StudioFlowAssetGallery.tsx"
   ]
  },
- "{0}形态图生成中…": {
+ "{0}形态图生成中\u2026": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -717,7 +717,7 @@
    "utils/studio/studioFlowAutoPipelineRunner.ts"
   ]
  },
- "{0}形态文案生成中…": {
+ "{0}形态文案生成中\u2026": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -843,28 +843,28 @@
    "components/steps/EditStoryboardVideoModal.tsx"
   ]
  },
- "· 分集词「": {
+ "\u00b7 分集词「": {
   "kind": "jsx",
   "n": 1,
   "files": [
    "app/create/series-script-upload/page.tsx"
   ]
  },
- "· 商品内容：": {
+ "\u00b7 商品内容：": {
   "kind": "jsx",
   "n": 1,
   "files": [
    "components/common/recharge/RechargePayModal.tsx"
   ]
  },
- "· 商品单价：¥": {
+ "\u00b7 商品单价：\u00a5": {
   "kind": "jsx",
   "n": 1,
   "files": [
    "components/common/recharge/RechargePayModal.tsx"
   ]
  },
- "· 商品数量：1个": {
+ "\u00b7 商品数量：1个": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -935,7 +935,7 @@
    "components/steps/ImportReferenceImageModal.tsx"
   ]
  },
- "上传中…": {
+ "上传中\u2026": {
   "kind": "str",
   "n": 4,
   "files": [
@@ -958,7 +958,7 @@
    "components/studio/flow/agent/StudioFlowSeriesSplitWizard.tsx"
   ]
  },
- "上传剧集总剧本 txt，按「第一集、第二集…」等关键词拆分为多集。": {
+ "上传剧集总剧本 txt，按「第一集、第二集\u2026」等关键词拆分为多集。": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -1089,7 +1089,7 @@
    "components/steps/scene-character-prop/ScpSceneListView.tsx"
   ]
  },
- "下载分段 {0}/{1}…": {
+ "下载分段 {0}/{1}\u2026": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -1345,7 +1345,7 @@
    "utils/seoHead.ts"
   ]
  },
- "事件连接中断，正在核对任务状态…": {
+ "事件连接中断，正在核对任务状态\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -1561,7 +1561,7 @@
    "components/studio/flow/agent/StudioFlowAutoPipelineBanner.tsx"
   ]
  },
- "从「{0}」阶段续跑…": {
+ "从「{0}」阶段续跑\u2026": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -1808,7 +1808,7 @@
    "components/steps/scene-character-prop/useScpTaskProgress.ts"
   ]
  },
- "任务进行中…": {
+ "任务进行中\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -1961,7 +1961,7 @@
    "components/studio/canvas/StudioFlowPaneContextMenu.tsx"
   ]
  },
- "保存中…": {
+ "保存中\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -2033,7 +2033,7 @@
    "components/steps/StoryboardGeneratePanel.tsx"
   ]
  },
- "保存时间轴并准备导出…": {
+ "保存时间轴并准备导出\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -2294,14 +2294,14 @@
    "hooks/useCreateFlowSidebarChrome.ts"
   ]
  },
- "充值成功，正在从「{0}」继续…": {
+ "充值成功，正在从「{0}」继续\u2026": {
   "kind": "tpl",
   "n": 1,
   "files": [
    "components/studio/shell/StudioRechargeHost.tsx"
   ]
  },
- "充值成功，正在从中断处继续自动创作…": {
+ "充值成功，正在从中断处继续自动创作\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -2340,7 +2340,7 @@
    "components/login/LoginPasswordPanel.tsx"
   ]
  },
- "入库中…": {
+ "入库中\u2026": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -2562,7 +2562,7 @@
    "stores/studioUi.ts"
   ]
  },
- "准备开始…": {
+ "准备开始\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -2618,7 +2618,7 @@
    "components/home/AssetsLibraryPanel.tsx"
   ]
  },
- "分类加载中…": {
+ "分类加载中\u2026": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -2741,7 +2741,7 @@
    "components/steps/storyboard-video/useStoryboardVideoPanelOps.ts"
   ]
  },
- "分镜图 · 选中后直接出图，不经 AI 编辑": {
+ "分镜图 \u00b7 选中后直接出图，不经 AI 编辑": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -2790,7 +2790,7 @@
    "components/steps/edit-storyboard-image/useStoryboardModalImageActions.ts"
   ]
  },
- "分镜图提交中…": {
+ "分镜图提交中\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -2865,7 +2865,7 @@
    "hooks/storyboardImageGenerateTaskFollow.ts"
   ]
  },
- "分镜图续生中…": {
+ "分镜图续生中\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -3053,14 +3053,14 @@
    "utils/importAssetModalConfig.ts"
   ]
  },
- "分镜脚本 · 可编辑，出图请选中右侧分镜图节点": {
+ "分镜脚本 \u00b7 可编辑，出图请选中右侧分镜图节点": {
   "kind": "str",
   "n": 1,
   "files": [
    "components/studio/flow/composer/StudioFlowStoryboardComposer.tsx"
   ]
  },
- "分镜脚本 · 手动编辑后保存": {
+ "分镜脚本 \u00b7 手动编辑后保存": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -3123,7 +3123,7 @@
    "components/steps/edit-storyboard-video/useVideoModalRecordRefreshOps.ts"
   ]
  },
- "分镜视频 · 选中后直接生成，不经 AI 编辑": {
+ "分镜视频 \u00b7 选中后直接生成，不经 AI 编辑": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -3168,7 +3168,7 @@
    "components/create/create-flow-shell/useCreateFlowGlobalTasks.ts"
   ]
  },
- "分镜视频生成中…": {
+ "分镜视频生成中\u2026": {
   "kind": "str",
   "n": 2,
   "files": [
@@ -3196,7 +3196,7 @@
    "hooks/useStoryboardVideoGenerateTask.ts"
   ]
  },
- "分镜视频续生中…": {
+ "分镜视频续生中\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -3358,7 +3358,7 @@
    "utils/business/skill.ts"
   ]
  },
- "创建中…": {
+ "创建中\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -3451,7 +3451,7 @@
    "components/home/AssetsLibraryPanel.tsx"
   ]
  },
- "删除中…": {
+ "删除中\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -3616,7 +3616,7 @@
    "components/login/LoginWechatPanel.tsx"
   ]
  },
- "刷新中…": {
+ "刷新中\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -3942,7 +3942,7 @@
    "utils/studio/studioFlowProject.ts"
   ]
  },
- "剧集 · 上传剧本并拆集": {
+ "剧集 \u00b7 上传剧本并拆集": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -4020,7 +4020,7 @@
    "components/steps/ImportSceneImageModal.tsx"
   ]
  },
- "加载中…": {
+ "加载中\u2026": {
   "kind": "jsx",
   "n": 24,
   "files": [
@@ -4029,7 +4029,7 @@
    "components/common/PublishCasePlazaModal.tsx"
   ]
  },
- "加载分类树…": {
+ "加载分类树\u2026": {
   "kind": "jsx",
   "n": 2,
   "files": [
@@ -4043,7 +4043,7 @@
    "hooks/createFlowRouteSteps/stepData.ts"
   ]
  },
- "加载分镜数据中…": {
+ "加载分镜数据中\u2026": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -4152,7 +4152,7 @@
    "components/steps/edit-storyboard-image/useStoryboardModalModels.ts"
   ]
  },
- "加载智能体…": {
+ "加载智能体\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -4246,21 +4246,21 @@
    "components/steps/batch-generate-storyboard/useBatchStoryboardModels.ts"
   ]
  },
- "加载计费详情中…": {
+ "加载计费详情中\u2026": {
   "kind": "jsx",
   "n": 1,
   "files": [
    "components/home/BillingPanel.tsx"
   ]
  },
- "加载详情中…": {
+ "加载详情中\u2026": {
   "kind": "jsx",
   "n": 1,
   "files": [
    "components/home/FaqPanel.tsx"
   ]
  },
- "加载资产中…": {
+ "加载资产中\u2026": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -4310,7 +4310,7 @@
    "hooks/useGlobalSettingProjectHydrate.ts"
   ]
  },
- "加载预览…": {
+ "加载预览\u2026": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -4777,7 +4777,7 @@
    "hooks/useAuthSendCode.ts"
   ]
  },
- "取消中…": {
+ "取消中\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -5624,7 +5624,7 @@
    "components/studio/flow/agent/StudioFlowSetupSummary.tsx"
   ]
  },
- "图生视频任务提交中…": {
+ "图生视频任务提交中\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -5645,7 +5645,7 @@
    "components/steps/edit-storyboard-video/videoModalReferenceCore.ts"
   ]
  },
- "图生视频生成中…": {
+ "图生视频生成中\u2026": {
   "kind": "str",
   "n": 3,
   "files": [
@@ -5873,7 +5873,7 @@
    "utils/createFlowStepMeta.ts"
   ]
  },
- "处理中…": {
+ "处理中\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -6002,7 +6002,7 @@
    "components/steps/edit-storyboard-video/VideoConfigPanel.tsx"
   ]
  },
- "多参生视频任务提交中…": {
+ "多参生视频任务提交中\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -6016,7 +6016,7 @@
    "components/steps/edit-storyboard-video/useVideoModalPromptFlows.ts"
   ]
  },
- "多参视频生成中…": {
+ "多参视频生成中\u2026": {
   "kind": "str",
   "n": 3,
   "files": [
@@ -6369,7 +6369,7 @@
    "components/steps/edit-storyboard-video/VideoConfigPanel.tsx"
   ]
  },
- "宫格视频任务提交中…": {
+ "宫格视频任务提交中\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -6383,7 +6383,7 @@
    "components/steps/edit-storyboard-video/useVideoModalPromptFlows.ts"
   ]
  },
- "宫格视频生成中…": {
+ "宫格视频生成中\u2026": {
   "kind": "str",
   "n": 3,
   "files": [
@@ -6479,21 +6479,21 @@
    "hooks/useStoryboardDubbingGenerate.ts"
   ]
  },
- "对口型任务已提交…": {
+ "对口型任务已提交\u2026": {
   "kind": "str",
   "n": 2,
   "files": [
    "hooks/useStoryboardLipSyncTask.ts"
   ]
  },
- "对口型合成中…": {
+ "对口型合成中\u2026": {
   "kind": "str",
   "n": 2,
   "files": [
    "utils/storyboardLipSyncSse.ts"
   ]
  },
- "对口型处理中…": {
+ "对口型处理中\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -7447,7 +7447,7 @@
    "utils/storyScriptAgentRuntime.ts"
   ]
  },
- "已处理 {0}/{1} 张…": {
+ "已处理 {0}/{1} 张\u2026": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -7502,7 +7502,7 @@
    "components/common/agent-conversation/AgentThinkingProcess.tsx"
   ]
  },
- "已完成 · 100%": {
+ "已完成 \u00b7 100%": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -7702,7 +7702,7 @@
    "components/steps/scene-character-prop/useScpGenerateActions.ts"
   ]
  },
- "已提交合成任务，正在处理…": {
+ "已提交合成任务，正在处理\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -8546,7 +8546,7 @@
    "components/account/AccountSettingsSections.tsx"
   ]
  },
- "当前工作副本 · 版本 {0}": {
+ "当前工作副本 \u00b7 版本 {0}": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -9189,14 +9189,14 @@
    "components/home/WorksLibraryPanel.tsx"
   ]
  },
- "总费用 = 输出秒数 × 输出视频单价": {
+ "总费用 = 输出秒数 \u00d7 输出视频单价": {
   "kind": "str",
   "n": 1,
   "files": [
    "utils/billingDisplay.ts"
   ]
  },
- "总费用 = 输出秒数 × 输出视频单价 + 输入视频秒数 × 输入视频单价": {
+ "总费用 = 输出秒数 \u00d7 输出视频单价 + 输入视频秒数 \u00d7 输入视频单价": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -10004,7 +10004,7 @@
    "components/studio/flow/composer/StudioFlowStepComposer.tsx"
   ]
  },
- "批量配音任务已提交…": {
+ "批量配音任务已提交\u2026": {
   "kind": "str",
   "n": 2,
   "files": [
@@ -10259,7 +10259,7 @@
    "components/studio/flow/composer/StudioFlowStoryboardVideoComposer.tsx"
   ]
  },
- "提交中…": {
+ "提交中\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -10447,7 +10447,7 @@
    "components/steps/ExtractAgentModal.tsx"
   ]
  },
- "提取进行中…": {
+ "提取进行中\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -10557,7 +10557,7 @@
    "components/home/AssetsLibraryPanel.tsx"
   ]
  },
- "搜索资产…": {
+ "搜索资产\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -10582,7 +10582,7 @@
    "components/steps/StoryboardScriptModal.tsx"
   ]
  },
- "撤销 (Ctrl/⌘ Z)": {
+ "撤销 (Ctrl/\u2318 Z)": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -10686,7 +10686,7 @@
    "components/common/RechargeModal.tsx"
   ]
  },
- "支付金额：¥": {
+ "支付金额：\u00a5": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -10816,7 +10816,7 @@
    "utils/studio/studioFlowProject.ts"
   ]
  },
- "故事剧本 · 服务端同步": {
+ "故事剧本 \u00b7 服务端同步": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -10837,7 +10837,7 @@
    "components/steps/GenerateModelConfigBlock.tsx"
   ]
  },
- "整理中…": {
+ "整理中\u2026": {
   "kind": "jsx",
   "n": 2,
   "files": [
@@ -12767,7 +12767,7 @@
    "components/studio/flow/agent/StudioFlowSetupSummary.tsx"
   ]
  },
- "查看 →": {
+ "查看 \u2192": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -13012,7 +13012,7 @@
    "components/studio/composer/StudioModelPicker.tsx"
   ]
  },
- "模型加载中…": {
+ "模型加载中\u2026": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -13085,7 +13085,7 @@
    "components/common/ModelBillingRules.tsx"
   ]
  },
- "正在上传 {0} 张图片…": {
+ "正在上传 {0} 张图片\u2026": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -13099,14 +13099,14 @@
    "components/steps/edit-storyboard-image/storyboardModalImportOps.ts"
   ]
  },
- "正在上传图片…": {
+ "正在上传图片\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
    "utils/ossUpload.ts"
   ]
  },
- "正在上传文件…": {
+ "正在上传文件\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -13120,14 +13120,14 @@
    "components/steps/edit-storyboard-video/useVideoModalRecords.ts"
   ]
  },
- "正在上传视频…": {
+ "正在上传视频\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
    "utils/ossUpload.ts"
   ]
  },
- "正在上传音频…": {
+ "正在上传音频\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -13149,35 +13149,35 @@
    "components/create/create-flow-shell/useCreateFlowPublishExport.ts"
   ]
  },
- "正在为 {0} 个{1}形态生成参考图…": {
+ "正在为 {0} 个{1}形态生成参考图\u2026": {
   "kind": "tpl",
   "n": 1,
   "files": [
    "utils/studio/studioFlowAutoPipelineRunner.ts"
   ]
  },
- "正在为 {0} 个{1}生成形态文案…": {
+ "正在为 {0} 个{1}生成形态文案\u2026": {
   "kind": "tpl",
   "n": 1,
   "files": [
    "utils/studio/studioFlowAutoPipelineRunner.ts"
   ]
  },
- "正在为 {0} 个分镜生成图片…": {
+ "正在为 {0} 个分镜生成图片\u2026": {
   "kind": "tpl",
   "n": 1,
   "files": [
    "utils/studio/studioFlowAutoPipelineRunner.ts"
   ]
  },
- "正在为 {0} 个分镜生成视频…": {
+ "正在为 {0} 个分镜生成视频\u2026": {
   "kind": "tpl",
   "n": 1,
   "files": [
    "utils/studio/studioFlowAutoPipelineRunner.ts"
   ]
  },
- "正在为 {0} 个分镜生成配音…": {
+ "正在为 {0} 个分镜生成配音\u2026": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -13205,14 +13205,14 @@
    "components/steps/scene-character-prop/scpDerivedViewOps.ts"
   ]
  },
- "正在从服务器同步资产列表…": {
+ "正在从服务器同步资产列表\u2026": {
   "kind": "jsx",
   "n": 1,
   "files": [
    "components/steps/BatchGenerateAssetModal.tsx"
   ]
  },
- "正在保存 ZIP…": {
+ "正在保存 ZIP\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -13226,35 +13226,35 @@
    "components/steps/edit-storyboard-video/useVideoModalPrompt.ts"
   ]
  },
- "正在保留已有分镜并补充新的分镜脚本…": {
+ "正在保留已有分镜并补充新的分镜脚本\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
    "utils/studio/studioFlowAutoPipelineRunner.ts"
   ]
  },
- "正在停止…": {
+ "正在停止\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
    "components/steps/story-script-agent/StoryScriptAgentPanel.tsx"
   ]
  },
- "正在停止生成…": {
+ "正在停止生成\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
    "hooks/useStoryScriptAgent.ts"
   ]
  },
- "正在准备流程页面…": {
+ "正在准备流程页面\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
    "components/create/create-flow-shell/CreateFlowStepLoading.tsx"
   ]
  },
- "正在准备预计费用…": {
+ "正在准备预计费用\u2026": {
   "kind": "str",
   "n": 4,
   "files": [
@@ -13270,140 +13270,140 @@
    "components/common/composer-send/ComposerSendButton.tsx"
   ]
  },
- "正在加载场景列表…": {
+ "正在加载场景列表\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
    "components/steps/scene-character-prop/scpDerivedViewOps.ts"
   ]
  },
- "正在加载官方音色…": {
+ "正在加载官方音色\u2026": {
   "kind": "jsx",
   "n": 1,
   "files": [
    "components/steps/SelectAssetVoiceTab.tsx"
   ]
  },
- "正在加载我的作品…": {
+ "正在加载我的作品\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
    "components/home/WorksLibraryPanel.tsx"
   ]
  },
- "正在加载更多作品…": {
+ "正在加载更多作品\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
    "components/home/WorksLibraryPanel.tsx"
   ]
  },
- "正在加载更多剧集…": {
+ "正在加载更多剧集\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
    "app/create/series-episode-list/page.tsx"
   ]
  },
- "正在加载更多资产…": {
+ "正在加载更多资产\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
    "components/home/AssetsLibraryPanel.tsx"
   ]
  },
- "正在加载本作品资产…": {
+ "正在加载本作品资产\u2026": {
   "kind": "jsx",
   "n": 1,
   "files": [
    "components/steps/select-asset-image/SelectAssetImageModal.tsx"
   ]
  },
- "正在加载生成配置…": {
+ "正在加载生成配置\u2026": {
   "kind": "jsx",
   "n": 1,
   "files": [
    "components/steps/ProjectGenConfigModal.tsx"
   ]
  },
- "正在加载角色列表…": {
+ "正在加载角色列表\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
    "components/steps/scene-character-prop/scpDerivedViewOps.ts"
   ]
  },
- "正在加载账号信息…": {
+ "正在加载账号信息\u2026": {
   "kind": "jsx",
   "n": 1,
   "files": [
    "components/account/AccountSettingsHost.tsx"
   ]
  },
- "正在加载资产…": {
+ "正在加载资产\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
    "components/home/AssetsLibraryPanel.tsx"
   ]
  },
- "正在加载道具列表…": {
+ "正在加载道具列表\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
    "components/steps/scene-character-prop/scpDerivedViewOps.ts"
   ]
  },
- "正在加载预览…": {
+ "正在加载预览\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
    "hooks/usePreviewPlayerReadyOverlay.ts"
   ]
  },
- "正在取消…": {
+ "正在取消\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
    "hooks/studio/useStudioFlowAutoPipeline.ts"
   ]
  },
- "正在同步分镜列表…": {
+ "正在同步分镜列表\u2026": {
   "kind": "jsx",
   "n": 1,
   "files": [
    "components/steps/StoryboardScript.tsx"
   ]
  },
- "正在同步分镜视频列表…": {
+ "正在同步分镜视频列表\u2026": {
   "kind": "jsx",
   "n": 1,
   "files": [
    "components/steps/StoryboardVideo.tsx"
   ]
  },
- "正在同步列表…": {
+ "正在同步列表\u2026": {
   "kind": "jsx",
   "n": 1,
   "files": [
    "components/steps/BatchGenerateAssetModal.tsx"
   ]
  },
- "正在同步场景、角色与道具…": {
+ "正在同步场景、角色与道具\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
    "components/steps/scene-character-prop/scpDerivedViewOps.ts"
   ]
  },
- "正在同步音画同步列表…": {
+ "正在同步音画同步列表\u2026": {
   "kind": "jsx",
   "n": 1,
   "files": [
    "components/steps/Dubbing.tsx"
   ]
  },
- "正在处理 · {0}s": {
+ "正在处理 \u00b7 {0}s": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -13417,7 +13417,7 @@
    "utils/storyScriptAgentDocumentView.ts"
   ]
  },
- "正在审查剧本…": {
+ "正在审查剧本\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -13445,21 +13445,21 @@
    "utils/storyScriptAgentDocumentView.ts"
   ]
  },
- "正在思考…": {
+ "正在思考\u2026": {
   "kind": "str",
   "n": 2,
   "files": [
    "hooks/useStoryScriptAgent.ts"
   ]
  },
- "正在恢复 Skill 任务…": {
+ "正在恢复 Skill 任务\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
    "hooks/useStoryScriptAgent.ts"
   ]
  },
- "正在打包分段素材…": {
+ "正在打包分段素材\u2026": {
   "kind": "str",
   "n": 2,
   "files": [
@@ -13467,7 +13467,7 @@
    "hooks/useEpisodeTimeline.ts"
   ]
  },
- "正在打开{0}…": {
+ "正在打开{0}\u2026": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -13496,35 +13496,35 @@
    "components/steps/StoryboardVideo.tsx"
   ]
  },
- "正在按场次生成分镜脚本…": {
+ "正在按场次生成分镜脚本\u2026": {
   "kind": "str",
   "n": 2,
   "files": [
    "components/steps/StoryboardScript.tsx"
   ]
  },
- "正在推进创作流程…": {
+ "正在推进创作流程\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
    "components/studio/flow/agent/StudioFlowAutoPipelineBanner.tsx"
   ]
  },
- "正在提交创作信息…": {
+ "正在提交创作信息\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
    "hooks/useStoryScriptAgent.ts"
   ]
  },
- "正在提交提取任务…": {
+ "正在提交提取任务\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
    "utils/studio/studioFlowAutoPipelineRunner.ts"
   ]
  },
- "正在提交高清任务…": {
+ "正在提交高清任务\u2026": {
   "kind": "str",
   "n": 2,
   "files": [
@@ -13539,21 +13539,21 @@
    "utils/storyScriptAgentDocumentView.ts"
   ]
  },
- "正在整理多个选段的修改结果…": {
+ "正在整理多个选段的修改结果\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
    "utils/storyScriptAgentReference.ts"
   ]
  },
- "正在整理最终结果…": {
+ "正在整理最终结果\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
    "utils/storyScriptAgentRuntime.ts"
   ]
  },
- "正在暂停…": {
+ "正在暂停\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -13567,7 +13567,7 @@
    "components/common/composer-send/ComposerSendButton.tsx"
   ]
  },
- "正在理解创作目标…": {
+ "正在理解创作目标\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -13582,14 +13582,14 @@
    "components/steps/edit-storyboard-dubbing/derived.ts"
   ]
  },
- "正在生成内容…": {
+ "正在生成内容\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
    "utils/storyScriptAgentRuntime.ts"
   ]
  },
- "正在生成分镜图…": {
+ "正在生成分镜图\u2026": {
   "kind": "jsx",
   "n": 2,
   "files": [
@@ -13597,35 +13597,35 @@
    "components/steps/storyboard-script/StoryboardScriptListView.tsx"
   ]
  },
- "正在生成分镜脚本…": {
+ "正在生成分镜脚本\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
    "utils/studio/studioFlowAutoPipelineRunner.ts"
   ]
  },
- "正在生成分镜视频…": {
+ "正在生成分镜视频\u2026": {
   "kind": "jsx",
   "n": 1,
   "files": [
    "components/steps/storyboard-video/StoryboardVideoBlock.tsx"
   ]
  },
- "正在生成剧本…": {
+ "正在生成剧本\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
    "utils/storyScriptAgentRuntime.ts"
   ]
  },
- "正在生成图片…": {
+ "正在生成图片\u2026": {
   "kind": "str",
   "n": 3,
   "files": [
    "components/create/SeriesAssetDesignModal.tsx"
   ]
  },
- "正在生成场景图…": {
+ "正在生成场景图\u2026": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -13646,7 +13646,7 @@
    "components/steps/edit-storyboard-video/useVideoModalPromptFlows.ts"
   ]
  },
- "正在生成形态图…": {
+ "正在生成形态图\u2026": {
   "kind": "str",
   "n": 2,
   "files": [
@@ -13660,7 +13660,7 @@
    "components/steps/edit-storyboard-image/useStoryboardModalPrompt.ts"
   ]
  },
- "正在生成支付二维码…": {
+ "正在生成支付二维码\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -13674,28 +13674,28 @@
    "components/steps/edit-storyboard-video/useVideoModalPromptFlows.ts"
   ]
  },
- "正在生成角色形态图…": {
+ "正在生成角色形态图\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
    "components/steps/scene-character-prop/useScpSettingCard.ts"
   ]
  },
- "正在生成角色设定卡…": {
+ "正在生成角色设定卡\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
    "components/steps/scene-character-prop/useScpSettingCard.ts"
   ]
  },
- "正在生成道具形态图…": {
+ "正在生成道具形态图\u2026": {
   "kind": "jsx",
   "n": 1,
   "files": [
    "components/steps/scene-character-prop/ScpPropListView.tsx"
   ]
  },
- "正在结束旧连接，随后自动恢复接收…": {
+ "正在结束旧连接，随后自动恢复接收\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -13710,7 +13710,7 @@
    "components/login/useWechatLogin.ts"
   ]
  },
- "正在获取预计费用…": {
+ "正在获取预计费用\u2026": {
   "kind": "jsx",
   "n": 2,
   "files": [
@@ -13718,14 +13718,14 @@
    "components/steps/BatchGenerateStoryboardModal.tsx"
   ]
  },
- "正在识别你的意图…": {
+ "正在识别你的意图\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
    "hooks/useStoryScriptAgent.ts"
   ]
  },
- "正在识别并校验请求…": {
+ "正在识别并校验请求\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -13746,21 +13746,21 @@
    "hooks/studio/useStudioFlowStoryboardImageActions.ts"
   ]
  },
- "正在读取可用模型…": {
+ "正在读取可用模型\u2026": {
   "kind": "jsx",
   "n": 1,
   "files": [
    "components/studio/composer/StudioModelPicker.tsx"
   ]
  },
- "正在读取对话…": {
+ "正在读取对话\u2026": {
   "kind": "jsx",
   "n": 1,
   "files": [
    "components/steps/story-script-agent/StoryScriptAgentPanel.tsx"
   ]
  },
- "正在读取更早对话…": {
+ "正在读取更早对话\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -13788,14 +13788,14 @@
    "components/steps/edit-scene-image/sceneModalInteractionHandlers.ts"
   ]
  },
- "正在进入创作流程…": {
+ "正在进入创作流程\u2026": {
   "kind": "jsx",
   "n": 1,
   "files": [
    "components/app/AppShellOverlay.tsx"
   ]
  },
- "正在进入流程画布…": {
+ "正在进入流程画布\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -13809,7 +13809,7 @@
    "components/create/create-flow-shell/useCreateFlowGlobalTasks.ts"
   ]
  },
- "步骤 · 实体 · 任务 · 交付": {
+ "步骤 \u00b7 实体 \u00b7 任务 \u00b7 交付": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -13844,7 +13844,7 @@
    "components/common/ModelBillingRules.tsx"
   ]
  },
- "每格对应 3×3 拼图中的一个机位，共 9 条，不可为空": {
+ "每格对应 3\u00d73 拼图中的一个机位，共 9 条，不可为空": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -14438,7 +14438,7 @@
    "components/steps/edit-scene-image/useSceneModalTaskRestore.ts"
   ]
  },
- "生图中…": {
+ "生图中\u2026": {
   "kind": "str",
   "n": 2,
   "files": [
@@ -14538,7 +14538,7 @@
    "components/steps/edit-storyboard-image/storyboardModalGenerateCore.ts"
   ]
  },
- "生成中…": {
+ "生成中\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -14890,7 +14890,7 @@
    "components/steps/VoiceTimbrePickerModal.tsx"
   ]
  },
- "画布实体 ·": {
+ "画布实体 \u00b7": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -15520,7 +15520,7 @@
    "components/studio/composer/StudioParamsPopover.tsx"
   ]
  },
- "秒数 · 推荐 {0}s": {
+ "秒数 \u00b7 推荐 {0}s": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -15650,7 +15650,7 @@
    "utils/quill/editorTextSelection.ts"
   ]
  },
- "第 {0} 集 · {1}": {
+ "第 {0} 集 \u00b7 {1}": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -15664,7 +15664,7 @@
    "components/steps/StoryboardScript.tsx"
   ]
  },
- "第 {0}–{1} 行": {
+ "第 {0}\u2013{1} 行": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -15838,7 +15838,7 @@
    "components/studio/flow/composer/StudioFlowRpsAssetComposer.tsx"
   ]
  },
- "素材 · {0}": {
+ "素材 \u00b7 {0}": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -16057,7 +16057,7 @@
    "components/home/WorksLibraryPanel.tsx"
   ]
  },
- "编辑 →": {
+ "编辑 \u2192": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -16678,7 +16678,7 @@
    "components/studio/flow/agent/StudioFlowAgentContextCard.tsx"
   ]
  },
- "节点 ·": {
+ "节点 \u00b7": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -16692,7 +16692,7 @@
    "components/steps/VoiceTimbrePickerModal.tsx"
   ]
  },
- "草稿 · 版本 {0}": {
+ "草稿 \u00b7 版本 {0}": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -16846,7 +16846,7 @@
    "components/common/ModelBillingRules.tsx"
   ]
  },
- "视觉·AID": {
+ "视觉\u00b7AID": {
   "kind": "str",
   "n": 4,
   "files": [
@@ -16886,7 +16886,7 @@
    "components/steps/select-asset-image/PendingImportList.tsx"
   ]
  },
- "视频“{0}”登记失败，请重试": {
+ "视频\u201c{0}\u201d登记失败，请重试": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -16935,7 +16935,7 @@
    "components/steps/video-preview/exportOps.tsx"
   ]
  },
- "视频合成中…": {
+ "视频合成中\u2026": {
   "kind": "str",
   "n": 2,
   "files": [
@@ -16943,7 +16943,7 @@
    "hooks/useEpisodeVideoExport.ts"
   ]
  },
- "视频合成中…{0}": {
+ "视频合成中\u2026{0}": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -17394,7 +17394,7 @@
    "components/steps/scene-character-prop/scpDerivedViewOps.ts"
   ]
  },
- "解析中…": {
+ "解析中\u2026": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -17525,7 +17525,7 @@
    "components/steps/scene-character-prop/scpFormFinalizerOps.ts"
   ]
  },
- "设定卡生成中…": {
+ "设定卡生成中\u2026": {
   "kind": "str",
   "n": 4,
   "files": [
@@ -18107,7 +18107,7 @@
    "components/steps/video-preview/modalOps.ts"
   ]
  },
- "请先在“手机号或邮箱”中绑定一种验证方式。": {
+ "请先在\u201c手机号或邮箱\u201d中绑定一种验证方式。": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -18442,7 +18442,7 @@
    "components/steps/DubbingEditLeftPanel.tsx"
   ]
  },
- "请先通过“本地上传图片”或“资源库导入”导入图片，再点击{0}": {
+ "请先通过\u201c本地上传图片\u201d或\u201c资源库导入\u201d导入图片，再点击{0}": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -19683,7 +19683,7 @@
    "components/studio/flow/composer/StudioFlowStepComposer.tsx"
   ]
  },
- "进入中…": {
+ "进入中\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -20665,14 +20665,14 @@
    "hooks/useStoryboardDubbingGenerate.ts"
   ]
  },
- "配音任务处理中…": {
+ "配音任务处理中\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
    "hooks/storyboardDubbingComposeStatus.ts"
   ]
  },
- "配音任务已提交…": {
+ "配音任务已提交\u2026": {
   "kind": "str",
   "n": 4,
   "files": [
@@ -20742,7 +20742,7 @@
    "components/steps/edit-storyboard-dubbing/derived.ts"
   ]
  },
- "配音生成中…": {
+ "配音生成中\u2026": {
   "kind": "str",
   "n": 5,
   "files": [
@@ -20751,7 +20751,7 @@
    "hooks/useStoryboardDubbingGenerateLegacy.ts"
   ]
  },
- "配音生成中（{0}/{1}）…": {
+ "配音生成中（{0}/{1}）\u2026": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -20862,7 +20862,7 @@
    "components/steps/StoryboardScriptModal.tsx"
   ]
  },
- "重做 (Ctrl/⌘ Shift Z)": {
+ "重做 (Ctrl/\u2318 Shift Z)": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -21103,7 +21103,7 @@
    "components/create/create-flow-shell/CreateFlowToolbar.tsx"
   ]
  },
- "集 ·": {
+ "集 \u00b7": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -21262,7 +21262,7 @@
    "components/app/AppShellOverlay.tsx"
   ]
  },
- "页面切换中…": {
+ "页面切换中\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -21283,7 +21283,7 @@
    "components/app/AppShellOverlay.tsx"
   ]
  },
- "页面加载中…": {
+ "页面加载中\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -21568,14 +21568,14 @@
    "components/steps/edit-storyboard-video/VideoConfigPanel.tsx"
   ]
  },
- "首尾帧视频任务提交中…": {
+ "首尾帧视频任务提交中\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
    "components/steps/edit-storyboard-video/useVideoModalGenerateActions.ts"
   ]
  },
- "首尾帧视频生成中…": {
+ "首尾帧视频生成中\u2026": {
   "kind": "str",
   "n": 3,
   "files": [

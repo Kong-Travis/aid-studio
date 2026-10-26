@@ -13,35 +13,35 @@
    "src/views/aidconfig/aidconfig/index.tsx"
   ]
  },
- " · SKU {0} 条": {
+ " \u00b7 SKU {0} 条": {
   "kind": "tpl",
   "n": 1,
   "files": [
    "src/views/aid/aimanage/ModelCapabilitiesEditor.tsx"
   ]
  },
- " · 价格待完善": {
+ " \u00b7 价格待完善": {
   "kind": "str",
   "n": 1,
   "files": [
    "src/views/aid/aimanage/ModelCapabilitiesEditor.tsx"
   ]
  },
- " · 固定价": {
+ " \u00b7 固定价": {
   "kind": "str",
   "n": 1,
   "files": [
    "src/views/aid/aimanage/ModelCapabilitiesEditor.tsx"
   ]
  },
- " · 成功 {0} / 失败 {1}": {
+ " \u00b7 成功 {0} / 失败 {1}": {
   "kind": "tpl",
   "n": 1,
   "files": [
    "src/views/aid/modelmonitor/index.tsx"
   ]
  },
- " · 未配置协议": {
+ " \u00b7 未配置协议": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -62,7 +62,7 @@
    "src/views/aid/aimanage/ModelParameterPreview.tsx"
   ]
  },
- " 编码后 ≤ {0}MiB；": {
+ " 编码后 \u2264 {0}MiB；": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -449,7 +449,7 @@
    "src/views/aid/aimanage/TokenDanceAccountModal.tsx"
   ]
  },
- "API Key 由保存后的“账户”入口通过 S256 PKCE 安全授权；协议列表由本地模型目录逐模型展示和选择，无需在这里手写协议或 JSON。": {
+ "API Key 由保存后的\u201c账户\u201d入口通过 S256 PKCE 安全授权；协议列表由本地模型目录逐模型展示和选择，无需在这里手写协议或 JSON。": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -1085,7 +1085,7 @@
    "src/views/aid/aimanage/SkuEditor.tsx"
   ]
  },
- "POST · Content-Type: text/plain · 每行一个完整 URL": {
+ "POST \u00b7 Content-Type: text/plain \u00b7 每行一个完整 URL": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -1106,7 +1106,7 @@
    "src/views/monitor/server/CacheOverviewPanel.tsx"
   ]
  },
- "RESOURCE_UNITS · 资源包数量": {
+ "RESOURCE_UNITS \u00b7 资源包数量": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -1267,14 +1267,14 @@
    "src/views/aid/aimanage/SkuEditor.tsx"
   ]
  },
- "SKU 价格表 · 可直接编辑": {
+ "SKU 价格表 \u00b7 可直接编辑": {
   "kind": "jsx",
   "n": 1,
   "files": [
    "src/views/aid/aimanage/ModelRouteBillingEditor.tsx"
   ]
  },
- "SKU 完整配置 · 条件、优先级与附加计费": {
+ "SKU 完整配置 \u00b7 条件、优先级与附加计费": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -1323,7 +1323,7 @@
    "src/views/aid/aimanage/ModelCapabilitiesEditor.tsx"
   ]
  },
- "SKU 计费 ·": {
+ "SKU 计费 \u00b7": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -1750,56 +1750,56 @@
    "src/views/aid/aimanage/billingSummary.ts"
   ]
  },
- "{0} · 上游运营": {
+ "{0} \u00b7 上游运营": {
   "kind": "tpl",
   "n": 1,
   "files": [
    "src/views/aid/aimanage/ProviderOperationsModal.tsx"
   ]
  },
- "{0} · 仅展示当前模型已声明的参数与硬约束": {
+ "{0} \u00b7 仅展示当前模型已声明的参数与硬约束": {
   "kind": "tpl",
   "n": 1,
   "files": [
    "src/views/aid/voicelibrary/VoiceWorkbenchWizard.tsx"
   ]
  },
- "{0} · 在线模型目录": {
+ "{0} \u00b7 在线模型目录": {
   "kind": "tpl",
   "n": 1,
   "files": [
    "src/views/aid/aimanage/TokenDanceCatalogModal.tsx"
   ]
  },
- "{0} · 导入预览": {
+ "{0} \u00b7 导入预览": {
   "kind": "tpl",
   "n": 1,
   "files": [
    "src/views/aid/aimanage/TokenDanceCatalogModal.tsx"
   ]
  },
- "{0} · 版本包": {
+ "{0} \u00b7 版本包": {
   "kind": "tpl",
   "n": 1,
   "files": [
    "src/views/aid/skill/SkillPackageManager.tsx"
   ]
  },
- "{0} · 稳定身份": {
+ "{0} \u00b7 稳定身份": {
   "kind": "tpl",
   "n": 1,
   "files": [
    "src/views/aid/skill/index.tsx"
   ]
  },
- "{0} · 账户与模型": {
+ "{0} \u00b7 账户与模型": {
   "kind": "tpl",
   "n": 1,
   "files": [
    "src/views/aid/aimanage/NewApiAccountModal.tsx"
   ]
  },
- "{0} · 账户管理": {
+ "{0} \u00b7 账户管理": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -2165,77 +2165,77 @@
    "src/views/aid/aimanage/ModelDialog.tsx"
   ]
  },
- "· 异常": {
+ "\u00b7 异常": {
   "kind": "jsx",
   "n": 1,
   "files": [
    "src/views/aid/modelmonitor/index.tsx"
   ]
  },
- "· 执行前会自动备份程序、配置和数据库": {
+ "\u00b7 执行前会自动备份程序、配置和数据库": {
   "kind": "jsx",
   "n": 1,
   "files": [
    "src/views/aidconfig/upgrade/index.tsx"
   ]
  },
- "· 无调用": {
+ "\u00b7 无调用": {
   "kind": "jsx",
   "n": 1,
   "files": [
    "src/views/aid/modelmonitor/index.tsx"
   ]
  },
- "· 等待线程": {
+ "\u00b7 等待线程": {
   "kind": "jsx",
   "n": 1,
   "files": [
    "src/views/monitor/job/index.tsx"
   ]
  },
- "· 账号:": {
+ "\u00b7 账号:": {
   "kind": "jsx",
   "n": 1,
   "files": [
    "src/views/aid/extenduserprofile/index.tsx"
   ]
  },
- "· 降级": {
+ "\u00b7 降级": {
   "kind": "jsx",
   "n": 1,
   "files": [
    "src/views/aid/modelmonitor/index.tsx"
   ]
  },
- "“接口已接收”只表示百度提交接口已接受链接，不等同于已经收录或获得排名。": {
+ "\u201c接口已接收\u201d只表示百度提交接口已接受链接，不等同于已经收录或获得排名。": {
   "kind": "str",
   "n": 1,
   "files": [
    "src/views/aid/seo/index.tsx"
   ]
  },
- "”，页面仍展示音画同步能力，但请求不会携带": {
+ "\u201d，页面仍展示音画同步能力，但请求不会携带": {
   "kind": "jsx",
   "n": 1,
   "files": [
    "src/views/aid/aimanage/CapabilityEditor.tsx"
   ]
  },
- "← 全部移除": {
+ "\u2190 全部移除": {
   "kind": "jsx",
   "n": 1,
   "files": [
    "src/views/aid/aimanage/SyncVoiceModal.tsx"
   ]
  },
- "← 移除": {
+ "\u2190 移除": {
   "kind": "jsx",
   "n": 1,
   "files": [
    "src/views/aid/aimanage/SyncVoiceModal.tsx"
   ]
  },
- "✓ 命中：": {
+ "\u2713 命中：": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -2969,7 +2969,7 @@
    "src/views/aid/aimanage/TokenDanceCatalogModal.tsx"
   ]
  },
- "不兼容 AID · 禁止导入": {
+ "不兼容 AID \u00b7 禁止导入": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -3430,7 +3430,7 @@
    "src/views/aid/funcconfig/ModelPoolSelector.tsx"
   ]
  },
- "个启用调用协议 · 单模型倍率 ×": {
+ "个启用调用协议 \u00b7 单模型倍率 \u00d7": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -4375,14 +4375,14 @@
    "src/views/aidconfig/aidconfig/maps.ts"
   ]
  },
- "任务队列 · 全局并发上限": {
+ "任务队列 \u00b7 全局并发上限": {
   "kind": "str",
   "n": 1,
   "files": [
    "src/views/aidconfig/aidconfig/maps.ts"
   ]
  },
- "任务队列 · 单用户默认并发上限": {
+ "任务队列 \u00b7 单用户默认并发上限": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -4977,7 +4977,7 @@
    "src/views/aid/providerbalance/index.tsx"
   ]
  },
- "供应商余额监控 · 全局设置": {
+ "供应商余额监控 \u00b7 全局设置": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -5687,7 +5687,7 @@
    "src/views/aid/aimanage/TokenDanceCatalogModal.tsx"
   ]
  },
- "允许设置 1—3650 天，仅在上方限制开关开启时生效，默认 15 天。": {
+ "允许设置 1\u20143650 天，仅在上方限制开关开启时生效，默认 15 天。": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -5731,7 +5731,7 @@
    "src/views/aid/aimanage/TokenDanceAccountModal.tsx"
   ]
  },
- "元 ×": {
+ "元 \u00d7": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -6087,7 +6087,7 @@
    "src/views/aid/funcconfig/ModelPoolSelector.tsx"
   ]
  },
- "全部添加 →": {
+ "全部添加 \u2192": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -7624,7 +7624,7 @@
    "src/views/aid/aimanage/SyncVoiceModal.tsx"
   ]
  },
- "加载中…": {
+ "加载中\u2026": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -8414,7 +8414,7 @@
    "src/views/aid/aimanage/OfficialGatewayCard.tsx"
   ]
  },
- "厂商 ·": {
+ "厂商 \u00b7": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -8619,7 +8619,7 @@
    "src/views/aidconfig/aidconfig/maps.ts"
   ]
  },
- "去申请 →": {
+ "去申请 \u2192": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -9497,7 +9497,7 @@
    "src/views/aid/skill/SkillPackageManager.tsx"
   ]
  },
- "只接受参考音频并自动完成音画同步的渠道模型选择“": {
+ "只接受参考音频并自动完成音画同步的渠道模型选择\u201c": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -9645,7 +9645,7 @@
    "src/views/aid/aimanage/CapabilityEditor.tsx"
   ]
  },
- "可暂不填写；保存后在“账户与模型”中选择或创建本站 API Key。": {
+ "可暂不填写；保存后在\u201c账户与模型\u201d中选择或创建本站 API Key。": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -9738,7 +9738,7 @@
    "src/views/aid/aimanage/TokenDanceAccountModal.tsx"
   ]
  },
- "可用余额 · {0}": {
+ "可用余额 \u00b7 {0}": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -10225,7 +10225,7 @@
    "src/views/aidconfig/upgrade/NginxPanel.tsx"
   ]
  },
- "后端禁止手动新增/编辑 MiniMax 服务商下的音色，否则同步会覆盖你的改动。请前往 AI 管理 → 对应服务商 → 点击\"同步音色\"。": {
+ "后端禁止手动新增/编辑 MiniMax 服务商下的音色，否则同步会覆盖你的改动。请前往 AI 管理 \u2192 对应服务商 \u2192 点击\"同步音色\"。": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -10716,7 +10716,7 @@
    "src/views/aid/aimanage/ModelDialog.tsx"
   ]
  },
- "固定价 ·": {
+ "固定价 \u00b7": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -11009,14 +11009,14 @@
    "src/views/aid/aimanage/CapabilityEditor.tsx"
   ]
  },
- "图片模型 · 性能模式": {
+ "图片模型 \u00b7 性能模式": {
   "kind": "str",
   "n": 1,
   "files": [
    "src/views/aidconfig/aidconfig/maps.ts"
   ]
  },
- "图片模型 · 经济模式": {
+ "图片模型 \u00b7 经济模式": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -11505,7 +11505,7 @@
    "src/views/aid/voicelibrary/VoiceWorkbenchWizard.tsx"
   ]
  },
- "填写后 API 密钥下方出现「去申请 →」按钮": {
+ "填写后 API 密钥下方出现「去申请 \u2192」按钮": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -12161,7 +12161,7 @@
    "src/views/aidconfig/aidconfig/UploadTypeLimitsField.tsx"
   ]
  },
- "如 官方$0.005/秒×700": {
+ "如 官方$0.005/秒\u00d7700": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -12203,7 +12203,7 @@
    "src/views/aid/error-handling/index.tsx"
   ]
  },
- "如果下载文件名以 .tar 结尾，把命令中的 .tar.gz 改为 .tar。执行完成后回到本页点击“刷新状态”确认文件数量和总大小。": {
+ "如果下载文件名以 .tar 结尾，把命令中的 .tar.gz 改为 .tar。执行完成后回到本页点击\u201c刷新状态\u201d确认文件数量和总大小。": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -12372,14 +12372,14 @@
    "src/views/aidconfig/aidconfig/maps.ts"
   ]
  },
- "媒体生成 · 全局并发上限": {
+ "媒体生成 \u00b7 全局并发上限": {
   "kind": "str",
   "n": 1,
   "files": [
    "src/views/aidconfig/aidconfig/maps.ts"
   ]
  },
- "媒体生成 · 单用户并发上限": {
+ "媒体生成 \u00b7 单用户并发上限": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -12850,7 +12850,7 @@
    "src/views/aid/aimanage/SkuEditor.tsx"
   ]
  },
- "官方原价 × 模型基础倍率 × 单模型倍率 = 最终预扣积分": {
+ "官方原价 \u00d7 模型基础倍率 \u00d7 单模型倍率 = 最终预扣积分": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -12899,7 +12899,7 @@
    "src/views/aidconfig/upgrade/index.tsx"
   ]
  },
- "官方基础价 → 余额单位倍率": {
+ "官方基础价 \u2192 余额单位倍率": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -13692,7 +13692,7 @@
    "src/views/aidconfig/upgrade/index.tsx"
   ]
  },
- "将使用当前已同步的短信渠道向目标手机号发送测试验证码；短信宝返回“已受理”不等于运营商已送达。": {
+ "将使用当前已同步的短信渠道向目标手机号发送测试验证码；短信宝返回\u201c已受理\u201d不等于运营商已送达。": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -13713,7 +13713,7 @@
    "src/views/monitor/druid/index.tsx"
   ]
  },
- "将把所有下架时间已过期（offline_time ≤ 当前时间）的音色软删除。此操作不可撤销，确认继续？": {
+ "将把所有下架时间已过期（offline_time \u2264 当前时间）的音色软删除。此操作不可撤销，确认继续？": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -14250,7 +14250,7 @@
    "src/views/aid/aimanage/ModelTemplatePicker.tsx"
   ]
  },
- "已启用 · 全局厂商走官方网关": {
+ "已启用 \u00b7 全局厂商走官方网关": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -14880,7 +14880,7 @@
    "src/views/aid/voicelibrary/index.tsx"
   ]
  },
- "已选 {0} 项 · 默认：{1}": {
+ "已选 {0} 项 \u00b7 默认：{1}": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -15388,7 +15388,7 @@
    "src/views/aidconfig/aidconfig/ShotDensityField.tsx"
   ]
  },
- "建议尺寸 200 × 200 以上": {
+ "建议尺寸 200 \u00d7 200 以上": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -16056,7 +16056,7 @@
    "src/views/aidconfig/upgrade/NginxPanel.tsx"
   ]
  },
- "当前账号没有“{0}”查看权限": {
+ "当前账号没有\u201c{0}\u201d查看权限": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -16594,21 +16594,21 @@
    "src/views/aid/aidcomicasset/index.tsx"
   ]
  },
- "性能·智能体": {
+ "性能\u00b7智能体": {
   "kind": "str",
   "n": 1,
   "files": [
    "src/views/aid/genagentpool/index.tsx"
   ]
  },
- "性能·模型": {
+ "性能\u00b7模型": {
   "kind": "str",
   "n": 1,
   "files": [
    "src/views/aid/genagentpool/index.tsx"
   ]
  },
- "性能·清晰度/比例": {
+ "性能\u00b7清晰度/比例": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -16645,14 +16645,14 @@
    "src/views/aid/voicelibrary/VoiceWorkbenchWizard.tsx"
   ]
  },
- "总像素按宽×高计算，宽高比按宽÷高计算；留空表示官方未公布，不能据此推测上下限。": {
+ "总像素按宽\u00d7高计算，宽高比按宽\u00f7高计算；留空表示官方未公布，不能据此推测上下限。": {
   "kind": "jsx",
   "n": 1,
   "files": [
    "src/views/aid/aimanage/CapabilityEditor.tsx"
   ]
  },
- "总像素数按宽×高计算，与最小/最大边长是不同约束；只填写官方明确公开的硬约束，没有可靠资料时保持留空。": {
+ "总像素数按宽\u00d7高计算，与最小/最大边长是不同约束；只填写官方明确公开的硬约束，没有可靠资料时保持留空。": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -17805,7 +17805,7 @@
    "src/views/aid/aimanage/ModelCapabilitiesEditor.tsx"
   ]
  },
- "按照“模型供给 → 智能体封装 → 策略路由”组织生成能力；统一入口不改变各领域的数据边界和权限边界。": {
+ "按照\u201c模型供给 \u2192 智能体封装 \u2192 策略路由\u201d组织生成能力；统一入口不改变各领域的数据边界和权限边界。": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -18002,7 +18002,7 @@
    "src/views/aid/aimanage/TokenDanceAccountModal.tsx"
   ]
  },
- "授权账户 → 导入模型 → 核对并启用": {
+ "授权账户 \u2192 导入模型 \u2192 核对并启用": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -18402,7 +18402,7 @@
    "src/views/aid/seo/index.tsx"
   ]
  },
- "提交记录 · {0}": {
+ "提交记录 \u00b7 {0}": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -19563,14 +19563,14 @@
    "src/views/aidconfig/aidconfig/ProjectGenConfigField.tsx"
   ]
  },
- "文字模型 · 性能模式": {
+ "文字模型 \u00b7 性能模式": {
   "kind": "str",
   "n": 1,
   "files": [
    "src/views/aidconfig/aidconfig/maps.ts"
   ]
  },
- "文字模型 · 经济模式": {
+ "文字模型 \u00b7 经济模式": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -20632,7 +20632,7 @@
    "src/views/aid/orchestration/index.tsx"
   ]
  },
- "智能体加载中…": {
+ "智能体加载中\u2026": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -21472,7 +21472,7 @@
    "src/views/aid/aimanage/ModelCapabilitiesEditor.tsx"
   ]
  },
- "最终积分 = SKU 官方原价（元）× 模型基础倍率 × 单模型倍率；公众号金额 = 积分 ÷ 本倍率。": {
+ "最终积分 = SKU 官方原价（元）\u00d7 模型基础倍率 \u00d7 单模型倍率；公众号金额 = 积分 \u00f7 本倍率。": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -21515,7 +21515,7 @@
    "src/views/aid/error-handling/index.tsx"
   ]
  },
- "最近任务 · {0}": {
+ "最近任务 \u00b7 {0}": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -21981,7 +21981,7 @@
    "src/views/aidconfig/upgrade/index.tsx"
   ]
  },
- "未启用 · 各厂商使用自有网关": {
+ "未启用 \u00b7 各厂商使用自有网关": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -22237,14 +22237,14 @@
    "src/views/aid/errorrule/RuleTester.tsx"
   ]
  },
- "未识别 →": {
+ "未识别 \u2192": {
   "kind": "jsx",
   "n": 2,
   "files": [
    "src/views/aid/errorlog/index.tsx"
   ]
  },
- "未识别 → 兜底": {
+ "未识别 \u2192 兜底": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -22594,14 +22594,14 @@
    "src/views/aid/aimanage/ProviderOperationsModal.tsx"
   ]
  },
- "条 · 矩阵": {
+ "条 \u00b7 矩阵": {
   "kind": "jsx",
   "n": 1,
   "files": [
    "src/views/aid/funcconfig/confirmModelPoolRemoval.tsx"
   ]
  },
- "条 · 项目": {
+ "条 \u00b7 项目": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -22839,7 +22839,7 @@
    "src/views/aidconfig/aidconfig/ShotDensityField.tsx"
   ]
  },
- "标准模式最低镜头数 = 精简下限 × 该比例（向上取整）。须大于 1，与提示词「精简≈标准的60%-70%」换算一致，默认 1.5。": {
+ "标准模式最低镜头数 = 精简下限 \u00d7 该比例（向上取整）。须大于 1，与提示词「精简\u2248标准的60%-70%」换算一致，默认 1.5。": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -22861,7 +22861,7 @@
    "src/views/system/dict/DictManager.tsx"
   ]
  },
- "标签会显示在复制来源项目上；留空将恢复默认“复制”。": {
+ "标签会显示在复制来源项目上；留空将恢复默认\u201c复制\u201d。": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -23040,7 +23040,7 @@
    "src/views/aidconfig/aidconfig/TencentAsrSection.tsx"
   ]
  },
- "档位 {0} · 像素上限": {
+ "档位 {0} \u00b7 像素上限": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -23194,7 +23194,7 @@
    "src/views/aid/providerbalance/index.tsx"
   ]
  },
- "概括平台定位与核心能力，建议 80—160 个字": {
+ "概括平台定位与核心能力，建议 80\u2014160 个字": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -23231,7 +23231,7 @@
    "src/views/aid/aimanage/TokenDanceCatalogModal.tsx"
   ]
  },
- "模型 ·": {
+ "模型 \u00b7": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -23245,7 +23245,7 @@
    "src/views/aid/genrecord/index.tsx"
   ]
  },
- "模型“{0}”与模型池“{1}”没有兼容能力": {
+ "模型\u201c{0}\u201d与模型池\u201c{1}\u201d没有兼容能力": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -23302,7 +23302,7 @@
    "src/views/aid/funcconfig/FunctionCapabilityEditor.tsx"
   ]
  },
- "模型业务能力 ·": {
+ "模型业务能力 \u00b7": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -23619,7 +23619,7 @@
    "src/views/aid/providerbalance/index.tsx"
   ]
  },
- "模拟余额入账 · {0}": {
+ "模拟余额入账 \u00b7 {0}": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -23902,7 +23902,7 @@
    "src/views/aid/aimanage/ModelCapabilitiesEditor.tsx"
   ]
  },
- "正在获取最新状态…": {
+ "正在获取最新状态\u2026": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -24032,7 +24032,7 @@
    "src/views/aidconfig/upgrade/index.tsx"
   ]
  },
- "每个「创作模式 × 剧本类型」是一个组合；经济/性能各选默认智能体与模型，可再加额外候选进可选池。": {
+ "每个「创作模式 \u00d7 剧本类型」是一个组合；经济/性能各选默认智能体与模型，可再加额外候选进可选池。": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -24772,7 +24772,7 @@
    "src/views/aid/aimanage/CapabilityEditor.tsx"
   ]
  },
- "添加 →": {
+ "添加 \u2192": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -25392,7 +25392,7 @@
    "src/views/system/role/index.tsx"
   ]
  },
- "片段字数 ÷ 每镜字数": {
+ "片段字数 \u00f7 每镜字数": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -26417,7 +26417,7 @@
    "src/views/aidconfig/aidconfig/MediaProcessSection.tsx"
   ]
  },
- "留空使用官方源。修改后保存，再点击页面顶部“检查更新”验证连通性。": {
+ "留空使用官方源。修改后保存，再点击页面顶部\u201c检查更新\u201d验证连通性。": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -27089,7 +27089,7 @@
    "src/views/aidconfig/aidconfig/maps.ts"
   ]
  },
- "短信宝 · 轻量 HTTP 短信通道": {
+ "短信宝 \u00b7 轻量 HTTP 短信通道": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -27794,7 +27794,7 @@
    "src/views/aid/providerbalance/index.tsx"
   ]
  },
- "秒； 采样率 ≥": {
+ "秒； 采样率 \u2265": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -28702,35 +28702,35 @@
    "src/views/aidconfig/aidconfig/ShotDensityField.tsx"
   ]
  },
- "细拆模式最低镜头数 = 精简下限 × 该比例（向上取整）。须大于标准比例，与提示词「细拆≈标准的130%-150%」换算一致，默认 2.0。": {
+ "细拆模式最低镜头数 = 精简下限 \u00d7 该比例（向上取整）。须大于标准比例，与提示词「细拆\u2248标准的130%-150%」换算一致，默认 2.0。": {
   "kind": "str",
   "n": 1,
   "files": [
    "src/views/aidconfig/aidconfig/ShotDensityField.tsx"
   ]
  },
- "经济 → 性能": {
+ "经济 \u2192 性能": {
   "kind": "jsx",
   "n": 1,
   "files": [
    "src/views/aidconfig/aidconfig/ProjectGenConfigField.tsx"
   ]
  },
- "经济·智能体": {
+ "经济\u00b7智能体": {
   "kind": "str",
   "n": 1,
   "files": [
    "src/views/aid/genagentpool/index.tsx"
   ]
  },
- "经济·模型": {
+ "经济\u00b7模型": {
   "kind": "str",
   "n": 1,
   "files": [
    "src/views/aid/genagentpool/index.tsx"
   ]
  },
- "经济·清晰度/比例": {
+ "经济\u00b7清晰度/比例": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -28910,7 +28910,7 @@
    "src/views/aid/aimanage/ProviderDialog.tsx"
   ]
  },
- "统一参数 → 厂商参数，仅当厂商字段名与系统标准参数不一致时配置": {
+ "统一参数 \u2192 厂商参数，仅当厂商字段名与系统标准参数不一致时配置": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -29504,7 +29504,7 @@
    "src/views/aidconfig/aidconfig/MediaProcessSection.tsx"
   ]
  },
- "腾讯云 MPS 使用“腾讯云媒体服务”的独立处理 COS{0}，网站可以使用其他存储；阿里云 IMS 沿用网站 OSS，本地 FFmpeg 仍可单独使用。处理结果会回存到网站当前存储。": {
+ "腾讯云 MPS 使用\u201c腾讯云媒体服务\u201d的独立处理 COS{0}，网站可以使用其他存储；阿里云 IMS 沿用网站 OSS，本地 FFmpeg 仍可单独使用。处理结果会回存到网站当前存储。": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -31529,7 +31529,7 @@
    "src/views/aidconfig/upgrade/index.tsx"
   ]
  },
- "请到“当前与历史”中核对版本内容，再执行切换。": {
+ "请到\u201c当前与历史\u201d中核对版本内容，再执行切换。": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -31895,7 +31895,7 @@
    "src/views/system/dept/index.tsx"
   ]
  },
- "请输入 1–{0} 的整数": {
+ "请输入 1\u2013{0} 的整数": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -31987,7 +31987,7 @@
    "src/views/aid/publishmanage/index.tsx"
   ]
  },
- "请输入内容…": {
+ "请输入内容\u2026": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -32713,7 +32713,7 @@
    "src/views/aidconfig/aidconfig/ProjectGenConfigField.tsx"
   ]
  },
- "请选择模型“{0}”在模型池“{1}”中的能力和默认能力": {
+ "请选择模型\u201c{0}\u201d在模型池\u201c{1}\u201d中的能力和默认能力": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -33352,7 +33352,7 @@
    "src/views/aidconfig/aidconfig/index.tsx"
   ]
  },
- "资源访问地址必须是 Bucket 绑定的下载域名或 CDN 域名，只填写协议和域名， 例如 https://cdn.example.com。页面展示继续使用该地址；提交外部大模型时， 系统才按“模型临时链接有效期”动态生成签名 URL。": {
+ "资源访问地址必须是 Bucket 绑定的下载域名或 CDN 域名，只填写协议和域名， 例如 https://cdn.example.com。页面展示继续使用该地址；提交外部大模型时， 系统才按\u201c模型临时链接有效期\u201d动态生成签名 URL。": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -33583,7 +33583,7 @@
    "src/views/aid/aimanage/SkuEditor.tsx"
   ]
  },
- "输入 → 输出": {
+ "输入 \u2192 输出": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -34417,7 +34417,7 @@
    "src/views/aid/providerbalance/index.tsx"
   ]
  },
- "这里不修改供应商密钥、计费规则和模型能力，底层模型仍在“AI模型管理”中维护。": {
+ "这里不修改供应商密钥、计费规则和模型能力，底层模型仍在\u201cAI模型管理\u201d中维护。": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -34543,7 +34543,7 @@
    "src/views/aidconfig/aidconfig/TencentMediaCosSection.tsx"
   ]
  },
- "连接检查请先在“COS 配置”完成；真实处理请使用对应模型的测试入口。真实测试会产生腾讯云费用。": {
+ "连接检查请先在\u201cCOS 配置\u201d完成；真实处理请使用对应模型的测试入口。真实测试会产生腾讯云费用。": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -35314,7 +35314,7 @@
    "src/views/aid/providerbalance/index.tsx"
   ]
  },
- "配置 · {0}": {
+ "配置 \u00b7 {0}": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -35448,7 +35448,7 @@
    "src/views/aidconfig/upgrade/index.tsx"
   ]
  },
- "配置组合 · {0}": {
+ "配置组合 \u00b7 {0}": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -36153,7 +36153,7 @@
    "src/components/RightToolbar/index.tsx"
   ]
  },
- "集 ·": {
+ "集 \u00b7": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -36209,7 +36209,7 @@
    "src/views/monitor/server/CacheOverviewPanel.tsx"
   ]
  },
- "需为 8–128 位，以字母开头、字母或数字结尾，仅含字母、数字、下划线或横线": {
+ "需为 8\u2013128 位，以字母开头、字母或数字结尾，仅含字母、数字、下划线或横线": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -36601,7 +36601,7 @@
    "src/views/aid/audioasset/index.tsx"
   ]
  },
- "页 · 本页": {
+ "页 \u00b7 本页": {
   "kind": "jsx",
   "n": 1,
   "files": [
@@ -36629,7 +36629,7 @@
    "src/views/aid/seo/index.tsx"
   ]
  },
- "页面仅显示地域与桶。点击“保存配置”后，服务端复制网站当前凭证并验证读写；取消可点“刷新”。": {
+ "页面仅显示地域与桶。点击\u201c保存配置\u201d后，服务端复制网站当前凭证并验证读写；取消可点\u201c刷新\u201d。": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -36678,7 +36678,7 @@
    "src/views/aid/seo/index.tsx"
   ]
  },
- "页面未单独维护描述时使用，建议 80–160 个字符": {
+ "页面未单独维护描述时使用，建议 80\u2013160 个字符": {
   "kind": "str",
   "n": 1,
   "files": [
@@ -36767,7 +36767,7 @@
    "src/views/aid/audit/index.tsx"
   ]
  },
- "项目ID：{0} · 用户ID：{1} · 当前步骤：{2}": {
+ "项目ID：{0} \u00b7 用户ID：{1} \u00b7 当前步骤：{2}": {
   "kind": "tpl",
   "n": 1,
   "files": [
@@ -36950,7 +36950,7 @@
    "src/views/aid/publishmanage/index.tsx"
   ]
  },
- "预览与后端计算公式完全一致；「≥」表示只可多不可少，实际镜头数由 AI 在此之上按剧情节拍决定": {
+ "预览与后端计算公式完全一致；「\u2265」表示只可多不可少，实际镜头数由 AI 在此之上按剧情节拍决定": {
   "kind": "str",
   "n": 1,
   "files": [

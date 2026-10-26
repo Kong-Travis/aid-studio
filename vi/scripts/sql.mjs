@@ -7,7 +7,7 @@
 //   node vi/scripts/sql.mjs build     writes vi/sql/vi-labels.sql (run after every upstream SQL upgrade)
 import fs from 'node:fs'
 import path from 'node:path'
-import { REPO, readDict } from './lib/dict.mjs'
+import { REPO, readDict, stringifyClean } from './lib/dict.mjs'
 
 const HAN = /\p{Script=Han}/u
 const TARGETS = {
@@ -78,7 +78,7 @@ if (cmd === 'extract') {
     }
   }
   const sorted = Object.fromEntries(Object.keys(all).sort().map((k) => [k, all[k]]))
-  fs.writeFileSync(path.join(REPO, 'vi/catalog/sql.json'), JSON.stringify(sorted, null, 1) + '\n')
+  fs.writeFileSync(path.join(REPO, 'vi/catalog/sql.json'), stringifyClean(sorted) + '\n')
   console.log(`sql: ${Object.keys(sorted).length} menu and dictionary labels`)
 } else if (cmd === 'build') {
   const dict = readDict()
