@@ -54,7 +54,10 @@ vi/scripts/build.sh
 ```
 
 Database: sau khi chạy `sql/aid-init.sql` hoặc file nâng cấp của upstream, chạy thêm
-`vi/sql/vi-labels.sql`. Chạy lại nhiều lần vẫn an toàn.
+`vi/sql/vi-labels.sql` (luôn chạy sau SQL của upstream). Chạy lại nhiều lần vẫn an toàn. Nhãn từ
+điển dữ liệu được backend cache trong Redis, nên sau đó vào trang quản lý từ điển bấm làm mới cache,
+hoặc khởi động lại backend. SQL nâng cấp của upstream tìm menu theo `perms` chứ không theo tên, nên
+việc đổi tên menu sang tiếng Việt không ảnh hưởng tới các lần nâng cấp sau.
 
 Lưu ý: bộ cài/updater chính thức (`deploy/`) tải mã nguồn từ repo gốc `gzxx-2025`, nên sẽ ra bản
 tiếng Trung. Với bản tiếng Việt, hãy deploy thư mục build ở trên vào chỗ của frontend (nginx).
