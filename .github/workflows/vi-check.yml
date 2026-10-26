@@ -1,0 +1,91 @@
+name: Vietnamese build
+
+# Fork-only workflow: proves the Vietnamese rewrite still typechecks and builds on top of the
+# current upstream code. Upstream's own unit tests run on the untranslated sources in their
+# workflows; several of them assert Chinese UI text, so they are not run on the translated copy.
+
+on:
+  push:
+    branches:
+      - vi
+      - "sync/**"
+  pull_request:
+    branches:
+      - vi
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-vi:
+    name: Translate, typecheck and build
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22.22.0"
+          cache: npm
+          cache-dependency-path: |
+            frontend/web/package-lock.json
+            frontend/admin/package-lock.json
+
+      - name: Use locked npm version
+        run: npm install --global npm@10.9.4
+
+      - name: Install dependencies
+        run: |
+          npm ci --no-audit --no-fund --prefix frontend/web
+          npm ci --no-audit --no-fund --prefix frontend/admin
+
+      - name: Refresh catalog and report untranslated strings
+        run: |
+          node vi/scripts/extract.mjs --missing vi-missing.json | tee vi-extract.txt
+          node vi/scripts/sql.mjs extract
+          if ! git diff --quiet -- vi/catalog; then
+            echo "::warning::vi/catalog is stale: run vi/scripts/sync.sh or extract.mjs and commit the catalog"
+          fi
+
+      - name: Apply translations in place
+        run: node vi/scripts/apply.mjs all --in-place --strict | tee vi-apply.txt
+
+      - name: Typecheck translated apps
+        run: |
+          npm run typecheck --prefix frontend/web
+          npm run typecheck --prefix frontend/admin
+
+      - name: Build admin
+        run: npm run build --prefix frontend/admin
+
+      - name: Build web (static export)
+        working-directory: frontend/web
+        run: |
+          npm run generate
+          test -f dist/public/index.html
+
+      - name: Summary
+        if: always()
+        run: |
+          {
+            echo "### Vietnamese build"
+            echo '```'
+            cat vi-extract.txt vi-apply.txt 2>/dev/null || true
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload untranslated strings
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: vi-missing
+          path: vi-missing.json
+          if-no-files-found: ignore

@@ -5,6 +5,7 @@
 //   node vi/scripts/apply.mjs web                  copy to vi/build/web and rewrite there
 //   node vi/scripts/apply.mjs all --out /tmp/x     choose the output root
 //   node vi/scripts/apply.mjs all --in-place       rewrite the checkout itself (CI and release builds only)
+//   add --strict to exit non-zero when a locale patch no longer matches upstream
 import fs from 'node:fs'
 import path from 'node:path'
 import { APPS, loadTypeScript, scanApp } from './lib/scan.mjs'
@@ -14,6 +15,8 @@ import { PATCHES } from '../patches.mjs'
 const args = process.argv.slice(2)
 const which = args[0] && !args[0].startsWith('--') ? args[0] : 'all'
 const inPlace = args.includes('--in-place')
+const strict = args.includes('--strict')
+let stalePatches = 0
 const outRoot = path.resolve(args.includes('--out') ? args[args.indexOf('--out') + 1] : path.join(REPO, 'vi/build'))
 const names = which === 'all' ? Object.keys(APPS) : [which]
 for (const n of names) if (!APPS[n]) throw new Error(`unknown app "${n}", expected ${Object.keys(APPS).join('|')}|all`)
@@ -124,5 +127,7 @@ for (const name of names) {
     fs.writeFileSync(file, text.split(p.find).join(p.replace))
   }
   console.log(`${name}: rewrote ${stats.files} files, ${stats.hit} strings translated, ${stats.miss} left in Chinese, ` +
-    `${(PATCHES[name] ?? []).length - patchMiss} patches applied -> ${path.relative(REPO, dst) || '.'}`)
+    `${(PATCHES[name] ?? []).length - patchMiss} patches applied -> ${dst}`)
+  stalePatches += patchMiss
 }
+if (strict && stalePatches) process.exit(3)

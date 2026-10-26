@@ -1,0 +1,36 @@
+name: Upstream release watch
+
+# Fork-only workflow: fails (so GitHub notifies the fork owner) when upstream has published a
+# release tag that is not merged into the vi branch yet. The merge itself is done locally with
+# vi/scripts/sync.sh, because upstream releases also change .github/workflows.
+
+on:
+  schedule:
+    - cron: "17 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout vi with history
+        uses: actions/checkout@v4
+        with:
+          ref: vi
+          fetch-depth: 0
+
+      - name: Compare with upstream release tags
+        run: |
+          git fetch --quiet --tags https://github.com/gzxx-2025/aid-studio.git
+          latest=$(git tag -l 'v*' --sort=-v:refname | head -n 1)
+          echo "Latest upstream tag: $latest"
+          if git merge-base --is-ancestor "$latest" HEAD; then
+            echo "vi already contains $latest"
+          else
+            echo "::error::Upstream released $latest. Run: vi/scripts/sync.sh $latest"
+            exit 1
+          fi
