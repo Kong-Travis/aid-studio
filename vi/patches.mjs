@@ -6,7 +6,9 @@ export const PATCHES = {
     { why: 'dayjs locale import', file: 'src/App.tsx', find: "import 'dayjs/locale/zh-cn';", replace: "import 'dayjs/locale/vi';" },
     { why: 'dayjs locale', file: 'src/App.tsx', find: "dayjs.locale('zh-cn');", replace: "dayjs.locale('vi');" },
     { why: 'html lang', file: 'index.html', find: '<html lang="zh-CN">', replace: '<html lang="vi">' },
-    { why: 'document title', file: 'index.html', find: '<title>管理系统</title>', replace: '<title>Hệ thống quản trị</title>' }
+    { why: 'document title', file: 'index.html', find: '<title>管理系统</title>', replace: '<title>Hệ thống quản trị</title>' },
+    { why: 'app title (production)', file: '.env.production', find: 'VITE_APP_TITLE = AID 管理系统', replace: 'VITE_APP_TITLE = AID - Hệ thống quản trị' },
+    { why: 'app title (development)', file: '.env.development', find: 'VITE_APP_TITLE = AID 管理系统', replace: 'VITE_APP_TITLE = AID - Hệ thống quản trị' }
   ],
   web: [
     { why: 'html lang', file: 'app/layout.tsx', find: '<html lang="zh-CN">', replace: '<html lang="vi">' },

@@ -80,8 +80,11 @@ if (cmd === 'split') {
       const zh = ids[id]
       if (zh == null) { problems.push(`${f}: unknown id ${id}`); continue }
       // Translators may drop edge spaces; restore the source's own (" 积分" after a number).
+      // Full-width CJK punctuation carries its own spacing; an ASCII colon or comma needs a real
+      // space before whatever the code appends ("型号：" + name -> "Mô hình: " + name).
       const core = typeof vi === 'string' ? vi.trim() : ''
-      const v = core && zh.match(/^\s*/)[0] + core + zh.match(/\s*$/)[0]
+      const gap = /[：，；]$/u.test(zh.trimEnd()) && /[:,;]$/.test(core) && !/\s$/.test(zh) ? ' ' : ''
+      const v = core && zh.match(/^\s*/)[0] + core + gap + zh.match(/\s*$/)[0]
       const why = !v ? 'empty'
         : placeholderProblem(zh, v) ?? (HAN.test(v) ? 'still has Chinese' : null) ?? (hasBanned(v) ? 'banned punctuation' : null)
       if (why) { problems.push(`${f} ${id}: ${why}: ${JSON.stringify(zh)} -> ${JSON.stringify(v)}`); continue }

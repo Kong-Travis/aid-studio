@@ -134,13 +134,14 @@ function classify(ts, node) {
 
   if (ts.isPropertyAssignment(parent) && parent.initializer === child) {
     const prop = nameText(ts, parent.name)
-    if (LOGIC_PROPS.has(prop)) return { reason: 'prop:' + prop, global: true }
+    // Local only: the value itself is data, but the same text elsewhere is free to be a label.
+    if (LOGIC_PROPS.has(prop)) return { reason: 'prop:' + prop }
   }
   const attrNode = ts.isJsxAttribute(parent) ? parent
     : (ts.isJsxExpression(parent) && parent.parent && ts.isJsxAttribute(parent.parent) ? parent.parent : null)
   if (attrNode) {
     const attr = attrNode.name.getText()
-    if (LOGIC_JSX_ATTRS.has(attr) || attr.startsWith('data-')) return { reason: 'attr:' + attr, global: true }
+    if (LOGIC_JSX_ATTRS.has(attr) || attr.startsWith('data-')) return { reason: 'attr:' + attr }
   }
 
   // Anything held by a prompt/regex-like binding, up to the nearest function boundary.

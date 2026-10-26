@@ -1,0 +1,12 @@
+{
+ "admin/src/views/aid/extracttask/index.tsx": {
+  "第": "Thứ"
+ },
+ "admin/src/views/aid/aimanage/ProviderOperationsModal.tsx": {
+  "第": "Trang",
+  "页 \u00b7 本页": "| Trang này có"
+ },
+ "admin/src/views/login/index.tsx": {
+  "后台管理系统": "- Hệ thống quản trị"
+ }
+}

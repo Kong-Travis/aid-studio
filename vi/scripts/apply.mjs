@@ -9,7 +9,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { APPS, loadTypeScript, scanApp } from './lib/scan.mjs'
-import { REPO, readDict, readDeny, placeholderProblem } from './lib/dict.mjs'
+import { REPO, readDict, readDeny, readOverrides, placeholderProblem } from './lib/dict.mjs'
 import { PATCHES } from '../patches.mjs'
 
 const args = process.argv.slice(2)
@@ -23,11 +23,14 @@ for (const n of names) if (!APPS[n]) throw new Error(`unknown app "${n}", expect
 
 const ts = loadTypeScript(REPO)
 const dict = readDict()
+const overrides = readOverrides()
+// Per-file translations for sentence fragments whose meaning depends on the file (see dict/overrides.json).
+let fileOverrides = {}
 const deny = readDeny()
 const COPY_SKIP = new Set(['node_modules', '.next', 'out', 'dist', '.turbo'])
 
 function copyApp(src, dst) {
-  fs.rmSync(dst, { recursive: true, force: true })
+  fs.rmSync(dst, { recursive: true, force: true, maxRetries: 5 })
   fs.mkdirSync(dst, { recursive: true })
   for (const name of fs.readdirSync(src)) {
     if (COPY_SKIP.has(name)) continue
@@ -46,7 +49,7 @@ const HTML_ENTITY = /&(#\d+|#x[0-9a-f]+|[a-z]+);/i
 
 function lookup(o) {
   if (o.skip) return null
-  const v = dict[o.key]
+  const v = fileOverrides[o.key] ?? dict[o.key]
   if (v == null || placeholderProblem(o.key, v)) return null
   return v
 }
@@ -105,6 +108,7 @@ for (const name of names) {
 
   const { byFile } = scanApp(ts, dst, app.roots, { extraDeny: deny })
   for (const [file, occs] of byFile) {
+    fileOverrides = overrides[`${name}/${path.relative(dst, file)}`] ?? {}
     if (!occs.some((o) => lookup(o) != null)) continue
     const text = fs.readFileSync(file, 'utf8')
     occs.sort((a, b) => a.start - b.start || b.end - a.end)

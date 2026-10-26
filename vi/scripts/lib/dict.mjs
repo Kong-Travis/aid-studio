@@ -17,6 +17,12 @@ export function readDict() {
   return out
 }
 
+// { "<app>/<path inside the app>": { "<Chinese>": "<Vietnamese>" } }, applied before the shared dictionary.
+export function readOverrides() {
+  const f = path.join(DICT_DIR, 'overrides.json')
+  return fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : {}
+}
+
 export function readDeny() {
   const f = path.join(DICT_DIR, 'deny.json')
   return fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : []

@@ -4420,6 +4420,13 @@
    "src/views/aid/aimanage/SkuEditor.tsx"
   ]
  },
+ "会员": {
+  "kind": "str",
+  "n": 1,
+  "files": [
+   "src/views/aid/faq/index.tsx"
+  ]
+ },
  "会员到期": {
   "kind": "str",
   "n": 1,
@@ -5773,6 +5780,14 @@
    "src/views/aid/aimanage/ModelRouteBillingEditor.tsx"
   ]
  },
+ "充值": {
+  "kind": "str",
+  "n": 2,
+  "files": [
+   "src/views/aid/extenduserprofile/index.tsx",
+   "src/views/aid/faq/index.tsx"
+  ]
+ },
  "充值/新增余额": {
   "kind": "str",
   "n": 1,
@@ -6452,6 +6467,13 @@
   "n": 1,
   "files": [
    "src/views/aidconfig/upgrade/index.tsx"
+  ]
+ },
+ "其他": {
+  "kind": "str",
+  "n": 1,
+  "files": [
+   "src/views/aid/faq/index.tsx"
   ]
  },
  "其他基础配置": {
@@ -7515,6 +7537,13 @@
   "n": 3,
   "files": [
    "src/views/agent/index.tsx"
+  ]
+ },
+ "功能使用": {
+  "kind": "str",
+  "n": 1,
+  "files": [
+   "src/views/aid/faq/index.tsx"
   ]
  },
  "功能名称": {
@@ -25671,6 +25700,13 @@
    "src/views/aid/genrecord/index.tsx"
   ]
  },
+ "生成": {
+  "kind": "str",
+  "n": 1,
+  "files": [
+   "src/views/aid/faq/index.tsx"
+  ]
+ },
  "生成 SKU": {
   "kind": "str",
   "n": 1,
@@ -33059,6 +33095,15 @@
   "n": 1,
   "files": [
    "src/views/aidconfig/upgrade/index.tsx"
+  ]
+ },
+ "账号": {
+  "kind": "str",
+  "n": 4,
+  "files": [
+   "src/views/aid/error-handling/index.tsx",
+   "src/views/aid/faq/index.tsx",
+   "src/views/login/index.tsx"
   ]
  },
  "账号安全": {

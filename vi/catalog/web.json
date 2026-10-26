@@ -1203,6 +1203,15 @@
    "components/steps/scene-character-prop/ScpTopbarView.tsx"
   ]
  },
+ "中年": {
+  "kind": "str",
+  "n": 3,
+  "files": [
+   "components/create/SeriesAssetDesignModal.tsx",
+   "components/steps/SelectAssetVoiceTab.tsx",
+   "components/steps/VoiceTimbrePickerModal.tsx"
+  ]
+ },
  "中性": {
   "kind": "str",
   "n": 13,
@@ -2212,6 +2221,15 @@
    "components/studio/shell/StudioTaskList.tsx"
   ]
  },
+ "儿童": {
+  "kind": "str",
+  "n": 3,
+  "files": [
+   "components/create/SeriesAssetDesignModal.tsx",
+   "components/steps/SelectAssetVoiceTab.tsx",
+   "components/steps/VoiceTimbrePickerModal.tsx"
+  ]
+ },
  "允许复制电影工程": {
   "kind": "jsx",
   "n": 1,
@@ -2438,6 +2456,15 @@
   "n": 1,
   "files": [
    "components/studio/canvas/StudioFlowNodeComposerDock.tsx"
+  ]
+ },
+ "其他": {
+  "kind": "str",
+  "n": 6,
+  "files": [
+   "components/create/SeriesAssetDesignModal.tsx",
+   "components/home/FaqPanel.tsx",
+   "components/steps/StoryboardLeftPanel.tsx"
   ]
  },
  "其他参考": {
@@ -6120,6 +6147,13 @@
    "components/steps/GlobalGenerateTaskPopover.tsx"
   ]
  },
+ "女": {
+  "kind": "str",
+  "n": 1,
+  "files": [
+   "components/create/SeriesAssetDesignModal.tsx"
+  ]
+ },
  "女性": {
   "kind": "str",
   "n": 2,
@@ -6941,6 +6975,15 @@
   "n": 1,
   "files": [
    "components/common/richTextEditorMount.tsx"
+  ]
+ },
+ "少年": {
+  "kind": "str",
+  "n": 3,
+  "files": [
+   "components/create/SeriesAssetDesignModal.tsx",
+   "components/steps/SelectAssetVoiceTab.tsx",
+   "components/steps/VoiceTimbrePickerModal.tsx"
   ]
  },
  "尚未创建剧本": {
@@ -14832,6 +14875,13 @@
    "app/case/page.tsx"
   ]
  },
+ "男": {
+  "kind": "str",
+  "n": 2,
+  "files": [
+   "components/create/SeriesAssetDesignModal.tsx"
+  ]
+ },
  "男性": {
   "kind": "str",
   "n": 2,
@@ -15745,6 +15795,13 @@
    "components/studio/canvas/StudioFlowPaneContextMenu.tsx"
   ]
  },
+ "精简模式": {
+  "kind": "str",
+  "n": 1,
+  "files": [
+   "hooks/usePromptDictionary.ts"
+  ]
+ },
  "精选": {
   "kind": "jsx",
   "n": 4,
@@ -15838,6 +15895,13 @@
   "n": 1,
   "files": [
    "utils/studio/studioCreditEstimate.ts"
+  ]
+ },
+ "细拆模式": {
+  "kind": "str",
+  "n": 1,
+  "files": [
+   "hooks/usePromptDictionary.ts"
   ]
  },
  "经济模式": {
@@ -16348,6 +16412,15 @@
   "n": 1,
   "files": [
    "hooks/createFlowExtractAgents/extractStart.ts"
+  ]
+ },
+ "老年": {
+  "kind": "str",
+  "n": 3,
+  "files": [
+   "components/create/SeriesAssetDesignModal.tsx",
+   "components/steps/SelectAssetVoiceTab.tsx",
+   "components/steps/VoiceTimbrePickerModal.tsx"
   ]
  },
  "职业": {
@@ -21066,6 +21139,15 @@
    "components/steps/BatchGenerateStoryboardModal.tsx"
   ]
  },
+ "青年": {
+  "kind": "str",
+  "n": 4,
+  "files": [
+   "components/create/SeriesAssetDesignModal.tsx",
+   "components/steps/SelectAssetVoiceTab.tsx",
+   "components/steps/VoiceTimbrePickerModal.tsx"
+  ]
+ },
  "非媒体资源": {
   "kind": "str",
   "n": 1,
@@ -21553,6 +21635,13 @@
   "n": 1,
   "files": [
    "hooks/useForgotPasswordFlow.ts"
+  ]
+ },
+ "验证码登录": {
+  "kind": "str",
+  "n": 1,
+  "files": [
+   "components/login/LoginAltMethods.tsx"
   ]
  },
  "验证码登录未开启": {
