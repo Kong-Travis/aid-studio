@@ -1,0 +1,20 @@
+{
+ "[useDict] 加载字典 \"{0}\" 失败:": "log",
+ "不限并发": "attr:value",
+ "以上像素": "attr:value",
+ "价格未配置": "deny:compare",
+ "会员": "deny:prop:value",
+ "保存供应商后，通过“账户”入口 OAuth 授权": "attr:value",
+ "充值": "deny:prop:value",
+ "其他": "deny:prop:value",
+ "功能使用": "deny:prop:value",
+ "启停状态": "prop:status",
+ "未选": "method:startsWith",
+ "正常 {0} · 降级 {1} · 异常 {2} · 无调用 {3}": "attr:value",
+ "生成": "deny:prop:value",
+ "电影": "deny:compare",
+ "腾讯云数据万象 AIObjectDetect": "attr:value",
+ "账号": "deny:prop:value",
+ "阶梯": "type",
+ "验证码类型": "prop:type"
+}

@@ -1,0 +1,2270 @@
+{
+ "AI 算力调度看板查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "AI 能力中心": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "AI业务编排": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "C端公告": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "C端公告修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "C端公告删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "C端公告导出": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "C端公告新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "C端公告查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "Nginx配置管理": {
+  "kind": "sql",
+  "n": 2,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "SEO 信息查询": {
+  "kind": "sql",
+  "n": 2,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "SEO 管理": {
+  "kind": "sql",
+  "n": 2,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "SEO 配置维护": {
+  "kind": "sql",
+  "n": 2,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "SEO 链接提交": {
+  "kind": "sql",
+  "n": 2,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "Skill 管理": {
+  "kind": "sql",
+  "n": 2,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "一键升级": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "任务修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "任务删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "任务导出": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "任务新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "任务查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "余额变动记录": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "余额变动记录修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "余额变动记录删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "余额变动记录导出": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "余额变动记录新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "余额变动记录查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "余额监控查询": {
+  "kind": "sql",
+  "n": 2,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "余额监控配置": {
+  "kind": "sql",
+  "n": 2,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "作品审核": {
+  "kind": "sql",
+  "n": 2,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "供应商余额监控": {
+  "kind": "sql",
+  "n": 2,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "停用": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "充值": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "充值套餐": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "充值套餐修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "充值套餐删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "充值套餐导出": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "充值套餐新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "充值套餐查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "全局业务配置": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "公告": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "公告修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "公告删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "公告新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "公告查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "关闭": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "其他": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "冻结": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "分镜时间轴": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "分镜时间轴修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "分镜时间轴删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "分镜时间轴导出": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "分镜时间轴新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "分镜时间轴查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "剧本管理": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "剧本管理修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "剧本管理删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "剧本管理导出": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "剧本管理新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "剧本管理查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "剧集管理": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "剧集管理修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "剧集管理删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "剧集管理导出": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "剧集管理新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "剧集管理查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "升级器在线升级": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "升级源配置保存": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "单条强退": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "参数修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "参数删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "参数导出": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "参数新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "参数查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "参数设置": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "发布操作": {
+  "kind": "sql",
+  "n": 2,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "发布查询": {
+  "kind": "sql",
+  "n": 2,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "发布管理": {
+  "kind": "sql",
+  "n": 2,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "发送错误报告": {
+  "kind": "sql",
+  "n": 2,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "否": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "图片生成": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "在线查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "在线用户": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "场景形态图": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "场景形态图修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "场景形态图删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "场景形态图导出": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "场景形态图新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "场景形态图查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "失败": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "奖励发放": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "女": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "字典与参数": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "字典修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "字典删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "字典导出": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "字典新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "字典查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "官方地址应用": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "官方网关保存": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "官方资源初始化": {
+  "kind": "sql",
+  "n": 2,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "定时任务": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "审核操作": {
+  "kind": "sql",
+  "n": 2,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "审核详情": {
+  "kind": "sql",
+  "n": 2,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "导入": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "导出": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "岗位修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "岗位删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "岗位导出": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "岗位新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "岗位查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "岗位管理": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "已关闭": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "已支付": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "已退款": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "常见问题": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "常见问题修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "常见问题删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "常见问题导出": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "常见问题新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "常见问题查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "强退": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "待支付": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "微信": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "微信公众号": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "微信支付": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "成功": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "批量强退": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "授权": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "提示词素材库": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "提示词素材库修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "提示词素材库删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "提示词素材库导出": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "提示词素材库新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "提示词素材库查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "提醒渠道测试": {
+  "kind": "sql",
+  "n": 2,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "操作删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "操作日志": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "操作查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "支付失败": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "支付宝": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "支付订单": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "支付订单修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "支付订单删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "支付订单导出": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "支付订单新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "支付订单查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "文本创作": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "日志导出": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "日志管理": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "是": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "显示": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "智能体修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "智能体删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "智能体新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "智能体查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "智能体管理": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "暂停": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "服务与缓存": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "未知": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "未识别错误日志": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "模型池修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "模型池删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "模型池导出": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "模型池新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "模型池查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "模型监控": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "模型管理": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "正常": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "注册赠送": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "消费": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "清空数据": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "漫剧运营": {
+  "kind": "sql",
+  "n": 2,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "版本回退": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "状态修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "生图生视频记录": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "生图生视频记录修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "生图生视频记录删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "生图生视频记录导出": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "生图生视频记录新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "生图生视频记录查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "生成代码": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "用户修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "用户列表": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "用户删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "用户参考资产": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "用户参考资产修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "用户参考资产删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "用户参考资产导出": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "用户参考资产新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "用户参考资产查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "用户导入": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "用户导出": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "用户扩展信息修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "用户扩展信息删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "用户扩展信息导出": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "用户扩展信息新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "用户扩展信息查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "用户新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "用户查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "用户管理": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "男": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "登录删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "登录日志": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "登录查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "白名单管理": {
+  "kind": "sql",
+  "n": 2,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "监控管理": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "矩阵删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "矩阵新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "矩阵查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "矩阵编辑": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "策略矩阵": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "管理错误采集": {
+  "kind": "sql",
+  "n": 2,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "系统": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "系统管理": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "组织与权限": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "缓存重建": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "菜单修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "菜单删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "菜单新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "菜单查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "菜单管理": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "视频剪辑成片": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "视频剪辑成片修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "视频剪辑成片删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "视频剪辑成片导出": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "视频剪辑成片新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "视频剪辑成片查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "视频生成": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "角色修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "角色删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "角色导出": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "角色新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "角色查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "角色管理": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "角色道具场景": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "角色道具场景修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "角色道具场景删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "角色道具场景导出": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "角色道具场景新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "角色道具场景查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "角色音色绑定修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "角色音色绑定删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "角色音色绑定导出": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "角色音色绑定查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "解冻": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "财务管理": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "账户解锁": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "资产提取任务": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "资产提取任务修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "资产提取任务删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "资产提取任务导出": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "资产提取任务新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "资产提取任务查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "转为规则": {
+  "kind": "sql",
+  "n": 2,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "运营管理": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "退款": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "通知": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "通知公告": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "邀请关系": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "邀请关系修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "邀请关系查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "邀请返佣": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "邀请返佣查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "邀请返佣记录": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "部门修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "部门删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "部门新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "部门查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "部门管理": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "配置信息修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "配置信息删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "配置信息导出": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "配置信息新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "配置信息查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "配置连通性测试": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "配音与口型修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "配音与口型删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "配音与口型导出": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "配音与口型新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "配音与口型查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "重置密码": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "错误处理": {
+  "kind": "sql",
+  "n": 2,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "错误日志导出": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "错误日志查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "错误规则修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "错误规则删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "错误规则新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "错误规则查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "错误规则测试": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "错误规则管理": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "隐藏": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ },
+ "音色库": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "音色库修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "音色库删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "音色库新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "音色库查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "音色标签": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "音色标签修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "音色标签删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "音色标签新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "音色标签查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "音色管理": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "音频资产": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "音频资产删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "音频资产导出": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "音频资产查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "项目升级配置": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "项目工作台": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "项目提取资产": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "项目提取资产修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "项目提取资产删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "项目提取资产导出": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "项目提取资产新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "项目提取资产查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "项目管理修改": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "项目管理删除": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "项目管理导出": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "项目管理新增": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "项目管理查询": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_menu"
+  ]
+ },
+ "默认": {
+  "kind": "sql",
+  "n": 1,
+  "files": [
+   "sys_dict_data"
+  ]
+ }
+}
