@@ -1,0 +1,20 @@
+# Overlay for deploy/docker/docker-compose.middleware.yml on Apple Silicon Macs.
+# Usage: see vi/local/README.md
+services:
+  mysql-dev:
+    # mysql:5.7 ships no arm64 image, so Docker Desktop runs it under emulation.
+    platform: linux/amd64
+    # Several upstream upgrade scripts (sql/v1.0.0-beta.2.sql ... v2.2.3.sql) lack
+    # `SET NAMES utf8mb4`; the init client would then read them as latin1 and store mojibake.
+    # Ignoring the client handshake makes every connection use the server charset.
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_general_ci
+      - --default-time-zone=+08:00
+      - --skip-character-set-client-handshake
+    # The base file publishes 3306 on every interface with root/123456; keep it on this Mac only.
+    ports: !override
+      - "127.0.0.1:3306:3306"
+  redis-dev:
+    ports: !override
+      - "127.0.0.1:6379:6379"
