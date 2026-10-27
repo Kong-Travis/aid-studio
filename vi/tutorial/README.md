@@ -7,6 +7,8 @@ có giọng nói và phụ đề.
 
 ## Video hướng dẫn
 
+**Xem trên YouTube: https://youtu.be/qIy4o5XEPpc** (kênh Xưởng Phim AI Miễn Phí).
+
 Video được quay tự động bằng `video/` (xem [video/README.md](video/README.md)): trình duyệt tự bấm từng
 bước trên AID thật, chậm để người xem theo kịp; phụ đề và giọng đọc (giọng nam Quang Huy, Piper, chạy trên
 máy) nói đúng thao tác đang làm. File video không nằm trong git (175 MB, quá giới hạn của GitHub); dựng lại

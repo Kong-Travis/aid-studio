@@ -1,5 +1,8 @@
 # Việt hoá AID Studio (fork Kong-Travis/aid-studio)
 
+> **Video hướng dẫn làm phim AI giữ nhân vật nhất quán bằng AID Studio (tiếng Việt, 37 phút, miễn phí):**
+> https://youtu.be/qIy4o5XEPpc. Tài liệu và prompt đi kèm ở [`vi/tutorial/`](tutorial/README.md).
+
 Thư mục `vi/` chứa toàn bộ phần Việt hoá. Quy tắc cốt lõi: **fork chỉ thêm file, không sửa file của
 upstream.** Bản dịch được áp vào lúc build trên một bản copy (hoặc trên checkout của CI), nên khi
 merge bản mới của upstream sẽ không có conflict. Trường hợp xấu nhất là vài chuỗi mới còn tiếng Trung.
