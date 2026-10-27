@@ -1,0 +1,9 @@
+{
+  "name": "aid-tutorial-video",
+  "private": true,
+  "type": "module",
+  "description": "Records the Vietnamese AID Studio tutorial as one captioned walkthrough video",
+  "dependencies": {
+    "playwright": "1.64.1"
+  }
+}
