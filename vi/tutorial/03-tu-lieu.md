@@ -77,3 +77,16 @@ hình bối cảnh" > **Gemini 3.1 Flash-Lite** (500 lượt mỗi ngày) > **OK
 | Tạo hàng loạt bối cảnh lỗi gần hết | Hết lượt mỗi phút hoặc mỗi ngày của Gemini 3.6 Flash (lỗi 429). Chờ một phút, hoặc đổi sang Flash-Lite như mẹo ở cảnh quay 4 |
 | Bấm Tạo tạo hình nhân vật thứ hai không có gì xảy ra | Nhân vật trước chưa xong. Chờ xong rồi bấm lại |
 | Bối cảnh bị ghi sai thời gian trong ngày | Sửa bằng "Sửa thiết lập bối cảnh", hoặc ghi rõ khi vẽ ảnh |
+
+## Bản chuyên nghiệp: chọn model trong "Cấu hình tạo"
+
+Video mở **Cấu hình tạo** (góc trên) ngay đầu bài này. Đây là nơi chọn model cho từng việc của dự án:
+
+- **Trích xuất tài sản (văn bản)** và **Trích xuất tạo hình (văn bản)**: bản miễn phí chọn Gemini 3.1
+  Flash-Lite (gói miễn phí 500 lượt mỗi ngày). Có key xịn thì chọn model chữ mạnh như GPT-5.5, Qwen 3.7
+  Max hay DeepSeek V4 Pro.
+- **Tạo ảnh tạo hình (ảnh)** và **Tạo ảnh phân cảnh (ảnh)**: chọn model ảnh như Nano Banana Pro, Seedream
+  5.0 Pro hay GPT Image 2, rồi dùng nút **Tạo tự động** ở từng tạo hình thay cho **Nhập ảnh**.
+
+Cách bấm: Cấu hình tạo > chọn mục bên trái > bấm ô model của từng việc > chọn ở "Mô hình khả dụng" > **OK**
+> **OK**. Danh sách model hiện ra tùy nhà cung cấp mà trang AID của bạn bật.

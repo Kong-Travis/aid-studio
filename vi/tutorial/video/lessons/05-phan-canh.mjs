@@ -18,7 +18,7 @@ const SHOT_SAY = [
 ];
 
 try {
-  await h.card('Chương 5', 'Phân cảnh', 'Chia phim thành 6 cảnh quay, vẽ ảnh cho từng cảnh\nmà vẫn giữ đúng nhân vật.');
+  await h.card('Chương 4', 'Phân cảnh', 'Chia phim thành 6 cảnh quay, vẽ ảnh cho từng cảnh\nmà vẫn giữ đúng nhân vật.');
   await page.goto(await projectUrl(page, 'scene-character'));
   await page.waitForLoadState('networkidle').catch(() => {});
   await h.wait(1200);
@@ -28,7 +28,7 @@ try {
   // ---------------------------------------------------------------- shots by hand
   h.mark('shots');
   await h.point(page.getByRole('button', { name: /Thao tác hàng loạt/ }),
-    'Trong Thao tác hàng loạt có nút Tự động tạo phân cảnh. Với gói Gemini miễn phí, nút này hay báo lỗi, nên mình thêm phân cảnh bằng tay. Phim 6 cảnh chỉ mất vài phút, và mình kiểm soát được từng cảnh.');
+    'Trong Thao tác hàng loạt có nút Tự động tạo phân cảnh: AI đọc kịch bản và chia cảnh giúp bạn. Khi mình thử với Gemini miễn phí, nút này báo lỗi, nên mình thêm phân cảnh bằng tay. Phim 6 cảnh chỉ mất vài phút, và mình kiểm soát được từng cảnh.');
   const scriptButtons = page.getByRole('button', { name: 'Sửa kịch bản phân cảnh' });
   for (let i = 0; i < 6; i++) {
     if (i > 1) await h.nocap();
@@ -81,7 +81,7 @@ try {
   await h.click(page.getByText('Sửa phân cảnh', { exact: true }).first(), 'Quay lại AID. Ở ô ảnh của phân cảnh đầu tiên, bấm Sửa phân cảnh.', { after: 3500 });
   await h.point(page.getByText(/分镜脚本01/).last(), 'Màn hình chỉnh ảnh mở ra. Trên cùng là các tab 分镜脚本 01 tới 06, tức phân cảnh 1 tới 6.',
     { say: 'Màn hình chỉnh ảnh mở ra. Trên cùng là các tab phân cảnh một tới sáu.' });
-  await h.point(page.getByRole('button', { name: /Bắt đầu tạo ảnh/ }), 'Đừng bấm Bắt đầu tạo ảnh, Làm nét hay Đa góc máy. Đó là các nút tạo ảnh bằng model trả phí.');
+  await h.point(page.getByRole('button', { name: /Bắt đầu tạo ảnh/ }), 'Có API key xịn thì làm ngay tại đây: viết mô tả ở khung bên phải, thêm ảnh thẻ nhân vật làm ảnh tham chiếu, chọn model ảnh, rồi bấm Bắt đầu tạo ảnh. AI vẽ ảnh phân cảnh bám theo ảnh tham chiếu. Bản miễn phí, mình nhập ảnh đã vẽ bằng Gemini.');
   for (let n = 1; n <= 6; n++) {
     if (n > 2) await h.nocap();
     if (n > 1) await h.click(page.getByText(new RegExp(`分镜脚本0${n}`)).last(), n === 2 ? 'Bấm tab 02 và làm tiếp.' : null, { say: 'Bấm tab hai và làm tiếp.', after: 2000 });

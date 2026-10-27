@@ -1,4 +1,4 @@
-# Bài 06. Biến ảnh thành video và thêm giọng nói (miễn phí)
+# Bài 06. Sinh video và lồng tiếng
 
 **Mục tiêu:** mỗi phân cảnh có một clip 5 giây có chuyển động máy quay, những cảnh có thoại thì có giọng
 nói, và cả 6 clip đã gắn vào AID.
@@ -6,7 +6,7 @@ nói, và cả 6 clip đã gắn vào AID.
 **Thời lượng gợi ý:** 8 phút.
 
 **Cần có:** máy Mac có Homebrew. Cài FFmpeg một lần: `brew install ffmpeg ffmpeg-full` (bản thường cho
-các lệnh lẻ, bản đầy đủ cho phụ đề). Ba script nằm trong `vi/tutorial/tools/` của thư mục AID Studio.
+các lệnh lẻ, bản đầy đủ cho phụ đề). Ba script nằm trong thư mục `vi/tutorial/tools/` của fork AID Studio tiếng Việt; tải thư mục đó về, để trên Desktop với tên `aid-tools`.
 Linux có FFmpeg cũng chạy được các script, nhưng chưa được thử, và lệnh tạo giọng `say` chỉ có trên Mac.
 
 ## Cảnh quay 1. Vì sao không bấm "Bắt đầu tạo video" trong AID
@@ -24,11 +24,10 @@ Linux có FFmpeg cũng chạy được các script, nhưng chưa được thử,
 > 1280 x 720, với chuyển động lần lượt: phóng vào, lia ngang, phóng vào, đẩy vào nhân vật, kéo ra, kéo
 > ra. Chỉ mất vài giây.
 
-**Thao tác:** mở Terminal, vào thư mục AID Studio, giả sử 6 ảnh nằm trong thư mục `anh` của Desktop:
+**Thao tác:** mở Terminal, giả sử 6 ảnh nằm trong thư mục `anh` của Desktop:
 
 ```sh
-cd ~/Desktop/Projects/Business/aid-studio        # đổi theo nơi bạn để AID Studio
-T=vi/tutorial/tools
+T=~/Desktop/aid-tools
 mkdir -p ~/Desktop/phim
 $T/make-clips.sh ~/Desktop/anh ~/Desktop/phim/clips
 ```
@@ -102,8 +101,8 @@ Số giây bắt đầu viết bằng dấu chấm (`0.6`), không dùng dấu p
 ![Màn hình chỉnh video](assets/screens/20-trinh-sua-video.png)
 ![Video 6/6](assets/screens/21-video-6-tren-6.png)
 
-**Đừng bấm:** "Bắt đầu tạo video" (model video trả phí), và đừng dùng nút "Tải lên lồng tiếng từ máy" ở
-bước Đồng bộ hình tiếng.
+**Bản miễn phí thì không bấm** "Bắt đầu tạo video" (model video trả phí, xem mục Bản chuyên nghiệp), và
+đừng dùng nút "Tải lên lồng tiếng từ máy" ở bước Đồng bộ hình tiếng.
 
 ## Lỗi hay gặp
 
@@ -114,3 +113,12 @@ bước Đồng bộ hình tiếng.
 | Phim xuất ra không có tiếng | Clip chưa có rãnh âm thanh. Chạy `add-voice.sh` cho mọi clip, kể cả clip không thoại |
 | Đã tải giọng ở "Đồng bộ hình tiếng" mà phim vẫn câm | Bản hiện tại chưa dùng giọng tải ở bước đó. Ghép giọng vào clip như cảnh quay 4 |
 | Lệnh `say` đọc bằng giọng tiếng Anh, sai dấu | Máy chưa có giọng Linh. Kiểm tra bằng `say -v '?' \| grep vi_VN`; nếu trống, tải giọng tiếng Việt trong phần cài đặt giọng đọc (Spoken Content) của macOS |
+
+## Bản chuyên nghiệp: sinh video bằng model AI
+
+Trong màn hình chỉnh video phân cảnh, bấm **Bắt đầu tạo video**, chọn model video: AI biến ảnh phân cảnh
+thành cảnh quay có nhân vật cử động, biểu cảm. Model tốt có thể cho cảm giác như người thật đóng. Chọn
+model nào, giá tham khảo và cách bắt đầu: xem mục "Chọn model video và chi phí" trong [README](README.md).
+
+Lồng tiếng AI: AID có giọng đọc như Doubao TTS và MiniMax Speech (có cả nhân bản giọng) ở bước Đồng bộ hình
+tiếng. Phần này chưa được chạy thử vì cần key trả phí. Một số model video như Veo còn tạo âm thanh kèm.

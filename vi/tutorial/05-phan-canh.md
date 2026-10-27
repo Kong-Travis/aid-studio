@@ -76,7 +76,7 @@ nhân vật chính thì phải sửa.
 ![Màn hình chỉnh ảnh phân cảnh](assets/screens/17-trinh-sua-anh-phan-canh.png)
 ![Ảnh đã nhập](assets/screens/18-anh-phan-canh-da-nhap.png)
 
-**Đừng bấm:** "Bắt đầu tạo ảnh", "Làm nét", "Đa góc máy". Đó là các nút tạo ảnh bằng model trả phí.
+**Bản miễn phí thì không bấm** "Bắt đầu tạo ảnh", "Làm nét", "Đa góc máy": đó là các nút tạo ảnh bằng model trả phí (xem mục Bản chuyên nghiệp).
 
 ## Lỗi hay gặp
 
@@ -85,3 +85,9 @@ nhân vật chính thì phải sửa.
 | Đã chọn ảnh nhưng phân cảnh vẫn trống | Chưa bấm **Thêm ảnh phân cảnh**. Ảnh mới chỉ nằm trong "Bản ghi tạo" |
 | Ô chọn agent báo "Không tìm thấy agent phù hợp" | Xóa chữ "Phân cảnh" có sẵn trong ô tìm kiếm |
 | "Tự động tạo phân cảnh" lỗi hoặc chạy xong mà không có cảnh nào | Dùng cách thủ công ở cảnh quay 1 |
+
+## Bản chuyên nghiệp
+
+Trong màn hình chỉnh ảnh phân cảnh: viết mô tả ở khung bên phải, thêm ảnh thẻ nhân vật làm **ảnh tham
+chiếu**, chọn model ảnh, rồi bấm **Bắt đầu tạo ảnh**. AI vẽ ảnh phân cảnh bám theo ảnh tham chiếu. "Làm
+nét" và "Đa góc máy" cũng dùng model trả phí.

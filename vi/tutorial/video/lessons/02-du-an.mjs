@@ -9,19 +9,18 @@ fs.rmSync(STATE, { force: true });
 const { page, h, finish } = await start('02-du-an', { login: true });
 
 try {
-  await h.card('Chương 2', 'Tạo dự án và kịch bản', 'Đăng nhập, tạo dự án phim, dán kịch bản tiếng Việt.');
+  await h.card('Chương 1', 'Tạo dự án và kịch bản', 'Đăng nhập trang AID Studio, tạo dự án phim,\ndán kịch bản tiếng Việt.');
 
   await page.goto(WEB);
   await page.waitForLoadState('networkidle').catch(() => {});
   h.mark('login');
-  await h.click(page.getByRole('button', { name: 'Đăng nhập' }).first(), 'Mở trang AID. Bấm Đăng nhập ở góc trái dưới.', { after: 1500 });
+  await h.click(page.getByRole('button', { name: 'Đăng nhập' }).first(), 'Vào trang web AID Studio. Bấm Đăng nhập ở góc trái dưới.', { after: 1500 });
   await h.type(page.getByRole('textbox', { name: 'Vui lòng nhập số điện thoại hoặc email' }), learner.email,
-    'Nhập email người quản trị đã tạo cho bạn.');
+    'Nhập email tài khoản của bạn.');
   await h.type(page.getByRole('textbox', { name: 'Vui lòng nhập mật khẩu' }), learner.password,
-    'Nhập mật khẩu ban đầu. Ô này che ký tự.', { delay: 60 });
+    'Nhập mật khẩu. Ô này che ký tự.', { delay: 60 });
   await h.click(page.getByRole('dialog').getByRole('button', { name: 'Đăng nhập' }), 'Bấm Đăng nhập.', { after: 3000 });
-  await h.point(page.getByRole('group', { name: 'điểm' }), 'Góc trái dưới hiện 1000 điểm là đã đăng nhập thành công.',
-    { say: 'Góc trái dưới hiện một nghìn điểm là đã đăng nhập thành công.' });
+  await h.point(page.getByRole('group', { name: 'điểm' }), 'Góc trái dưới hiện số điểm trong tài khoản là đã đăng nhập. Điểm là thứ bạn dùng để trả cho các model AI; model càng xịn càng tốn nhiều điểm.');
 
   // ---------------------------------------------------------------- project
   h.mark('project');
@@ -32,8 +31,8 @@ try {
   await h.click(d.getByRole('button', { name: '16 : 9 16 : 9' }), 'Tỉ lệ khung hình: 16:9 cho video ngang trên YouTube. Làm TikTok thì chọn 9:16.');
   await h.point(d.getByRole('button', { name: '剧情演绎' }), 'Loại kịch bản: 剧情演绎, nghĩa là diễn kịch, đã chọn sẵn.',
     { say: 'Loại kịch bản: diễn kịch, đã chọn sẵn.' });
-  await h.point(d.getByRole('button', { name: '经济模式' }), 'Chiến lược mô hình: để mặc định 经济模式, chế độ tiết kiệm.',
-    { say: 'Chiến lược mô hình: để mặc định là chế độ tiết kiệm.' });
+  await h.point(d.getByRole('button', { name: '经济模式' }), 'Chiến lược mô hình: 经济模式 là chế độ tiết kiệm. Làm phim xịn thì có thể chọn 性能模式, chế độ hiệu năng, ưu tiên model mạnh hơn. Ở đây mình để mặc định.',
+    { say: 'Chiến lược mô hình: mặc định là chế độ tiết kiệm. Làm phim xịn thì có thể chọn chế độ hiệu năng, ưu tiên model mạnh hơn. Ở đây mình để mặc định.' });
   await h.click(d.getByRole('button', { name: '图生视频' }), 'Chế độ sáng tác: chọn 图生视频, tạo video từ ảnh. Mình làm ảnh trước rồi mới thành video. Đây là cách giữ nhân vật ổn định nhất.',
     { say: 'Chế độ sáng tác: chọn tạo video từ ảnh. Mình làm ảnh trước rồi mới thành video. Đây là cách giữ nhân vật ổn định nhất.' });
   const style = d.getByText('治愈动画', { exact: true });
@@ -58,7 +57,7 @@ try {
   // ---------------------------------------------------------------- script
   h.mark('script');
   await h.point(page.getByRole('button', { name: 'Mở AI viết kịch bản' }),
-    'Nút AI viết kịch bản cũng có. Nhưng với Gemini miễn phí, ô chat này đang báo lỗi. Vì vậy mình tự viết, hoặc nhờ ứng dụng Gemini viết hộ rồi dán vào.');
+    'Nút AI viết kịch bản dùng để nhờ AI viết kịch bản. Ở đây mình dán một kịch bản viết sẵn.');
   await h.point(page.getByRole('button', { name: /Nhập kịch bản/ }), 'Có kịch bản trong file thì bấm Nhập kịch bản để tải lên. Ở đây mình dán thẳng vào vùng soạn thảo.');
   const editor = page.locator('[contenteditable=true]').first();
   await h.click(editor, 'Bấm vào vùng soạn thảo, rồi dán kịch bản mẫu. Kịch bản đầy đủ có trong file prompt-pack.',

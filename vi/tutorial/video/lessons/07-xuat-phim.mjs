@@ -19,7 +19,7 @@ fs.rmSync(path.join(PHIM, 'chiec-o-vang.mp4'), { force: true });
 const run = (cmd, cwd = REPO) => () => {
   let out;
   try {
-    out = execFileSync('sh', ['-c', `${cmd} 2>&1`], { cwd, encoding: 'utf8', env: { ...process.env, HOME: W } });
+    out = execFileSync('sh', ['-c', `${cmd} 2>&1`], { cwd, encoding: 'utf8', env: { ...process.env, HOME: W, T: path.join(W, 'Desktop', 'aid-tools') } });
   } catch (e) { out = (e.stdout || '') + (e.stderr || ''); }
   return out.split(W).join('~').trimEnd();
 };
@@ -27,7 +27,7 @@ const run = (cmd, cwd = REPO) => () => {
 const { page, h, finish } = await start('07-xuat-phim', { login: true });
 
 try {
-  await h.card('Chương 7', 'Xuất phim và phụ đề', 'Ghép 6 clip thành phim ngay trong AID,\nrồi gắn phụ đề tiếng Việt.');
+  await h.card('Chương 6', 'Xuất phim và phụ đề', 'Ghép các cảnh thành phim ngay trong AID,\nrồi gắn phụ đề tiếng Việt.');
   await page.goto(await projectUrl(page, 'storyboard-video'));
   await page.waitForLoadState('networkidle').catch(() => {});
   await h.wait(1500);
@@ -50,7 +50,7 @@ try {
   await h.click(page.getByRole('button', { name: 'Xuất/Đăng' }), 'Bấm Xuất/Đăng ở góc trên bên phải.', { after: 1200 });
   const exportItem = page.getByText('Xuất video hoàn chỉnh', { exact: true }).last();
   const download = page.waitForEvent('download', { timeout: 300000 });
-  await h.click(exportItem, 'Chọn Xuất video hoàn chỉnh. AID ghép 6 clip bằng FFmpeg ngay trên máy.', { say: 'Chọn Xuất video hoàn chỉnh. AID ghép sáu clip bằng ép ép em peg ngay trên máy.', after: 1500 });
+  await h.click(exportItem, 'Chọn Xuất video hoàn chỉnh. AID ghép 6 cảnh thành một phim.', { say: 'Chọn Xuất video hoàn chỉnh. AID ghép sáu cảnh thành một phim.', after: 1500 });
   await h.cap('Góc trên hiện Đang ghép video kèm phần trăm. Phim ngắn thì xong rất nhanh.', { top: true });
   const dl = await download;
   const name = dl.suggestedFilename();
@@ -73,10 +73,11 @@ try {
   ]);
   const quoted = `~/Downloads/${name}`;
   await h.term([
-    { text: 'Đứng ở thư mục AID Studio, chạy script add-subtitles: file phim vừa tải, file phụ đề, và tên file thành phẩm.',
-      say: 'Đứng ở thư mục AID Studio, chạy script át xáp-tai-tồ: file phim vừa tải, file phụ đề, và tên file thành phẩm.',
-      cmd: `vi/tutorial/tools/add-subtitles.sh ${quoted} ~/Desktop/phim/chiec-o-vang.srt ~/Desktop/phim/chiec-o-vang.mp4`,
-      run: run(`vi/tutorial/tools/add-subtitles.sh "$HOME/Downloads/${name}" ~/Desktop/phim/chiec-o-vang.srt ~/Desktop/phim/chiec-o-vang.mp4`) },
+    { text: 'Chạy script add-subtitles trong bộ công cụ: file phim vừa tải, file phụ đề, và tên file thành phẩm.',
+      say: 'Chạy script át xáp-tai-tồ trong bộ công cụ: file phim vừa tải, file phụ đề, và tên file thành phẩm.',
+      cmd: 'T=~/Desktop/aid-tools', out: '' },
+    { cmd: `$T/add-subtitles.sh ${quoted} ~/Desktop/phim/chiec-o-vang.srt ~/Desktop/phim/chiec-o-vang.mp4`,
+      run: run(`$T/add-subtitles.sh "$HOME/Downloads/${name}" ~/Desktop/phim/chiec-o-vang.srt ~/Desktop/phim/chiec-o-vang.mp4`) },
     { text: 'Phim hoàn chỉnh đã có phụ đề tiếng Việt.' },
   ]);
   const final = path.join(PHIM, 'chiec-o-vang.mp4');

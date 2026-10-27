@@ -7,7 +7,7 @@
 ## Cảnh quay 0. Đăng nhập
 
 **Thao tác:** mở trang AID (ví dụ http://localhost:3000) > **Đăng nhập** (góc trái dưới) > chọn cách
-đăng nhập bằng mật khẩu > nhập email và mật khẩu người quản trị đưa cho bạn > **Đăng nhập**. Góc trái dưới
+đăng nhập bằng mật khẩu > nhập email và mật khẩu tài khoản của bạn > **Đăng nhập**. Góc trái dưới
 hiện số điểm là đã vào được.
 
 ## Cảnh quay 1. Tạo dự án
@@ -60,3 +60,10 @@ hiện số điểm là đã vào được.
 |---|---|
 | Ô chat "AI viết kịch bản" báo "理解请求失败" / "Tạo thất bại" | Bỏ qua, tự viết hoặc dùng ứng dụng Gemini rồi dán vào |
 | Kịch bản nhiều tập dán một lần | AID yêu cầu mỗi tác phẩm một tập; tách ra |
+
+## Bản chuyên nghiệp
+
+- "Chiến lược mô hình": chọn **性能模式** (chế độ hiệu năng) để ưu tiên model mạnh hơn; **经济模式** là
+  chế độ tiết kiệm.
+- Kịch bản càng rõ (bối cảnh, ngoại hình nhân vật, câu thoại) thì AI ở các bước sau càng làm đúng, dù
+  dùng model nào.

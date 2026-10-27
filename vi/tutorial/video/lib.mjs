@@ -117,6 +117,9 @@ function install() {
   #__slide .lbl{color:#F5B700;font-weight:600;font-size:22px;letter-spacing:.06em;margin-bottom:18px}
   #__slide .two{display:grid;grid-template-columns:1fr 1.15fr;gap:40px;align-items:center;height:calc(100% - 50px)}
   #__slide .prompt{background:#1f1f1f;border:1px solid #333;border-radius:14px;padding:22px 26px;font-size:21px;line-height:1.55;white-space:pre-wrap;color:#d8d8d8}
+  #__slide table{color:inherit;font-size:inherit;line-height:inherit}
+  #__slide tr.hl td{background:rgba(245,183,0,.28);color:#fff}
+  #__slide .prompt.hl{border-color:#F5B700;box-shadow:0 0 0 3px rgba(245,183,0,.45)}
   #__slide .prompt .hl{background:rgba(245,183,0,.28);color:#fff;border-radius:4px;box-shadow:0 0 0 3px rgba(245,183,0,.28)}
   #__slide img{max-width:100%;max-height:100%;border-radius:10px;box-shadow:0 14px 40px rgba(0,0,0,.5);display:block;margin:auto}
   #__slide .grid{display:grid;gap:18px;height:calc(100% - 50px);grid-auto-rows:minmax(0,1fr)}

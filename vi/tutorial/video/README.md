@@ -32,10 +32,10 @@ thứ tự và lưu database sau mỗi chương bằng `./db.sh save <tên>`; qu
 ./db.sh save 00                      # trạng thái trước khi quay
 node lessons/00-mo-dau.mjs
 node lessons/00-gioi-thieu.mjs
-node lessons/01-cai-dat.mjs && ./db.sh save 01      # tạo tài khoản hocvien@aid.local
+node lessons/01-cai-dat.mjs && ./db.sh save 01      # chỉ để tạo tài khoản hocvien@aid.local; không đưa vào video
 node lessons/02-du-an.mjs && ./db.sh save 02
-node lessons/03a-trich-xuat.mjs && ./db.sh save 03a # gọi Gemini
-node lessons/03b-tao-hinh.mjs && ./db.sh save 03b   # gọi Gemini
+node lessons/03a-trich-xuat.mjs && ./db.sh save 03a # chọn Flash-Lite trong Cấu hình tạo, rồi trích xuất
+node lessons/03b-tao-hinh.mjs && ./db.sh save 03b   # gọi Gemini Flash-Lite
 node lessons/03c-boi-canh.mjs && ./db.sh save 03c   # gọi Gemini Flash-Lite
 node lessons/04-nhan-vat.mjs && ./db.sh save 04
 node lessons/05-phan-canh.mjs && ./db.sh save 05
@@ -64,9 +64,11 @@ thật trên AID, nên khôi phục database sau đó). Ảnh chụp lỗi nằm
 
 - Ứng dụng Gemini và Google AI Studio cần đăng nhập Google, nên không quay trực tiếp: video dùng ảnh chụp
   thật cùng đúng prompt và ảnh kết quả của phim mẫu.
-- Gemini 3.6 Flash miễn phí chỉ khoảng 20 lượt mỗi ngày và 5 lượt mỗi phút. Tạo hình bối cảnh hàng loạt
-  gửi một lượt cho mỗi bối cảnh cùng lúc, nên chương 3c đổi sang Gemini 3.1 Flash-Lite (500 lượt mỗi ngày)
-  ngay trong video, qua "Cấu hình tạo".
+- Video coi AID như một trang web online: không có phần cài đặt, mỗi bước dùng đồ miễn phí đều nói kèm cách
+  làm bằng model trả phí (đúng nút, đúng tên model trong danh sách của AID).
+- Gemini 3.6 Flash miễn phí chỉ khoảng 20 lượt mỗi ngày và 5 lượt mỗi phút; tạo hình hàng loạt gửi một
+  lượt cho mỗi bối cảnh cùng lúc. Vì vậy chương 2 chọn Gemini 3.1 Flash-Lite (500 lượt mỗi ngày) cho mọi
+  việc chữ ngay trên màn hình, qua "Cấu hình tạo".
 - AID chỉ chạy một tác vụ tạo hình mỗi lúc cho một dự án: bấm nhân vật thứ hai khi nhân vật đầu chưa xong
   thì bị từ chối.
 - Kết quả AI mỗi lần mỗi khác (lần quay này: 5 bối cảnh, Mai chỉ có một trạng thái), nên chương 4 thêm

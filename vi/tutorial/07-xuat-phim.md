@@ -51,10 +51,10 @@ lại phim đã ghép trước đó (không ghép lại).
 > bắt đầu trễ 0,6 giây. Chạy script add-subtitles là xong.
 
 **Thao tác:** tạo file `~/Desktop/phim/chiec-o-vang.srt` theo mẫu [prompt-pack.md](prompt-pack.md#phu-de),
-lưu dạng văn bản thuần, mã UTF-8 (không phải .rtf hay .docx), rồi từ thư mục AID Studio:
+lưu dạng văn bản thuần, mã UTF-8 (không phải .rtf hay .docx), rồi chạy:
 
 ```sh
-vi/tutorial/tools/add-subtitles.sh ~/Downloads/<tên-phim-đã-tải>.mp4 ~/Desktop/phim/chiec-o-vang.srt ~/Desktop/phim/chiec-o-vang.mp4
+~/Desktop/aid-tools/add-subtitles.sh ~/Downloads/<tên-phim-đã-tải>.mp4 ~/Desktop/phim/chiec-o-vang.srt ~/Desktop/phim/chiec-o-vang.mp4
 ```
 
 Script cần FFmpeg có libass (`brew install ffmpeg-full`).

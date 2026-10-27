@@ -1,4 +1,4 @@
-# Bài 01. (Cho người quản trị) Chạy AID, bật Gemini miễn phí, tạo tài khoản
+# Bài 01. (Chỉ cho người tự dựng trang AID, không có trong video) Chạy AID, bật Gemini miễn phí, tạo tài khoản
 
 **Mục tiêu:** có một AID Studio tiếng Việt chạy được, chỉ dùng model miễn phí, và một tài khoản cho
 người làm phim.

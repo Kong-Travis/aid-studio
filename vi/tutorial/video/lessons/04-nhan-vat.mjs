@@ -34,7 +34,7 @@ async function importInto(title, file, captions) {
 }
 
 try {
-  await h.card('Chương 4', 'Giữ nhân vật nhất quán', 'Vẽ "thẻ nhân vật" bằng ứng dụng Gemini miễn phí,\nrồi nhập vào AID. Đây là chương quan trọng nhất.');
+  await h.card('Chương 3', 'Giữ nhân vật nhất quán', 'Vẽ "thẻ nhân vật" cho từng nhân vật và bối cảnh,\nrồi đưa vào AID. Đây là chương quan trọng nhất.');
 
   // ---------------------------------------------------------------- five rules
   h.mark('rules');
@@ -49,6 +49,16 @@ try {
     { mark: '.r3', text: 'Ba: mỗi nhân vật có một câu tả ngắn không bao giờ đổi, ví dụ Mai tóc đen ngắn ngang vai, áo len kem, ô vàng. Lặp lại câu này trong mọi prompt.' },
     { mark: '.r4', text: 'Bốn: soi từng ảnh mới với thẻ nhân vật: độ dài tóc, màu áo, phụ kiện, khuôn mặt.' },
     { mark: '.r5', text: 'Năm: lệch là sửa ngay, bằng một câu cụ thể. Đừng viết vẽ lại cho giống.' },
+  ]);
+
+  // ---------------------------------------------------------------- two ways
+  h.mark('two-ways');
+  await h.slide(`<div class="lbl">Hai cách vẽ thẻ nhân vật</div><div class="two" style="grid-template-columns:1fr 1fr;align-items:start">
+    <div class="prompt p1"><b style="color:#F5B700">Chuyên nghiệp (có API key)</b><br>- Trong AID, ở từng tạo hình bấm Tạo tự động<br>- Model ảnh: Nano Banana Pro, Seedream 5.0 Pro, GPT Image 2...<br>- Ảnh thẻ nhân vật thành ảnh tham chiếu cho mọi cảnh sau<br>- Muốn bán phim: đọc điều khoản của nhà cung cấp</div>
+    <div class="prompt p2"><b style="color:#F5B700">Miễn phí (video này)</b><br>- Vẽ bằng ứng dụng Gemini<br>- Tải ảnh về, bấm Nhập ảnh trong AID<br>- Đủ để học quy trình<br>- Quyền dùng thương mại của ảnh này: mình chưa kiểm chứng</div></div>`, [
+    { mark: '.p1', text: 'Có API key xịn thì vẽ thẻ nhân vật ngay trong AID: ở từng tạo hình bấm Tạo tự động, chọn model ảnh như Nano Banana Pro, Seedream hay GPT Image. Ảnh thẻ nhân vật sau đó làm ảnh tham chiếu cho mọi cảnh.' },
+    { mark: '.p2', text: 'Trong video này mình làm bản miễn phí bằng ứng dụng Gemini, đủ để học quy trình. Làm phim để bán thì nên dùng model trả phí và đọc kỹ điều khoản của nhà cung cấp, vì quyền dùng thương mại của ảnh từ ứng dụng miễn phí mình chưa kiểm chứng.' },
+    { text: 'Dù cách nào, năm quy tắc vừa rồi vẫn giữ nguyên. Bây giờ làm thử bằng Gemini.' },
   ]);
 
   // ---------------------------------------------------------------- Gemini app
@@ -135,20 +145,34 @@ try {
     'Làm tương tự với tạo hình ban đầu của Mai.',
     ['Chọn tệp từ máy, chọn mai-sheet.png.', 'Chọn tệp từ máy, chọn ảnh thẻ nhân vật Mai.'],
   ]);
-  const maiBlock = page.getByText('Mai_初始形象').first().locator('xpath=ancestor::*[.//button[contains(normalize-space(.),"Thêm tạo hình")]][1]');
-  await h.click(maiBlock.getByRole('button', { name: /Thêm tạo hình/ }),
-    'Lần này AI chỉ tạo một trạng thái cho Mai. Mình tự thêm trạng thái ướt vai: bấm Thêm tạo hình ở nhân vật Mai.', { after: 2000 });
-  await importInto('未命名', film('mai-wet.png'), [
-    ['Một tạo hình mới hiện ra, tên 未命名, nghĩa là chưa đặt tên. Bấm Nhập ảnh.', 'Một tạo hình mới hiện ra, chưa có tên. Bấm Nhập ảnh.'],
-    ['Chọn mai-wet.png.', 'Chọn ảnh Mai ướt vai.'],
-    'Nhân vật đã đủ ảnh: ông Tư, Mai, và Mai ướt vai.',
-  ]);
+  // Use the AI's second Mai look if it made one; otherwise add one.
+  const maiTitles = (await page.getByText(/^Mai_/).allInnerTexts()).map((t) => t.split(/\s/)[0]);
+  const second = maiTitles.find((t) => !t.includes('初始形象'));
+  if (second) {
+    await importInto(second, film('mai-wet.png'), [
+      ['AI đã tạo thêm trạng thái thứ hai cho Mai. Bấm Nhập ảnh ở tạo hình đó.', 'AI đã tạo thêm trạng thái thứ hai cho Mai. Bấm Nhập ảnh ở tạo hình đó.'],
+      ['Chọn mai-wet.png.', 'Chọn ảnh Mai ướt vai.'],
+      'Nhân vật đã đủ ảnh: ông Tư, Mai, và Mai ướt vai.',
+    ]);
+  } else {
+    const maiBlock = page.getByText('Mai_初始形象').first().locator('xpath=ancestor::*[.//button[contains(normalize-space(.),"Thêm tạo hình")]][1]');
+    await h.click(maiBlock.getByRole('button', { name: /Thêm tạo hình/ }),
+      'Lần này AI chỉ tạo một trạng thái cho Mai. Mình tự thêm trạng thái ướt vai: bấm Thêm tạo hình ở nhân vật Mai.', { after: 2000 });
+    await importInto('未命名', film('mai-wet.png'), [
+      ['Một tạo hình mới hiện ra, tên 未命名, nghĩa là chưa đặt tên. Bấm Nhập ảnh.', 'Một tạo hình mới hiện ra, chưa có tên. Bấm Nhập ảnh.'],
+      ['Chọn mai-wet.png.', 'Chọn ảnh Mai ướt vai.'],
+      'Nhân vật đã đủ ảnh: ông Tư, Mai, và Mai ướt vai.',
+    ]);
+  }
   await h.scroll(-2000, 6);
 
   await h.click(page.getByRole('button', { name: '场景', exact: true }), 'Bối cảnh cũng vậy. Mở tab 场景.', { say: 'Bối cảnh cũng vậy. Mở tab bối cảnh.', after: 1800 });
   const mapping = [[/Hà Nội/, 'scene-corner.png', 'ảnh góc phố'], [/Vỉa hè/, 'scene-sidewalk.png', 'ảnh vỉa hè'],
     [/xe bánh mì|ô vàng/, 'scene-cart.png', 'ảnh xe bánh mì'], [/Góc phố/, 'scene-corner-night.png', 'ảnh phố lúc lên đèn']];
-  const titles = await page.getByText(/_上午$|_下午$|_傍晚$|_夜晚$|_黄昏$/).allInnerTexts();
+  // Scene titles are "<name>_<time of day in Chinese>"; read them from the page, whatever the AI chose.
+  const titles = [...new Set(await page.evaluate(() => [...document.querySelectorAll('*')]
+    .filter((e) => e.children.length === 0 && e.offsetParent && /^.+_[\u4e00-\u9fff]{1,6}$/.test(e.textContent.trim()))
+    .map((e) => e.textContent.trim())))];
   let first = true;
   for (const title of titles) {
     const [, file, spoken] = mapping.find(([re]) => re.test(title)) ?? mapping[0];
@@ -158,6 +182,8 @@ try {
       : [`${shown}: Nhập ảnh.`, [`Chọn ${file}.`, `Chọn ${spoken}.`]]);
     first = false;
   }
+  const left = await page.getByRole('button', { name: 'Nhập ảnh' }).count();
+  if (left) throw new Error(`${left} scene(s) still without an image`);
   await h.scroll(-3000, 6);
   await h.cap('Xong. Nhân vật và bối cảnh đều có ảnh, cùng một nét vẽ, cùng một bảng màu. Đó là nền móng để cả phim giữ được nhân vật.');
 } catch (e) {

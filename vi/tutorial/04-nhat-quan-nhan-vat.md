@@ -107,3 +107,10 @@ một con phố, chấp nhận được với cảnh toàn từ xa. Cảnh nào 
 | Hai nhân vật khác nét vẽ | Tạo trong cùng một cuộc chat; mở đầu prompt bằng "Giữ nguyên phong cách ảnh trước" |
 | Không thấy nút tải xuống | Rê chuột lên ảnh; nút hiện ở góc trên ảnh |
 | Gemini báo hết lượt tạo ảnh hôm nay | Chờ sang ngày; giới hạn của gói miễn phí thay đổi theo Google |
+
+## Bản chuyên nghiệp
+
+Có key xịn thì vẽ thẻ nhân vật ngay trong AID: ở từng tạo hình bấm **Tạo tự động**, chọn model ảnh (Nano
+Banana Pro, Seedream, GPT Image). Ảnh thẻ nhân vật sau đó làm **ảnh tham chiếu** cho ảnh phân cảnh và video.
+Năm quy tắc vàng giữ nguyên. Quyền dùng thương mại của ảnh từ ứng dụng Gemini miễn phí chưa được kiểm
+chứng; làm phim để bán, nên dùng model trả phí và đọc điều khoản của nhà cung cấp.

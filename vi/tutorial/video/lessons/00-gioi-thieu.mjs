@@ -15,26 +15,34 @@ try {
   await h.slide(`<div class="lbl">Bảy bước làm phim trong AID Studio</div><ol>
     <li class="s1">Cấu hình dự án</li><li class="s2">Sáng tác kịch bản</li><li class="s3">Chuẩn bị tư liệu: nhân vật, bối cảnh</li>
     <li class="s4">Thiết kế phân cảnh</li><li class="s5">Tạo video</li><li class="s6">Đồng bộ hình tiếng</li><li class="s7">Xem trước thành phẩm và xuất phim</li></ol>`, [
-    { mark: 'li', text: 'AID Studio là phần mềm mã nguồn mở để làm phim AI và truyện tranh động. Mọi dự án đi qua bảy bước, giữ mọi thứ của một phim ở một chỗ: kịch bản, nhân vật, bối cảnh, từng cảnh quay, rồi ghép thành phim.',
-      say: 'AID Studio là phần mềm mã nguồn mở để làm phim AI và truyện tranh động. Mọi dự án đi qua bảy bước, giữ mọi thứ của một phim ở một chỗ: kịch bản, nhân vật, bối cảnh, từng cảnh quay, rồi ghép thành phim.' },
+    { mark: 'li', text: 'AID Studio là nền tảng làm phim AI và truyện tranh động. Mọi dự án đi qua bảy bước, giữ mọi thứ của một phim ở một chỗ: kịch bản, nhân vật, bối cảnh, từng cảnh quay, rồi ghép thành phim.',
+      say: 'AID Studio là nền tảng làm phim AI và truyện tranh động. Mọi dự án đi qua bảy bước, giữ mọi thứ của một phim ở một chỗ: kịch bản, nhân vật, bối cảnh, từng cảnh quay, rồi ghép thành phim.' },
   ]);
-  await h.slide(`<div class="lbl">Chi phí: 0 đồng</div><ol>
-    <li class="c1">AI hiểu kịch bản: Gemini API, gói miễn phí</li>
-    <li class="c2">Vẽ nhân vật, bối cảnh, phân cảnh: ứng dụng Gemini miễn phí</li>
-    <li class="c3">Chuyển động máy quay, giọng nói, ghép phim, phụ đề: FFmpeg trên máy</li>
-    <li class="c4">"Điểm" trong AID: điểm ảo, không phải tiền</li></ol>`, [
-    { mark: '.c1', text: 'Các phần tạo ảnh và video bằng AI ngay trong AID cần trả phí cho nhà cung cấp. Trong video này, mình chỉ dùng thứ miễn phí. Một: Gemini bản miễn phí để AID hiểu kịch bản.' },
-    { mark: '.c2', text: 'Hai: ứng dụng Gemini để vẽ nhân vật và cảnh.' },
-    { mark: '.c3', text: 'Ba: chuyển động máy quay, giọng nói và phụ đề làm ngay trên máy tính bằng FFmpeg.', say: 'Ba: chuyển động máy quay, giọng nói và phụ đề làm ngay trên máy tính bằng ép ép em peg.' },
-    { mark: '.c4', text: 'Và điểm trong AID chỉ là điểm ảo, không phải tiền.' },
+  await h.slide(`<div class="lbl">Cùng một quy trình, hai mức chất lượng</div>
+    <div class="prompt" style="font-size:22px;line-height:1.75;padding:18px 24px">
+    <table style="width:100%;border-collapse:collapse">
+    <tr style="color:#F5B700"><td style="padding:4px 10px">Bước</td><td style="padding:4px 10px">Video này (miễn phí)</td><td style="padding:4px 10px">Làm phim xịn (có API key)</td></tr>
+    <tr class="r1"><td style="padding:4px 10px">Đọc kịch bản, tách nhân vật</td><td style="padding:4px 10px">Gemini Flash-Lite miễn phí</td><td style="padding:4px 10px">GPT-5.5, Qwen 3.7 Max, DeepSeek V4 Pro</td></tr>
+    <tr class="r2"><td style="padding:4px 10px">Vẽ nhân vật, bối cảnh, phân cảnh</td><td style="padding:4px 10px">Ứng dụng Gemini</td><td style="padding:4px 10px">Nano Banana Pro, Seedream 5.0 Pro, GPT Image 2</td></tr>
+    <tr class="r3"><td style="padding:4px 10px">Sinh video</td><td style="padding:4px 10px">Chuyển động máy quay từ ảnh</td><td style="padding:4px 10px">Seedance, Kling 3.0, Vidu, Wan 3.0</td></tr>
+    <tr class="r4"><td style="padding:4px 10px">Lồng tiếng</td><td style="padding:4px 10px">Giọng đọc có sẵn trên máy</td><td style="padding:4px 10px">Doubao TTS, MiniMax Speech</td></tr>
+    <tr class="r5"><td style="padding:4px 10px">Ghép phim, phụ đề</td><td style="padding:4px 10px">AID và script miễn phí</td><td style="padding:4px 10px">AID và script miễn phí</td></tr>
+    </table></div>`, [
+    { text: 'Video này đi đúng quy trình làm một bộ phim AI thật, nhưng mình không có API key trả phí, nên dùng công cụ miễn phí ở mọi bước. Bảng này cho thấy ở mỗi bước, nếu có key xịn thì bạn chọn gì.' },
+    { mark: '.r1', text: 'Đọc kịch bản và tách nhân vật: video dùng Gemini miễn phí; bản xịn chọn GPT-5.5, Qwen 3.7 Max hay DeepSeek V4 Pro.',
+      say: 'Đọc kịch bản và tách nhân vật: video dùng Gemini miễn phí; bản xịn chọn GPT năm chấm năm, Qwen ba chấm bảy Max hay DeepSeek V bốn Pro.' },
+    { mark: '.r2', text: 'Vẽ nhân vật và cảnh: video dùng ứng dụng Gemini; bản xịn vẽ ngay trong AID bằng Nano Banana Pro, Seedream hay GPT Image.' },
+    { mark: '.r3', text: 'Sinh video: video dùng chuyển động máy quay từ ảnh; bản xịn dùng Seedance, Kling, Vidu hay Wan để nhân vật cử động thật.' },
+    { mark: '.r4', text: 'Lồng tiếng: video dùng giọng đọc có sẵn trên máy; bản xịn dùng giọng AI như Doubao hay MiniMax.', say: 'Lồng tiếng: video dùng giọng đọc có sẵn trên máy; bản xịn dùng giọng AI như Đậu Bao hay MiniMax.' },
+    { mark: '.r5', text: 'Còn ghép phim và phụ đề thì giống nhau. Các nút bấm và thứ tự các bước không đổi, nên học xong quy trình này là bạn làm được bản xịn.' },
   ]);
   await h.slide(`<div class="lbl">Cần chuẩn bị</div><ol>
-    <li class="hl">Một tài khoản AID Studio (người quản trị tạo, hoặc tự cài ở chương 1)</li>
-    <li class="hl">Một tài khoản Google để dùng ứng dụng Gemini</li>
-    <li class="hl">Một máy Mac có FFmpeg (cho chuyển động, giọng nói, phụ đề)</li></ol>`, [
-    { text: 'Bạn cần: một tài khoản AID Studio, người quản trị sẽ tạo cho bạn, hoặc bạn tự cài theo chương 1. Một tài khoản Google để dùng ứng dụng Gemini. Và một máy Mac có FFmpeg.',
-      say: 'Bạn cần: một tài khoản AID Studio, người quản trị sẽ tạo cho bạn, hoặc bạn tự cài theo chương một. Một tài khoản Google để dùng ứng dụng Gemini. Và một máy Mac có ép ép em peg.' },
-    { text: 'Mọi kịch bản và prompt trong video đều có trong file prompt-pack.md, thư mục vi/tutorial. Bắt đầu thôi.', say: 'Mọi kịch bản và prompt trong video đều có trong file prom pách, thư mục tutorial. Bắt đầu thôi.' },
+    <li class="hl">Một tài khoản trên trang AID Studio, có điểm trong tài khoản</li>
+    <li class="hl">Làm bản xịn: điểm hoặc API key cho các model trả phí</li>
+    <li class="hl">Làm bản miễn phí như video: tài khoản Google (ứng dụng Gemini) và máy tính có FFmpeg</li></ol>`, [
+    { text: 'Bạn cần một tài khoản trên trang AID Studio. Làm bản xịn thì cần điểm hoặc API key cho các model trả phí. Làm bản miễn phí như video thì cần thêm tài khoản Google để dùng ứng dụng Gemini, và máy tính có FFmpeg.',
+      say: 'Bạn cần một tài khoản trên trang AID Studio. Làm bản xịn thì cần điểm hoặc API key cho các model trả phí. Làm bản miễn phí như video thì cần thêm tài khoản Google để dùng ứng dụng Giê-mi-nai, và máy tính có ép ép em peg.' },
+    { text: 'Mọi kịch bản, prompt và script trong video đều có trong fork AID Studio tiếng Việt, link ở phần mô tả. Bắt đầu thôi.' },
   ]);
 } finally {
   await finish();

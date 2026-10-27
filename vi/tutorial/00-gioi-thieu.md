@@ -49,11 +49,17 @@ phải: đã sửa).
 > dụng Gemini để vẽ nhân vật và cảnh; còn chuyển động máy quay, giọng nói và phụ đề thì làm ngay trên
 > máy tính. Kết quả là một phim hoàn chỉnh như bạn vừa xem.
 
-**Thao tác:** hiện bảng "Chi phí: 0 đồng" trong `README.md`.
+**Thao tác:** hiện bảng "Cùng một quy trình, hai mức chất lượng" trong `README.md`.
 
 ## Cảnh quay 5. Cần chuẩn bị gì
 
 **Lời dẫn:**
-> Bạn cần: một tài khoản AID Studio (người quản trị sẽ tạo cho bạn, hoặc bạn tự cài theo bài 01), một
-> tài khoản Google để dùng ứng dụng Gemini, và một máy tính. Nếu muốn tự tạo video chuyển động và
-> phụ đề, máy cần có FFmpeg. Bắt đầu thôi.
+> Bạn cần một tài khoản trên trang AID Studio. Làm bản xịn thì cần điểm hoặc API key cho các model trả
+> phí. Làm bản miễn phí như video thì cần thêm tài khoản Google để dùng ứng dụng Gemini, và máy tính có
+> FFmpeg. Bắt đầu thôi.
+
+## Bản chuyên nghiệp
+
+Phim mẫu trong video làm bằng công cụ miễn phí, chỉ để minh hoạ quy trình. Với API key và model xịn (bảng
+"Cùng một quy trình, hai mức chất lượng" trong [README](README.md)), cùng các bước này có thể cho ra cảnh
+quay chân thật như người thật đóng. Muốn bán phim, đọc điều khoản sử dụng của từng nhà cung cấp.
